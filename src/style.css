@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-bg text-ink font-sans antialiased; }
+}
+
+@layer components {
+  .container-px { @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8; }
+  .btn-primary { @apply inline-flex items-center justify-center rounded-md bg-brand px-5 py-2.5 text-sm font-medium text-white transition hover:bg-brand-light; }
+  .btn-gold { @apply inline-flex items-center justify-center rounded-md bg-gold px-5 py-2.5 text-sm font-medium text-brand-dark transition hover:bg-gold-dark hover:text-white; }
+  .btn-outline { @apply inline-flex items-center justify-center rounded-md border border-line bg-white px-5 py-2.5 text-sm font-medium text-ink transition hover:border-brand hover:text-brand; }
+  .btn-gold-sm { @apply inline-flex items-center justify-center rounded-md bg-gold px-3.5 py-2 text-xs font-medium text-brand-dark transition hover:bg-gold-dark hover:text-white; }
+  .btn-outline-sm { @apply inline-flex items-center justify-center rounded-md border border-line bg-white px-3.5 py-2 text-xs font-medium text-ink transition hover:border-brand hover:text-brand; }
+  .card { @apply rounded-xl border border-line bg-white shadow-card; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-widest text-gold-dark; }
+}
+
+/* Markdown 正文排版（读书笔记 / 研报，阅读为主） */
+.prose-note {
+  line-height: 1.85;
+  font-size: 16px;
+  color: #1F2933;
+}
+.prose-note h1 { font-size: 1.6rem; font-weight: 700; margin: 1.5rem 0 0.8rem; color: #0F2A4A; }
+.prose-note h2 { font-size: 1.25rem; font-weight: 700; margin: 1.6rem 0 0.6rem; padding-left: 0.6rem; border-left: 4px solid #C8A35B; color: #0F2A4A; }
+.prose-note h3 { font-size: 1.05rem; font-weight: 600; margin: 1.2rem 0 0.5rem; color: #2C4063; }
+.prose-note p { margin: 0.7rem 0; }
+.prose-note ul, .prose-note ol { margin: 0.7rem 0; padding-left: 1.4rem; }
+.prose-note li { margin: 0.35rem 0; }
+.prose-note ul { list-style: disc; }
+.prose-note ol { list-style: decimal; }
+.prose-note blockquote {
+  margin: 1rem 0; padding: 0.8rem 1rem; background: #FAF8F3;
+  border-left: 4px solid #C8A35B; border-radius: 0 8px 8px 0; color: #6B7280;
+}
+.prose-note strong { color: #0F2A4A; }
+.prose-note table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.95rem; }
+.prose-note th, .prose-note td { border: 1px solid #E5E7EB; padding: 0.55rem 0.7rem; text-align: left; }
+.prose-note th { background: #FAF8F3; color: #0F2A4A; font-weight: 600; }
+.prose-note code { background: #FAF8F3; padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+
+/* 打印学习版 */
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; }
+  .prose-note { font-size: 12.5px; line-height: 1.6; }
+}
+
+/* 横向轮播：隐藏滚动条但保留滑动 */
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

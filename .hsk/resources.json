@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "id": "host-1785156834828961990",
+      "type": "host",
+      "filePath": "/Users/a13609/WorkBuddy/学习交流/business-school-site/web-build",
+      "publicUrl": "https://ficp.fun/s/522T7o?verify_code=5091",
+      "resourceId": "1785156834828961990",
+      "fileName": "web-build",
+      "status": "active",
+      "createdAt": "2026-07-27T12:53:55.936Z",
+      "lastCheckedAt": "2026-07-27T12:53:55.937Z"
+    },
+    {
+      "id": "tunnel-127.0.0.1-3000",
+      "type": "tunnel",
+      "localIp": "127.0.0.1",
+      "localPort": 3000,
+      "publicUrl": "https://65b5d18e2f5a.hz-1.aicp.space?verify_code=5988",
+      "pid": 49511,
+      "binary": "hsk-cli-darwin-arm64-v0.4.3",
+      "detached": false,
+      "status": "stopped",
+      "createdAt": "2026-07-28T07:59:25.147Z",
+      "lastCheckedAt": "2026-07-29T07:59:32.961Z"
+    },
+    {
+      "id": "host-1785248715598672395",
+      "type": "host",
+      "filePath": "/Users/a13609/WorkBuddy/学习交流/business-school-site/web-build",
+      "publicUrl": "https://ficp.fun/s/7G7Vh9?verify_code=0690",
+      "resourceId": "1785248715598672395",
+      "fileName": "web-build",
+      "status": "active",
+      "createdAt": "2026-07-28T14:25:16.529Z",
+      "lastCheckedAt": "2026-07-28T14:25:16.531Z"
+    },
+    {
+      "id": "tunnel-127.0.0.1-8765",
+      "type": "tunnel",
+      "localIp": "127.0.0.1",
+      "localPort": 8765,
+      "publicUrl": "https://defffa1ca106.hz-1.aicp.space?verify_code=1456",
+      "pid": 65347,
+      "binary": "hsk-cli-darwin-arm64-v0.4.3",
+      "detached": false,
+      "status": "running",
+      "createdAt": "2026-07-28T14:26:57.935Z",
+      "lastCheckedAt": "2026-07-28T14:26:57.937Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 构建产物（由 CI 在 gh-pages 生成，不进源码仓库）
+dist/
+
+# 旧的本地部署目录（曾是独立 git repo，现已废弃，交给 Actions）
+web-build/
+
+# Vite 配置热重载残留的临时文件
+*.timestamp-*.mjs
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地环境变量
+.env
+.env.local

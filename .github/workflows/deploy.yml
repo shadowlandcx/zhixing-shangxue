@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+# 触发：推送到 main 分支，或手动在 Actions 页面点 Run workflow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 赋予 GITHUB_TOKEN 写权限（peaceiris action 需要它 push 到 gh-pages）
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build (Vite)
+        run: npm run build
+
+      - name: Ensure .nojekyll
+        run: touch dist/.nojekyll
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # 强制用内容哈希文件名（Vite 默认），无需额外配置
+          force_orphan: true
