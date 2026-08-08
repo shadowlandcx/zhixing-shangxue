@@ -41,7 +41,63 @@ const reportModules = {
   'tip': () => import('./reports/tip'),
   'tip-cn08': () => import('./reports/tip-cn08'),
   'tip-cn24': () => import('./reports/tip-cn24'),
-  'key-account-management': () => import('./reports/key-account-management')
+  'key-account-management': () => import('./reports/key-account-management'),
+  'rc01': () => import('./reports/rc01'),
+  'rc02': () => import('./reports/rc02'),
+  'rc03': () => import('./reports/rc03'),
+  'rc04': () => import('./reports/rc04'),
+  'rc05': () => import('./reports/rc05'),
+  'rc06': () => import('./reports/rc06'),
+  'rc07': () => import('./reports/rc07'),
+  'rc08': () => import('./reports/rc08'),
+  'rc09': () => import('./reports/rc09'),
+  'rc10': () => import('./reports/rc10'),
+  'rc11': () => import('./reports/rc11'),
+  'rc12': () => import('./reports/rc12'),
+  'rc13': () => import('./reports/rc13'),
+  'rc14': () => import('./reports/rc14'),
+  'rc15': () => import('./reports/rc15'),
+  'rc16': () => import('./reports/rc16'),
+  'rc17': () => import('./reports/rc17'),
+  'rc18': () => import('./reports/rc18'),
+  'rc19': () => import('./reports/rc19'),
+  'rc20': () => import('./reports/rc20'),
+  'rc21': () => import('./reports/rc21'),
+  'rc22': () => import('./reports/rc22'),
+  'rc23': () => import('./reports/rc23'),
+  'rc24': () => import('./reports/rc24'),
+  'rc25': () => import('./reports/rc25'),
+  'rc26': () => import('./reports/rc26'),
+  'rc27': () => import('./reports/rc27'),
+  'rc28': () => import('./reports/rc28'),
+  'rc29': () => import('./reports/rc29'),
+  'rc30': () => import('./reports/rc30'),
+  'rc31': () => import('./reports/rc31'),
+  'rc32': () => import('./reports/rc32'),
+  'rc33': () => import('./reports/rc33'),
+  'rc34': () => import('./reports/rc34'),
+  'rc35': () => import('./reports/rc35'),
+  'rc36': () => import('./reports/rc36'),
+  'rc37': () => import('./reports/rc37'),
+  'rc38': () => import('./reports/rc38'),
+  'rc39': () => import('./reports/rc39'),
+  'rc40': () => import('./reports/rc40'),
+  'rc41': () => import('./reports/rc41'),
+  'rc42': () => import('./reports/rc42'),
+  'rc43': () => import('./reports/rc43'),
+  'rc44': () => import('./reports/rc44'),
+  'rc45': () => import('./reports/rc45'),
+  'rc46': () => import('./reports/rc46'),
+  'rc47': () => import('./reports/rc47'),
+  'rc48': () => import('./reports/rc48'),
+  'rc49': () => import('./reports/rc49'),
+  'rc50': () => import('./reports/rc50'),
+  'rc51': () => import('./reports/rc51'),
+  'rc52': () => import('./reports/rc52'),
+  'rc53': () => import('./reports/rc53'),
+  'rc54': () => import('./reports/rc54'),
+  'rc55': () => import('./reports/rc55'),
+  'rc56': () => import('./reports/rc56'),
 }
 
 export async function getBookReport(id) {
@@ -51,17 +107,7 @@ export async function getBookReport(id) {
       const mod = await loader()
       return mod.report || ''
     } catch (e) {
-      console.error(`[getBookReport] reportModules load failed for ${id}`, e)
-      return ''
-    }
-  }
-  // 读书会 56 本（rc 前缀）按需动态加载；文件未生成时返回空（页面显示「编写中」）
-  if (id && id.startsWith('rc')) {
-    try {
-      const mod = await import(`./reports/${id}.js`)
-      return mod.report || ''
-    } catch (e) {
-      console.error(`[getBookReport] dynamic report load failed for ${id}`, e)
+      console.error(`[getBookReport] load failed for ${id}`, e)
       return ''
     }
   }
