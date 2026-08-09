@@ -102,6 +102,14 @@ const reportModules = {
   'power-negotiation': () => import('./reports/power-negotiation'),
   'principled-negotiation': () => import('./reports/principled-negotiation'),
   'gov-enterprise-sales': () => import('./reports/gov-enterprise-sales'),
+  'crossing-the-chasm': () => import('./reports/crossing-the-chasm'),
+  'positioning': () => import('./reports/positioning'),
+  'abm': () => import('./reports/abm'),
+  'coaching-for-performance': () => import('./reports/coaching-for-performance'),
+  'leadership-pipeline': () => import('./reports/leadership-pipeline'),
+  'crucial-conversations': () => import('./reports/crucial-conversations'),
+  'competitive-strategy': () => import('./reports/competitive-strategy'),
+  'ai-for-sales': () => import('./reports/ai-for-sales'),
 }
 
 export async function getBookReport(id) {

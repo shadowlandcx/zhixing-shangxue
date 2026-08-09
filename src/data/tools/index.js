@@ -35,6 +35,14 @@ import { strategicSellingTools } from './strategic-selling'
 import { powerNegotiationTools } from './power-negotiation'
 import { principledNegotiationTools } from './principled-negotiation'
 import { govEnterpriseSalesTools } from './gov-enterprise-sales'
+import { crossingTheChasmTools } from './crossing-the-chasm'
+import { positioningTools } from './positioning'
+import { abmTools } from './abm'
+import { coachingForPerformanceTools } from './coaching-for-performance'
+import { leadershipPipelineTools } from './leadership-pipeline'
+import { crucialConversationsTools } from './crucial-conversations'
+import { competitiveStrategyTools } from './competitive-strategy'
+import { aiForSalesTools } from './ai-for-sales'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -133,7 +141,15 @@ export const allTools = [
   ...strategicSellingTools,
   ...powerNegotiationTools,
   ...principledNegotiationTools,
-  ...govEnterpriseSalesTools
+  ...govEnterpriseSalesTools,
+  ...crossingTheChasmTools,
+  ...positioningTools,
+  ...abmTools,
+  ...coachingForPerformanceTools,
+  ...leadershipPipelineTools,
+  ...crucialConversationsTools,
+  ...competitiveStrategyTools,
+  ...aiForSalesTools
 ]
 
 // 赛道元信息（用于筛选 Tab 与徽标）
@@ -145,7 +161,7 @@ export const toolCategories = {
 
 // 按赛道分组（旧工具 + 对应赛道的 Phase 1/2 工具包）
 export const toolsByCategory = {
-  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools],
+  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools, ...crossingTheChasmTools, ...positioningTools, ...abmTools],
   sales: [
     ...salesTools2,
     ...pilotTools.filter((t) => t.category === 'sales'),
@@ -156,9 +172,10 @@ export const toolsByCategory = {
     ...strategicSellingTools,
     ...powerNegotiationTools,
     ...principledNegotiationTools,
-    ...govEnterpriseSalesTools
+    ...govEnterpriseSalesTools,
+    ...aiForSalesTools
   ],
-  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools]
+  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools, ...coachingForPerformanceTools, ...leadershipPipelineTools, ...crucialConversationsTools, ...competitiveStrategyTools]
 }
 
 export function getTool(id) {

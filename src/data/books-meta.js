@@ -2456,6 +2456,201 @@ export const metaArray = [
       { num: '1', label: '条红线：合规' }
     ],
     proposition: '政企生意不是"卖得动"，是"进得去、陪得起、合规过"——预算节奏踩不准、关系地图画不全、红线碰一根，前面全白干。'
+  },
+  {
+    id: 'crossing-the-chasm',
+    title: '跨越鸿沟',
+    author: '杰弗里·摩尔（Geoffrey A. Moore）',
+    subtitle: '高科技产品规模化营销导读',
+    category: '科技产品营销 · 鸿沟理论',
+    track: 'marketing',
+    relatedTracks: ['marketing'],
+    tags: ['鸿沟理论', '技术采纳生命周期', '整体产品', '利基滩头', 'GTM', '规模化', '定位进攻'],
+    rating: 4.8,
+    cover: '#2E5A4B',
+    intro: '高科技营销圣经。它解释了一个诡异死亡：产品在早期尝鲜者圈子里口碑炸裂，一碰主流客户就卖不动——中间横着一条没人预警过的「鸿沟」。本书给出一张「先占利基滩头、用整体产品补齐交付、再横向扩张」的作战图，是科技产品 GTM 与政企 SaaS 规模化的必装操作系统；全站营销赛道此前最薄，本书是补强第一枪。',
+    meta: {
+      publisher: 'HarperBusiness（简体中文：机械工业出版社）',
+      role: '产品营销 / 增长 / 销售 / 团队管理者',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '5', label: '类采纳群体' },
+      { num: '1', label: '道鸿沟' },
+      { num: '4', label: '层整体产品' },
+      { num: 'D日', label: '滩头战术' }
+    ],
+    proposition: '高科技产品的规模化，不是卖得更多，而是换一套打法——在利基里用整体产品成为唯一合理选择，鸿沟才过得去。'
+  },
+  {
+    id: 'positioning',
+    title: '定位',
+    author: '艾·里斯（Al Ries）& 杰克·特劳特（Jack Trout）',
+    subtitle: '争夺用户心智的战争导读',
+    category: '品牌营销 · 定位理论',
+    track: 'marketing',
+    relatedTracks: ['marketing'],
+    tags: ['定位', '心智阶梯', '数一数二', '空位战略', '品牌延伸陷阱', '视觉锤'],
+    rating: 4.8,
+    cover: '#9A3B3B',
+    intro: '定位理论的奠基之作。它把营销的战场从「产品本身」拉到「顾客心智」——赢不是功能最多，而是在某个清晰品类里成为顾客心中的第一选择。本书给出心智阶梯、数一数二法则、领导者/跟进者打法、空位战略与品牌延伸陷阱，是科技产品营销与政企品牌卡位的必读底层；全站营销赛道补强第二枪。',
+    meta: {
+      publisher: 'McGraw-Hill（简体中文：机械工业出版社）',
+      role: '品牌/产品营销/销售/团队管理者',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '1', label: '个心智位置' },
+      { num: '5', label: '类群体阶梯' },
+      { num: '3', label: '类空位' },
+      { num: '1', label: '条延伸红线' }
+    ],
+    proposition: '营销的终极战场是心智，不是市场——在顾客心里占不住一个清晰位置，再多功能也是噪音。'
+  },
+  {
+    id: 'abm',
+    title: 'ABM 账号化营销',
+    author: '综合（基于 Bevans & Klein《Account-Based Marketing》公开方法论与 B2B 一线实践整理）',
+    subtitle: '政企精准营销导读',
+    category: 'B2B 营销 · 账号化增长',
+    track: 'marketing',
+    relatedTracks: ['marketing'],
+    tags: ['ABM', 'ICP', 'TAL', '营销销售协同', '1对1个性化', '按账号度量', '政企精准'],
+    rating: 4.6,
+    cover: '#2F6B5E',
+    intro: '账号化营销（Account-Based Marketing）把 B2B 获客逻辑从「广撒网捞线索」翻转成「先锁定高价值目标客户、营销与销售协同对其做 1对1 精准攻势」。本书串起 ICP 理想客户画像、TAL 目标客户清单、smarketing 协同、个性化战役与按账号度量，正是政企「按客户/行业精准营销」的方法论底座；全站营销赛道补强第三枪，与跨越鸿沟、定位构成营销铁三角。',
+    meta: {
+      publisher: '综合整理（公开方法论 + B2B 一线实践）',
+      role: '营销/销售/大客户管理者',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '1', label: '个目标账号为中心' },
+      { num: 'ICP', label: '理想客户画像' },
+      { num: 'TAL', label: '目标客户清单' },
+      { num: '1v1', label: '个性化攻势' }
+    ],
+    proposition: '高价值客户不是捞出来的，是锁定后营销销售协同「围猎」出来的——ABM 把资源压在少数能赢的账号上。'
+  },
+  {
+    id: 'coaching-for-performance',
+    title: '高绩效教练',
+    author: '约翰·惠特默（John Whitmore）',
+    subtitle: '用提问释放团队潜能导读',
+    category: '团队管理 · 教练式领导',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['教练', 'GROW模型', '提问', '潜能', '绩效', '倾听'],
+    rating: 4.7,
+    cover: '#3B5B9A',
+    intro: '教练技术的开山之作，GROW 模型的总源头。它主张「绩效=潜能−干扰」，管理者的核心动作不是给答案，而是用结构化提问帮下属自己找到答案、释放被干扰压住的潜能。对带 13 区域 17 省一线团队的管理者，这是把「指令式」升级为「教练式」的底层操作系统；全站团队赛道补强第一枪。',
+    meta: {
+      publisher: 'Nicholas Brealey（简体中文：机械工业出版社）',
+      role: '管理者/团队领导/HR/教练',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: 'GROW', label: '教练四步' },
+      { num: '=', label: '潜能−干扰' },
+      { num: '1', label: '个核心：提问' }
+    ],
+    proposition: '最好的管理不是替下属解决问题，而是用对的问题让他自己解决——绩效的敌人是干扰，不是能力。'
+  },
+  {
+    id: 'leadership-pipeline',
+    title: '领导梯队',
+    author: '拉姆·查兰（Ram Charan）、斯蒂芬·德罗特、詹姆斯·诺埃尔',
+    subtitle: '六层领导力转型导读',
+    category: '组织领导 · 梯队建设',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['领导梯队', '六层转型', '角色转型', '能力时间价值', '人才盘点', '管理层级'],
+    rating: 4.8,
+    cover: '#5A4B8A',
+    intro: '领导力发展的经典框架。它把企业从一线到 CEO 拆成六层，并指出每次晋层都必须完成「三种转换」：工作能力、时间配置、工作价值标准——多数管理者失败，是用旧层级的习惯做新层级的事。对管 13 区域 17 省、下属层层 manager 的区域总，这是识别「人卡在哪一层的转型」、做梯队盘点的标准地图；全站团队赛道补强第二枪。',
+    meta: {
+      publisher: 'Crown（简体中文：机械工业出版社）',
+      role: '中高层管理者/HR/组织发展',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '6', label: '层领导力' },
+      { num: '3', label: '类转型转换' },
+      { num: '1', label: '张梯队地图' }
+    ],
+    proposition: '晋升不是权力变大，是工作内核必须重写——能力、时间、价值标准三样不换，人就卡在转型期。'
+  },
+  {
+    id: 'crucial-conversations',
+    title: '关键对话',
+    author: '科里·帕特森（Kerry Patterson）等（VitalSmarts）',
+    subtitle: '高风险沟通实战导读',
+    category: '团队沟通 · 冲突管理',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['关键对话', 'CPR', '安全感', 'STATE法', '冲突', '沟通'],
+    rating: 4.7,
+    cover: '#8A6B3B',
+    intro: '高风险沟通的工具箱。当「观点分歧 + 情绪激烈 + 后果重大」同时出现，人要么沉默要么暴力，对话就死。本书给出 CPR 分层、安全感重建、STATE 表达法，把「谈崩的对话」拉回建设性。对做绩效面谈、客户冲突挽回、跨团队争资源的北区管理者，这是高情绪场景下的沟通操作系统；与 rc32《学会提问》相邻但偏实战冲突，全站团队赛道补强第三枪。',
+    meta: {
+      publisher: 'McGraw-Hill（简体中文：机械工业出版社）',
+      role: '管理者/销售/跨团队协作者',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: 'CPR', label: '内容/模式/关系' },
+      { num: 'STATE', label: '表达六步' },
+      { num: '2', label: '个极端：沉默/暴力' }
+    ],
+    proposition: '关键对话死在沉默或暴力——重建安全感、用事实而非故事开场，才能把高风险沟通变成共识。'
+  },
+  {
+    id: 'competitive-strategy',
+    title: '竞争战略',
+    author: '迈克尔·波特（Michael E. Porter）',
+    subtitle: '结构化行业分析导读',
+    category: '战略 · 行业分析',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['五力模型', '三大通用战略', '价值链', '战略取舍', '差异化', '集中化'],
+    rating: 4.9,
+    cover: '#7A3B5A',
+    intro: '竞争战略的方法论基石。波特把「竞争」的分析单元定为行业而非企业，用五力模型拆解行业利润结构，用总成本领先/差异化/集中化三大通用战略定位，用价值链看活动系统，并用「战略即取舍」警告「夹在中间」的失败。对北区政企业务选定位、看客户所在行业格局，这是最硬核的结构化武器；与 rc52《不战而胜》相邻但更偏框架工具，全站战略补强第一枪。',
+    meta: {
+      publisher: 'Free Press（简体中文：中信出版社）',
+      role: '战略/销售/行业负责人',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '5', label: '力定格局' },
+      { num: '3', label: '大通用战略' },
+      { num: '1', label: '条铁律：取舍' }
+    ],
+    proposition: '战略不是口号，是取舍——不想清楚「不做什么」，就会夹在中间，被两头夹击。'
+  },
+  {
+    id: 'ai-for-sales',
+    title: 'AI for Sales（销售智能化实战）',
+    author: '综合（基于 AI 销售一线实践与公开研究整理）',
+    subtitle: '销售智能化落地导读',
+    category: '销售科技 · AI 赋能',
+    track: 'sales',
+    relatedTracks: ['sales'],
+    tags: ['AI销售', '预测性线索评分', '对话智能', 'CRM智能化', '销售预测', '赋能', '人机协同'],
+    rating: 4.5,
+    cover: '#3B7A6B',
+    intro: '销售智能化的落地手册（综合整理）。它把 AI 在销售里的真价值拆成可落地的几块：预测性线索评分、对话智能与教练、CRM 自动补录省力、AI 辅助邮件跟进、销售预测与 pipeline 健康度、赋能内容推荐，并划出数据隐私合规与人机协同的红线。对正在用销售易 NeoCRM 的北区团队，这是把「AI 辅助」从概念变成日常动作的路线图；全站销售赛道前瞻补强第一枪。',
+    meta: {
+      publisher: '综合整理（一线实践 + 公开研究）',
+      role: '销售/销售管理/CRM运营',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '6', label: '类AI应用场景' },
+      { num: '1', label: '条主线：省力→增效' },
+      { num: '2', label: '条红线：合规/协同' }
+    ],
+    proposition: 'AI 在销售里不是替代人，是先替你省力（补录/评分）、再帮你增效（预测/教练）——人机协同才是主线。'
   }
 
 ]
