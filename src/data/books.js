@@ -98,6 +98,7 @@ const reportModules = {
   'rc54': () => import('./reports/rc54'),
   'rc55': () => import('./reports/rc55'),
   'rc56': () => import('./reports/rc56'),
+  'strategic-selling': () => import('./reports/strategic-selling'),
 }
 
 export async function getBookReport(id) {
