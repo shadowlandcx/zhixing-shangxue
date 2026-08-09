@@ -32,6 +32,9 @@ import { teamBatch4Tools } from './team-batch4'
 import { teamBatch5Tools } from './team-batch5'
 import { marketingBatch1Tools } from './marketing-batch1'
 import { strategicSellingTools } from './strategic-selling'
+import { powerNegotiationTools } from './power-negotiation'
+import { principledNegotiationTools } from './principled-negotiation'
+import { govEnterpriseSalesTools } from './gov-enterprise-sales'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -127,7 +130,10 @@ export const allTools = [
   ...teamBatch4Tools,
   ...teamBatch5Tools,
   ...marketingBatch1Tools,
-  ...strategicSellingTools
+  ...strategicSellingTools,
+  ...powerNegotiationTools,
+  ...principledNegotiationTools,
+  ...govEnterpriseSalesTools
 ]
 
 // 赛道元信息（用于筛选 Tab 与徽标）
@@ -147,7 +153,10 @@ export const toolsByCategory = {
     ...salesBatch2Tools,
     ...salesBatch3Tools,
     ...salesBatch4Tools,
-    ...strategicSellingTools
+    ...strategicSellingTools,
+    ...powerNegotiationTools,
+    ...principledNegotiationTools,
+    ...govEnterpriseSalesTools
   ],
   team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools]
 }

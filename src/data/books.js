@@ -99,6 +99,9 @@ const reportModules = {
   'rc55': () => import('./reports/rc55'),
   'rc56': () => import('./reports/rc56'),
   'strategic-selling': () => import('./reports/strategic-selling'),
+  'power-negotiation': () => import('./reports/power-negotiation'),
+  'principled-negotiation': () => import('./reports/principled-negotiation'),
+  'gov-enterprise-sales': () => import('./reports/gov-enterprise-sales'),
 }
 
 export async function getBookReport(id) {
