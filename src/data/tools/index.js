@@ -43,6 +43,13 @@ import { leadershipPipelineTools } from './leadership-pipeline'
 import { crucialConversationsTools } from './crucial-conversations'
 import { competitiveStrategyTools } from './competitive-strategy'
 import { aiForSalesTools } from './ai-for-sales'
+import { newSolutionSellingTools } from './new-solution-selling'
+import { visualHammerTools } from './visual-hammer'
+import { twentyTwoLawsTools } from './22-immutable-laws'
+import { blueOceanStrategyTools } from './blue-ocean-strategy'
+import { highOutputManagementTools } from './high-output-management'
+import { innovatorsDilemmaTools } from './innovators-dilemma'
+import { principlesTools } from './principles'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -149,7 +156,14 @@ export const allTools = [
   ...leadershipPipelineTools,
   ...crucialConversationsTools,
   ...competitiveStrategyTools,
-  ...aiForSalesTools
+  ...aiForSalesTools,
+  ...newSolutionSellingTools,
+  ...visualHammerTools,
+  ...twentyTwoLawsTools,
+  ...blueOceanStrategyTools,
+  ...highOutputManagementTools,
+  ...innovatorsDilemmaTools,
+  ...principlesTools
 ]
 
 // 赛道元信息（用于筛选 Tab 与徽标）
@@ -161,7 +175,7 @@ export const toolCategories = {
 
 // 按赛道分组（旧工具 + 对应赛道的 Phase 1/2 工具包）
 export const toolsByCategory = {
-  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools, ...crossingTheChasmTools, ...positioningTools, ...abmTools],
+  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools, ...crossingTheChasmTools, ...positioningTools, ...abmTools, ...visualHammerTools, ...twentyTwoLawsTools],
   sales: [
     ...salesTools2,
     ...pilotTools.filter((t) => t.category === 'sales'),
@@ -173,9 +187,10 @@ export const toolsByCategory = {
     ...powerNegotiationTools,
     ...principledNegotiationTools,
     ...govEnterpriseSalesTools,
-    ...aiForSalesTools
+    ...aiForSalesTools,
+    ...newSolutionSellingTools
   ],
-  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools, ...coachingForPerformanceTools, ...leadershipPipelineTools, ...crucialConversationsTools, ...competitiveStrategyTools]
+  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools, ...coachingForPerformanceTools, ...leadershipPipelineTools, ...crucialConversationsTools, ...competitiveStrategyTools, ...blueOceanStrategyTools, ...highOutputManagementTools, ...innovatorsDilemmaTools, ...principlesTools]
 }
 
 export function getTool(id) {

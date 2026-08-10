@@ -110,6 +110,13 @@ const reportModules = {
   'crucial-conversations': () => import('./reports/crucial-conversations'),
   'competitive-strategy': () => import('./reports/competitive-strategy'),
   'ai-for-sales': () => import('./reports/ai-for-sales'),
+  'new-solution-selling': () => import('./reports/new-solution-selling'),
+  'visual-hammer': () => import('./reports/visual-hammer'),
+  '22-immutable-laws': () => import('./reports/22-immutable-laws'),
+  'blue-ocean-strategy': () => import('./reports/blue-ocean-strategy'),
+  'high-output-management': () => import('./reports/high-output-management'),
+  'innovators-dilemma': () => import('./reports/innovators-dilemma'),
+  'principles': () => import('./reports/principles'),
 }
 
 export async function getBookReport(id) {

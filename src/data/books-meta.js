@@ -2651,6 +2651,174 @@ export const metaArray = [
       { num: '2', label: '条红线：合规/协同' }
     ],
     proposition: 'AI 在销售里不是替代人，是先替你省力（补录/评分）、再帮你增效（预测/教练）——人机协同才是主线。'
+  },
+  {
+    id: 'new-solution-selling',
+    title: '新解决方案销售（Solution Selling）',
+    author: '基斯·伊迪斯（Keith Eades）',
+    subtitle: '用痛点逻辑树卖解决方案',
+    category: '销售方法 · 解决方案销售',
+    track: 'sales',
+    relatedTracks: ['sales'],
+    tags: ['解决方案销售', '痛点逻辑树', '买方流程', '量化影响', '控单', 'PIC/S'],
+    rating: 4.5,
+    cover: '#2E6E8E',
+    intro: '解决方案销售的方法论闭环。它把「卖产品」升级为「卖业务结果」：用痛点逻辑树（Pain→Impact→Cause→Solution）挖出客户真实痛点，用买方流程（BFM）对齐销售动作，用美元化影响量化业务代价，再反过来掌控销售周期与预测。与米勒黑曼《战略销售》互补——战略销售重角色与控单，本书重痛点量化与逻辑闭环；是全站 solution selling 方向的补强。',
+    meta: {
+      publisher: 'McGraw-Hill（原版）',
+      role: '销售/销售管理/售前',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '4', label: '步痛点逻辑树 PIC/S' },
+      { num: '1', label: '条主线：痛点→方案' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '别再卖产品功能，先帮客户算清「不解决的代价」——美元化的痛点，才是方案成交的支点。'
+  },
+  {
+    id: 'visual-hammer',
+    title: '视觉锤（Visual Hammer）',
+    author: '劳拉·里斯特劳特（Laura Ries） & 阿尔·里斯（Al Ries）',
+    subtitle: '用视觉占据顾客心智',
+    category: '营销 · 品牌定位',
+    track: 'marketing',
+    relatedTracks: ['marketing'],
+    tags: ['视觉锤', '语言钉', '品牌心智', '视觉营销', '定位', 'B2B品牌'],
+    rating: 4.3,
+    cover: '#C8553D',
+    intro: '「定位」的孪生篇。它点破一个真相：语言（语言钉）负责说清楚，但视觉（视觉锤）才最容易被人记住——可口可乐的红色弧线、万宝路的牛仔，都是视觉锤钉进心智的范例。书中给出视觉锤的 11 种来源（形状/颜色/产品/创始人/标志……），并强调 B2B 同样需要视觉锤。与《定位》《品牌22律》构成定位系列三连环；对做政企品牌与方案 PPT 的北区团队，这是「让客户记住你」的视觉抓手。',
+    meta: {
+      publisher: 'HarperCollins（原版）',
+      role: '营销/品牌/销售赋能',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '11', label: '种视觉锤来源' },
+      { num: '1', label: '对定位的孪生补充' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '语言钉说清定位，视觉锤钉进心智——没有视觉锤的定位，只能停留在 PPT 里。'
+  },
+  {
+    id: '22-immutable-laws',
+    title: '品牌22律（The 22 Immutable Laws of Branding）',
+    author: '阿尔·里斯（Al Ries） & 劳拉·里斯特劳特（Laura Ries）',
+    subtitle: '不可动摇的品牌定律',
+    category: '营销 · 品牌定位',
+    track: 'marketing',
+    relatedTracks: ['marketing'],
+    tags: ['品牌', '品类定律', '品牌延伸', '公关', '命名', '定位系列'],
+    rating: 4.2,
+    cover: '#7A4F91',
+    intro: '「定位」系列的延伸与实战化。它把品牌建设提炼为 22 条不可逆定律：收缩定律（聚焦一个品类而非扩张）、公关先于广告、命名定律、品类定律、以及最常被违反也最致命的品牌延伸定律。核心主张与《定位》《视觉锤》一脉相承——品牌的力量来自占据一个品类，而非无限延伸产品线。对政企品牌「做窄做深」有直接的纠偏价值。',
+    meta: {
+      publisher: 'HarperCollins（原版）',
+      role: '营销/品牌',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '22', label: '条品牌定律' },
+      { num: '1', label: '主线：聚焦品类' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '品牌的力量来自占据一个品类，而非延伸出一堆产品——收缩，才是最好的扩张。'
+  },
+  {
+    id: 'blue-ocean-strategy',
+    title: '蓝海战略（Blue Ocean Strategy）',
+    author: 'W. 钱·金（W. Chan Kim） & 勒妮·莫博涅（Renée Mauborgne）',
+    subtitle: '开创无争市场的战略逻辑',
+    category: '团队 · 战略思维',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['蓝海战略', '价值创新', '四步动作', '战略布局图', '差异化', '去价格战'],
+    rating: 4.6,
+    cover: '#1F7A8C',
+    intro: '与波特「竞争战略」互补的另一条战略路：不要在与对手血拼的红海里内卷，而去开创没有竞争的「蓝海」。核心工具是价值创新（Value Innovation）与四步动作框架（剔除-减少-增加-创造 ERRC），配合战略布局图与价值曲线、六条路径框架。对政企北区团队，它提供了避开招投标价格战、用场景化差异化方案突围的打法；是全站战略视角的第二块拼图。',
+    meta: {
+      publisher: 'Harvard Business Review Press（原版）',
+      role: '管理者/战略/业务负责人',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '4', label: '步动作 ERRC' },
+      { num: '6', label: '条创新路径' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '别在红海里拼价格，去开创一片没有竞争对手的蓝海——价值创新，才是增长的另一条路。'
+  },
+  {
+    id: 'high-output-management',
+    title: '高产出管理（High Output Management）',
+    author: '安迪·格鲁夫（Andy Grove）',
+    subtitle: '一线经理的日常动作手册',
+    category: '团队 · 管理实务',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['管理', '一对一会议', '目标KPI', '授权', '反馈', '时间杠杆'],
+    rating: 4.7,
+    cover: '#B5651D',
+    intro: '英特尔前 CEO 格鲁夫写的管理经典，也是《领导梯队》的绝佳搭档：梯队讲「层级转型」，本书讲「日常怎么干」。它把管理定义成「通过他人完成工作」，并给出一线可抄的动作——1:1 一对一会议、目标与 KPI 设定、委派授权、绩效反馈、会议与决策、时间杠杆。对管着 13 区域 17 省的多层 manager，这是把「带团队」从感觉变成动作的底座。',
+    meta: {
+      publisher: 'Vintage（原版）',
+      role: '一线经理/管理者',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '1:1', label: '会议是管理核心' },
+      { num: '5', label: '步管理动作' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '管理不是当官，是通过他人拿结果——1:1、KPI、反馈，是把「带人」从玄学变成动作的三件套。'
+  },
+  {
+    id: 'innovators-dilemma',
+    title: '创新者的窘境（The Innovator’s Dilemma）',
+    author: '克莱顿·克里斯坦森（Clayton M. Christensen）',
+    subtitle: '大公司为何在颠覆中失败',
+    category: '团队 · 战略思维',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['颠覆式创新', '延续性创新', 'RPV框架', '价值网络', '破坏性创新', '创新管理'],
+    rating: 4.6,
+    cover: '#2D6A4F',
+    intro: '「跨越鸿沟」的兄弟篇，专讲创新为什么难。克里斯坦森用 RPV 框架（资源·流程·价值观）解释：正是那些让大公司成功的管理动作，导致它们在颠覆式创新面前失败——因为价值网络把资源锁在原有客户与利润池里。书中给出破坏性创新的两条路径（低端颠覆/新市场颠覆）与建立独立创新单元的解法。对科技与政企玩家，这是「别被小颠覆者掀翻」的预警与对策。',
+    meta: {
+      publisher: 'Harvard Business Review Press（原版）',
+      role: '管理者/战略/创新负责人',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: 'RPV', label: '框架解释失败' },
+      { num: '2', label: '条颠覆路径' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '杀死巨头的不是对手，是自己成功的流程——当颠覆从低端或新市场来，独立小队才扛得住。'
+  },
+  {
+    id: 'principles',
+    title: '原则（Principles）',
+    author: '瑞·达里奥（Ray Dalio）',
+    subtitle: '用可执行的准则把决策交给系统',
+    category: '团队 · 决策准则',
+    track: 'team',
+    relatedTracks: ['team'],
+    tags: ['原则', '可信度加权', '极度求真', '五步流程', '决策系统', '反思'],
+    rating: 4.4,
+    cover: '#9A2D2D',
+    intro: '桥水基金创始人达里奥把毕生决策方法写成「原则」。核心是用可信度加权决策替代一言堂，用极度求真与极度透明打破信息过滤，用五步流程（目标→问题→诊断→方案→执行）把目标变成结果，再把原则编写成可执行的算法。与《思考快与慢》《纳瓦尔宝典》互补——它给管理者一套「把团队决策从靠人变成靠系统」的底座。',
+    meta: {
+      publisher: 'Simon & Schuster（原版）',
+      role: '管理者/团队/决策者',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '5', label: '步目标流程' },
+      { num: '1', label: '条主线：求真求透' },
+      { num: '5', label: '个可落地工具' }
+    ],
+    proposition: '把决策从「靠老板拍脑袋」变成「靠可信度加权」——极度求真，才敢极度透明。'
   }
 
 ]
