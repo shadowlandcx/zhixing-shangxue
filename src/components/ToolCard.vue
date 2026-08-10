@@ -7,18 +7,6 @@ const props = defineProps({
   highlight: { type: Boolean, default: false }
 })
 
-const TYPE_META = {
-  framework: '框架画布', checklist: '清单', scorecard: '评分卡',
-  script: '话术', calculator: '测算', worksheet: '工作表'
-}
-const STAGE_META = { diagnose: '诊断', plan: '规划', execute: '执行', review: '复盘' }
-function typeLabel(t) { return TYPE_META[t?.type] || '' }
-function stageLabel(t) { return STAGE_META[t?.stage] || '' }
-function difficultyStars(n) {
-  const k = n || 0
-  return '★'.repeat(k) + '☆'.repeat(3 - k)
-}
-
 const downloadingId = ref('')
 async function onExcel(t) {
   downloadingId.value = t.id
@@ -33,21 +21,17 @@ async function onExcel(t) {
       highlight ? 'border-2 border-gold ring-2 ring-gold/40' : 'border border-line'
     ]"
   >
-    <div class="flex items-start justify-between gap-3">
-      <h3 class="text-base font-bold leading-snug text-ink">📑 {{ tool.title }}</h3>
+    <div class="flex flex-col gap-2">
       <span
         v-if="tool.cat"
-        class="shrink-0 rounded-full px-2.5 py-0.5 text-xs"
+        class="w-fit shrink-0 rounded-full px-2.5 py-0.5 text-xs"
         :class="{
           'bg-rose-50 text-rose-600': tool.category === 'marketing',
           'bg-blue-50 text-blue-600': tool.category === 'sales',
           'bg-emerald-50 text-emerald-600': tool.category === 'team'
         }"
       >{{ tool.cat.icon }} {{ tool.cat.label }}</span>
-      <span v-if="typeLabel(tool)" class="shrink-0 rounded-full bg-brand/10 px-2.5 py-0.5 text-xs text-brand">{{ typeLabel(tool) }}</span>
-      <span v-if="stageLabel(tool)" class="shrink-0 rounded-full bg-gold/10 px-2.5 py-0.5 text-xs text-gold-dark">{{ stageLabel(tool) }}</span>
-      <span v-if="tool.difficulty" class="shrink-0 rounded-full bg-paper px-2.5 py-0.5 text-xs text-muted">{{ difficultyStars(tool.difficulty) }}</span>
-      <span v-if="tool.duration" class="shrink-0 rounded-full bg-paper px-2.5 py-0.5 text-xs text-muted">⏱ {{ tool.duration }}</span>
+      <h3 class="text-base font-bold leading-snug text-ink">📑 {{ tool.title }}</h3>
     </div>
     <router-link
       v-if="tool.bookTitle"
