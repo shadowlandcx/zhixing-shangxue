@@ -6,6 +6,7 @@ import { tracks } from '../data/tracks'
 import { useUser } from '../store/useUser'
 import { templatesForBook, toolCategories } from '../data/tools/index'
 import { recipes } from '../data/recipes'
+import { pathContextForBook } from '../data/reading-paths'
 import { downloadExcel, downloadPdf } from '../utils/download'
 import { bookShareUrl, canNativeShare, nativeShare, copyText, qrImageUrl } from '../utils/share'
 
@@ -16,6 +17,9 @@ const book = computed(() => getBook(props.id))
 const idx = computed(() => books.findIndex((b) => b.id === props.id))
 const prevBook = computed(() => (idx.value > 0 ? books[idx.value - 1] : null))
 const nextBook = computed(() => (idx.value < books.length - 1 ? books[idx.value + 1] : null))
+
+// 阅读路径联动：本书在哪些路径里、下一步读哪本
+const pathCtx = computed(() => pathContextForBook(props.id))
 
 // 正文按需加载（脱离主包，打开时再拉取分片）
 const content = ref('')
@@ -304,6 +308,23 @@ async function onCopy() {
           :to="l.to"
           class="btn-outline border-gold text-gold transition hover:bg-gold hover:text-white"
         >🎯 {{ l.label }}</router-link>
+      </div>
+    </section>
+
+    <!-- 阅读路径 · 下一步读（策展式进阶链） -->
+    <section v-if="pathCtx.length" class="mt-6 rounded-xl border border-brand/30 bg-brand/5 p-5 no-print">
+      <p class="eyebrow text-brand">阅读路径 · 下一步读</p>
+      <div class="mt-3 space-y-4">
+        <div v-for="c in pathCtx" :key="c.path.id">
+          <router-link :to="`/paths/${c.path.id}`" class="text-sm font-semibold text-brand transition hover:underline">📍 {{ c.path.title }}</router-link>
+          <p class="mt-1 text-xs text-muted">第 {{ c.index + 1 }} / {{ c.path.steps.length }} 步 · {{ c.path.steps[c.index].note }}</p>
+          <router-link
+            v-if="c.next"
+            :to="`/book/${c.next}`"
+            class="mt-2 inline-flex items-center gap-2 btn-outline border-brand text-brand transition hover:bg-brand hover:text-white"
+          >➡️ 下一步读：{{ getBook(c.next).title }}</router-link>
+          <p v-else class="mt-2 text-xs text-gold-dark">🎉 这是该路径的最后一步，恭喜走完这条进阶链！</p>
+        </div>
       </div>
     </section>
 

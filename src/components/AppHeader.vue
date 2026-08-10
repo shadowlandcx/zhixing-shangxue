@@ -38,6 +38,9 @@ function handleLogout() {
         <router-link to="/books" class="text-sm font-medium text-ink transition hover:text-brand">读书研报</router-link>
         <router-link to="/toolbox" class="text-sm font-medium text-ink transition hover:text-brand">🧰 工具箱</router-link>
         <router-link to="/capability" class="text-sm font-medium text-ink transition hover:text-brand">🗺️ 能力地图</router-link>
+        <router-link to="/themes" class="text-sm font-medium text-ink transition hover:text-brand">📚 主题导览</router-link>
+        <router-link to="/paths" class="text-sm font-medium text-ink transition hover:text-brand">🛤️ 阅读路径</router-link>
+        <router-link to="/tog" class="text-sm font-medium text-ink transition hover:text-brand">🏛️ 政企ToG</router-link>
         <form class="relative" @submit.prevent="onSearch">
           <input
             v-model="searchQ"
@@ -83,6 +86,9 @@ function handleLogout() {
         <router-link to="/books" class="py-3 text-sm font-medium text-ink" @click="open=false">读书研报</router-link>
         <router-link to="/toolbox" class="py-3 text-sm font-medium text-ink" @click="open=false">🧰 工具箱</router-link>
         <router-link to="/capability" class="py-3 text-sm font-medium text-ink" @click="open=false">🗺️ 能力地图</router-link>
+        <router-link to="/themes" class="py-3 text-sm font-medium text-ink" @click="open=false">📚 主题导览</router-link>
+        <router-link to="/paths" class="py-3 text-sm font-medium text-ink" @click="open=false">🛤️ 阅读路径</router-link>
+        <router-link to="/tog" class="py-3 text-sm font-medium text-ink" @click="open=false">🏛️ 政企ToG</router-link>
         <router-link to="/search" class="py-3 text-sm font-medium text-ink" @click="open=false">搜索</router-link>
         <div class="flex gap-3 py-3">
           <template v-if="isLogin">
