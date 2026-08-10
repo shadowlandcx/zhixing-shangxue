@@ -4,6 +4,11 @@ import { useRouter } from 'vue-router'
 import { trackList } from '../data/tracks'
 import { books } from '../data/books'
 import { allTools } from '../data/tools/index'
+import { themes } from '../data/themes'
+import { readingPaths, getPath } from '../data/reading-paths'
+
+// 首页「本周开读」推荐位：政企打单路径与全部 8 大主题
+const featuredPath = computed(() => getPath('tog-deal'))
 
 const router = useRouter()
 // 首页精选书单：固定把两本新书放到轮播前列，再补足高评分书目
@@ -103,6 +108,36 @@ function onSearch() {
     </router-link>
   </section>
 
+  <!-- 三大新入口引导卡 -->
+  <section class="container-px -mt-6 relative z-10">
+    <div class="grid gap-4 sm:grid-cols-3">
+      <router-link to="/themes" class="flex items-center gap-4 rounded-xl border border-line bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold hover:shadow-lg">
+        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-2xl">🧭</span>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-widest text-gold-dark">主题导览</p>
+          <h3 class="mt-0.5 text-lg font-bold text-brand">按业务问题找书</h3>
+          <p class="mt-1 text-sm text-muted">8 大主题，跨赛道聚合 · 探索 →</p>
+        </div>
+      </router-link>
+      <router-link to="/paths" class="flex items-center gap-4 rounded-xl border border-line bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold hover:shadow-lg">
+        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-2xl">📍</span>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-widest text-gold-dark">阅读路径</p>
+          <h3 class="mt-0.5 text-lg font-bold text-brand">该先读哪本？</h3>
+          <p class="mt-1 text-sm text-muted">6 条精读进阶链 · 探索 →</p>
+        </div>
+      </router-link>
+      <router-link to="/tog" class="flex items-center gap-4 rounded-xl border border-line bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold hover:shadow-lg">
+        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-2xl">🏛️</span>
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-widest text-gold-dark">政企 ToG 垂直</p>
+          <h3 class="mt-0.5 text-lg font-bold text-brand">北区政企打单</h3>
+          <p class="mt-1 text-sm text-muted">书单+路径+工具 · 探索 →</p>
+        </div>
+      </router-link>
+    </div>
+  </section>
+
   <!-- Tracks -->
   <section id="tracks" class="container-px py-16">
     <div class="text-center">
@@ -153,6 +188,55 @@ function onSearch() {
           </div>
         </div>
       </router-link>
+    </div>
+  </section>
+
+  <!-- 本周开读 · 阅读路径 + 主题 -->
+  <section class="bg-paper/40 py-16">
+    <div class="container-px">
+      <div class="text-center">
+        <p class="eyebrow">本周开读</p>
+        <h2 class="mt-3 text-2xl font-bold text-brand sm:text-3xl">别随便翻，照着路径和主题读</h2>
+        <p class="mt-2 text-sm text-muted">按业务目标编排的精读顺序，和按真实问题聚合的主题书单。</p>
+      </div>
+
+      <!-- 阅读路径卡片网格 -->
+      <div class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <router-link
+          v-for="p in readingPaths"
+          :key="p.id"
+          :to="`/paths/${p.id}`"
+          class="card flex flex-col p-6 transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div class="flex items-center gap-3">
+            <span class="text-3xl">{{ p.icon }}</span>
+            <h3 class="text-lg font-semibold text-brand">{{ p.title }}</h3>
+          </div>
+          <p class="mt-2 text-sm font-medium text-gold-dark">{{ p.audience }}</p>
+          <p class="mt-2 flex-1 text-sm leading-relaxed text-muted">{{ p.desc }}</p>
+          <p class="mt-4 text-sm text-brand">{{ p.steps.length }} 步精读 · 查看路径 →</p>
+        </router-link>
+      </div>
+
+      <!-- 主题快捷入口 -->
+      <div class="mt-12">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xl font-bold text-brand">或按主题直接找</h3>
+          <router-link to="/themes" class="text-sm font-medium text-brand hover:text-gold">全部主题 →</router-link>
+        </div>
+        <div class="mt-4 flex flex-wrap gap-3">
+          <router-link
+            v-for="t in themes"
+            :key="t.id"
+            :to="`/themes/${t.id}`"
+            class="flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2.5 text-sm font-medium text-brand transition hover:border-gold hover:bg-gold/5"
+          >
+            <span class="text-lg">{{ t.icon }}</span>
+            {{ t.title }}
+            <span class="text-xs text-muted">· {{ t.bookIds.length }} 本</span>
+          </router-link>
+        </div>
+      </div>
     </div>
   </section>
 
