@@ -117,6 +117,7 @@ const reportModules = {
   'high-output-management': () => import('./reports/high-output-management'),
   'innovators-dilemma': () => import('./reports/innovators-dilemma'),
   'principles': () => import('./reports/principles'),
+  'ji-kong': () => import('./reports/ji-kong'),
 }
 
 export async function getBookReport(id) {
