@@ -50,6 +50,7 @@ import { blueOceanStrategyTools } from './blue-ocean-strategy'
 import { highOutputManagementTools } from './high-output-management'
 import { innovatorsDilemmaTools } from './innovators-dilemma'
 import { principlesTools } from './principles'
+import { smartPricingTools } from './smart-pricing'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -163,7 +164,8 @@ export const allTools = [
   ...blueOceanStrategyTools,
   ...highOutputManagementTools,
   ...innovatorsDilemmaTools,
-  ...principlesTools
+  ...principlesTools,
+  ...smartPricingTools
 ]
 
 // 赛道元信息（用于筛选 Tab 与徽标）
@@ -175,7 +177,7 @@ export const toolCategories = {
 
 // 按赛道分组（旧工具 + 对应赛道的 Phase 1/2 工具包）
 export const toolsByCategory = {
-  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools, ...crossingTheChasmTools, ...positioningTools, ...abmTools, ...visualHammerTools, ...twentyTwoLawsTools],
+  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools, ...crossingTheChasmTools, ...positioningTools, ...abmTools, ...visualHammerTools, ...twentyTwoLawsTools, ...smartPricingTools],
   sales: [
     ...salesTools2,
     ...pilotTools.filter((t) => t.category === 'sales'),
