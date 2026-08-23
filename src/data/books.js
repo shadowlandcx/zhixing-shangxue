@@ -30,6 +30,7 @@ export async function getBookContent(id) {
 // 营销·销售研报：每本书独立模块文件，按 id 动态 import 各自分片
 const reportModules = {
   'tech-product-marketing': () => import('./reports/tech-product-marketing'),
+  'smart-pricing': () => import('./reports/smart-pricing'),
   'chip-history': () => import('./reports/chip-history'),
   'zero-trust': () => import('./reports/zero-trust'),
   'singularity-nearer': () => import('./reports/singularity-nearer'),

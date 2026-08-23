@@ -26,7 +26,7 @@ export const tracks = {
   },
   marketing: {
     id: 'marketing',
-    relatedBooks: ['tech-product-marketing', 'singularity-nearer', 'industry-research', 'salesforce-legend', 'cloud-primer', 'danaher-model', 'zero-trust', 'rc23', 'rc24', 'rc25', 'rc26', 'rc27', 'rc28'],
+    relatedBooks: ['tech-product-marketing', 'smart-pricing', 'singularity-nearer', 'industry-research', 'salesforce-legend', 'cloud-primer', 'danaher-model', 'zero-trust', 'rc23', 'rc24', 'rc25', 'rc26', 'rc27', 'rc28'],
     name: '市场营销',
     en: 'Marketing',
     tagline: '让每一分预算，都长出增长',
