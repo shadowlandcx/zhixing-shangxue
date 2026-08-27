@@ -51,6 +51,7 @@ import { highOutputManagementTools } from './high-output-management'
 import { innovatorsDilemmaTools } from './innovators-dilemma'
 import { principlesTools } from './principles'
 import { smartPricingTools } from './smart-pricing'
+import { escapeVelocityTools } from './escape-velocity'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -165,7 +166,8 @@ export const allTools = [
   ...highOutputManagementTools,
   ...innovatorsDilemmaTools,
   ...principlesTools,
-  ...smartPricingTools
+  ...smartPricingTools,
+  ...escapeVelocityTools
 ]
 
 // 赛道元信息（用于筛选 Tab 与徽标）
@@ -192,7 +194,9 @@ export const toolsByCategory = {
     ...aiForSalesTools,
     ...newSolutionSellingTools
   ],
-  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools, ...coachingForPerformanceTools, ...leadershipPipelineTools, ...crucialConversationsTools, ...competitiveStrategyTools, ...blueOceanStrategyTools, ...highOutputManagementTools, ...innovatorsDilemmaTools, ...principlesTools]
+  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools, ...coachingForPerformanceTools, ...leadershipPipelineTools, ...crucialConversationsTools, ...competitiveStrategyTools, ...blueOceanStrategyTools, ...highOutputManagementTools, ...innovatorsDilemmaTools, ...principlesTools,
+  ...escapeVelocityTools
+  ]
 }
 
 export function getTool(id) {

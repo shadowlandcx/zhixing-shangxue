@@ -119,6 +119,7 @@ const reportModules = {
   'innovators-dilemma': () => import('./reports/innovators-dilemma'),
   'principles': () => import('./reports/principles'),
   'ji-kong': () => import('./reports/ji-kong'),
+  'escape-velocity': () => import('./reports/escape-velocity'),
 }
 
 export async function getBookReport(id) {
