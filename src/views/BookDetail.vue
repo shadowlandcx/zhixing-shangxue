@@ -298,7 +298,7 @@ async function onCopy() {
       <button :class="activeTab === 'report' ? 'btn-gold' : 'btn-outline'" @click="activeTab = 'report'">📊 读书研报<span v-if="!hasReport" class="ml-1 text-xs opacity-70">（暂无）</span></button>
     </div>
 
-    <!-- 关联课程 -->
+    <!-- 关联分类 -->
     <section v-if="relatedLinks.length" class="mt-6 rounded-xl border border-gold/40 bg-gold/5 p-5 no-print">
       <p class="eyebrow text-gold-dark">关联分类 · 同视角延伸阅读</p>
       <div class="mt-3 flex flex-wrap gap-3">

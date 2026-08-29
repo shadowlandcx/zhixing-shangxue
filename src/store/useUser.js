@@ -51,7 +51,7 @@ export function useUser() {
     return state.progress[courseId] || 0
   }
 
-  // 读书进度（与课程进度统一存放在 progress.books 下）
+  // 读书进度（读书进度统一存放在 progress.books 下）
   function markBookRead(bookId) {
     const b = state.progress.books || (state.progress.books = {})
     b[bookId] = { ...(b[bookId] || {}), read: true }

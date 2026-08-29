@@ -34,7 +34,7 @@ function scrollToTracks() {
   document.getElementById('tracks')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
-// 首页搜索聚合：提交后跳转到 /search 做跨课程 + 读书研报检索
+// 首页搜索聚合：提交后跳转到 /search 做跨工具 + 读书研报检索
 const searchQ = ref('')
 function onSearch() {
   const kw = searchQ.value.trim()
@@ -78,7 +78,7 @@ function onSearch() {
     </div>
   </section>
 
-  <!-- 首页搜索聚合：跨课程 + 读书研报 -->
+  <!-- 首页搜索聚合：跨工具 + 读书研报 -->
   <section class="container-px -mt-2 relative z-10">
     <form class="mx-auto flex max-w-2xl gap-3 rounded-xl border border-line bg-white p-2 shadow-card" @submit.prevent="onSearch">
       <input
