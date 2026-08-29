@@ -120,6 +120,8 @@ const reportModules = {
   'principles': () => import('./reports/principles'),
   'ji-kong': () => import('./reports/ji-kong'),
   'escape-velocity': () => import('./reports/escape-velocity'),
+  'procurement-40': () => import('./reports/procurement-40'),
+  'insight-principle': () => import('./reports/insight-principle'),
 }
 
 export async function getBookReport(id) {

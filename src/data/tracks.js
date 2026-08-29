@@ -36,7 +36,7 @@ export const tracks = {
     id: 'account',
     relatedBooks: [
       'key-account-management', 'gov-enterprise-sales', 'rc09', 'rc16', 'rc22', 'salesforce-legend',
-      'power-negotiation', 'principled-negotiation', 'crucial-conversations', 'rc38'
+      'power-negotiation', 'principled-negotiation', 'crucial-conversations', 'rc38', 'procurement-40'
     ],
     name: '客户经营',
     en: 'Account Management',
@@ -123,7 +123,7 @@ export const tracks = {
     id: 'strategy',
     relatedBooks: [
       'competitive-strategy', 'blue-ocean-strategy', 'innovators-dilemma', 'escape-velocity', 'danaher-model', 'rc47',
-      'rc48', 'rc50', 'rc52', 'rc54', 'rc55'
+      'rc48', 'rc50', 'rc52', 'rc54', 'rc55', 'insight-principle'
     ],
     name: '战略经营',
     en: 'Strategy & Business',
