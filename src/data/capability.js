@@ -5,10 +5,13 @@
 //  - 每个能力点挂接本赛道书目（rc 前缀=读书会荐书；其余=站点自有经营/技术类书），点图即跳《书目》详情
 //  - 能力点取"可衡量、可上岗即用"的颗粒度，呼应「知→行」——学了下周就能用。
 
+// 说明：这里是「职业发展线」（销售人 / 市场人 / 管理者怎么成长），
+// 与 books-meta 的 7 大「能力域分类」是两个维度。tracks 字段把两者打通——
+// 标明这条能力线主要要从哪些能力域取书，便于跨体系跳转，避免两套分类割裂。
 export const capabilityTracks = [
-  { id: 'sales', name: '销售', color: '#0E6BA8', desc: '从跟访首单到带销售团队的完整能力进阶' },
-  { id: 'marketing', name: '营销', color: '#1F4D3A', desc: '从市场执行到营销战略的能力进阶' },
-  { id: 'team', name: '团队', color: '#8C3B3B', desc: '从自我管理到经营领导的通用能力进阶' }
+  { id: 'sales', name: '销售', color: '#0E6BA8', desc: '从跟访首单到带销售团队的完整能力进阶', tracks: ['sales-craft', 'account', 'industry'] },
+  { id: 'marketing', name: '营销', color: '#1F4D3A', desc: '从市场执行到营销战略的能力进阶', tracks: ['marketing', 'strategy'] },
+  { id: 'team', name: '团队', color: '#8C3B3B', desc: '从自我管理到经营领导的通用能力进阶', tracks: ['leadership', 'mindset', 'strategy'] }
 ]
 
 export const dimensionMeta = {

@@ -85,6 +85,48 @@ export const readingPaths = [
       { bookId: 'innovators-dilemma', note: '创新者的窘境：颠覆式创新的规律。' },
       { bookId: 'rc50', note: '战略 7 力：护城河的来源。' }
     ]
+  },
+  {
+    id: 'account-master',
+    title: '大客户经营进阶',
+    icon: '🏛️',
+    audience: '大客户经理 / 客户成功 / 生态负责人',
+    desc: '从把单个客户做深，到把客户当组合经营，再到用谈判守住利润——客户经营的完整进阶链。',
+    steps: [
+      { bookId: 'key-account-management', note: '相合性模型：判断「谁才配当关键客户」，而不是谁大谁关键。' },
+      { bookId: 'rc16', note: '大客户管理流程与实务：把经营动作标准化。' },
+      { bookId: 'rc09', note: '客户关系管理战略框架：从关系维护到价值共创。' },
+      { bookId: 'salesforce-legend', note: '客户成功与 NRR：让续约成为增长引擎。' },
+      { bookId: 'power-negotiation', note: '谈判收口：守住价格与条款，别让经营成果在最后一步漏掉。' }
+    ]
+  },
+  {
+    id: 'tech-literacy',
+    title: '技术认知补课路径',
+    icon: '⚡',
+    audience: '销售 / 售前 / 转岗做 ToB 的同学',
+    desc: '不必成为工程师，但要能听懂客户的技术语言、讲清方案背后的业务取舍。',
+    steps: [
+      { bookId: 'chip-history', note: '先建立技术产业的宏观感：为什么技术会这样演进。' },
+      { bookId: 'cloud-primer', note: '云计算通俗讲义：把最常遇到的技术概念补齐。' },
+      { bookId: 'zero-trust', note: '零信任与安全：政企客户绕不开的合规语境。' },
+      { bookId: 'industry-research', note: '行业研究方法：两周摸清一个陌生行业。' },
+      { bookId: 'singularity-nearer', note: 'AI 前沿：判断趋势，别被概念带节奏。' }
+    ]
+  },
+  {
+    id: 'mindset-growth',
+    title: '心智与影响力进阶',
+    icon: '🧠',
+    audience: '所有岗位（尤其新任管理者）',
+    desc: '方法论能不能落地，取决于底层心智。这条链解决「道理都懂、就是做不到」。',
+    steps: [
+      { bookId: 'cognitive-awakening', note: '认知觉醒：先看见自己的思维模式与惯性。' },
+      { bookId: 'rc34', note: '原子习惯：用环境设计替代意志力，把改变变成默认选项。' },
+      { bookId: 'rc32', note: '学会提问：批判性思维，别把假设当事实。' },
+      { bookId: 'rc35', note: '能力陷阱：警惕「越擅长越被困住」，先行动再思考。' },
+      { bookId: 'rc31', note: '纳瓦尔宝典：把特定知识产品化，放大个人杠杆。' }
+    ]
   }
 ]
 

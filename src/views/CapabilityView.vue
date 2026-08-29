@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { capabilityTracks, capabilityMap, dimensionMeta } from '../data/capability'
 import { books } from '../data/books'
+import { tracks } from '../data/tracks'
 import { templatesForBook } from '../data/tools/index'
 
 const router = useRouter()
@@ -17,6 +18,11 @@ function titleOf(id) {
 
 const levels = computed(() => capabilityMap[activeTrack.value] || [])
 const trackMeta = computed(() => capabilityTracks.find((t) => t.id === activeTrack.value))
+// 与本条能力线相关的能力域分类（打通「职业发展线」与「7 大能力域」两套体系）
+const relatedCats = computed(() => {
+  const ids = trackMeta.value?.tracks || []
+  return ids.map((id) => tracks[id]).filter(Boolean)
+})
 
 function goBook(id) {
   router.push(`/book/${id}`)
@@ -62,6 +68,20 @@ const dimOrder = ['K', 'S', 'A']
           </button>
         </div>
         <p v-if="trackMeta" class="mt-3 text-sm text-muted">{{ trackMeta.desc }}</p>
+
+        <!-- 打通两套体系：这条能力线主要从哪些能力域取书，可直接跳转 -->
+        <div v-if="relatedCats.length" class="mt-4 flex flex-wrap items-center gap-2">
+          <span class="text-xs text-muted">这条线主要从这些能力域取书：</span>
+          <router-link
+            v-for="c in relatedCats"
+            :key="c.id"
+            :to="`/track/${c.id}`"
+            class="inline-flex items-center gap-1 rounded-full border border-line bg-white px-3 py-1 text-xs font-medium text-ink transition hover:border-gold hover:text-brand"
+          >
+            {{ c.icon }} {{ c.name }}
+            <span class="font-normal text-muted">{{ c.relatedBooks.length }} 本</span>
+          </router-link>
+        </div>
       </div>
     </section>
 
