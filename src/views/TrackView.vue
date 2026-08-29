@@ -74,8 +74,8 @@ const relatedBookList = computed(() =>
 
     <!-- Related books -->
     <section class="container-px py-14">
-      <h2 class="text-2xl font-bold text-brand">配套书单 · 读透这门赛道</h2>
-      <p class="mt-2 text-sm text-muted">把赛道里的打法，用经典著作再夯实一层。点开看营销+销售视角读书笔记与研报。</p>
+      <h2 class="text-2xl font-bold text-brand">配套书单 · 读透这个分类</h2>
+      <p class="mt-2 text-sm text-muted">把这一类的打法，用经典著作再夯实一层。点开看营销+销售视角读书笔记与研报。</p>
       <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <router-link
           v-for="b in relatedBookList"
@@ -102,7 +102,7 @@ const relatedBookList = computed(() =>
 
   <template v-else>
     <div class="container-px py-24 text-center">
-      <h1 class="text-2xl font-bold text-brand">未找到该赛道</h1>
+      <h1 class="text-2xl font-bold text-brand">未找到该分类</h1>
       <router-link to="/" class="btn-primary mt-6 inline-block">返回首页</router-link>
     </div>
   </template>

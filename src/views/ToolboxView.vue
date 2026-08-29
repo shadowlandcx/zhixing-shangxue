@@ -20,17 +20,18 @@ function enrich(t) {
     ...t,
     bookTitle: getBook(t.bookId)?.title || '',
     example: exampleRows(t),
-    cat: toolCategories[t.category] || null
+    // 用 track（书籍所属新 7 分类）取徽标；t.category 是旧三分类历史字段，不再用于取分类
+    cat: toolCategories[t.track] || toolCategories[t.category] || null
   }
 }
 
-// 分类筛选：all / marketing / sales / team
+// 分类筛选：all / 7 大分类
 const activeCat = ref('all')
 const highlightId = ref('')
 const kw = ref('')
 const validCats = ['all', ...Object.keys(toolCategories)]
 
-// 多维筛选：类型 / 阶段 / 难度（与赛道分类、关键词叠加，AND 关系）
+// 多维筛选：类型 / 阶段 / 难度（与分类、关键词叠加，AND 关系）
 const selType = ref('all')
 const selStage = ref('all')
 const selDiff = ref('all')
@@ -64,7 +65,7 @@ function resetFilters() {
 }
 
 // 来自能力地图 / 书页的 deep-link：
-//   ?c=<分类>   预筛选赛道
+//   ?c=<分类>   预筛选分类
 //   ?tool=<id>  定位并高亮某个工具（先切到它所属分类，再平滑滚动 + 短暂高亮）
 const route = useRoute()
 function applyQuery() {

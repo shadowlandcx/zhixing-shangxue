@@ -14,8 +14,8 @@ import { books } from '../data/books'
       <h2 class="mt-8 text-lg font-bold text-brand">它和"普通读书站"有什么不同</h2>
       <ul class="mt-3 space-y-2 text-muted">
         <li>· <strong class="text-ink">带着岗位视角读</strong>：每本书都从营销战略、销售方法论、团队管理三视角拆解，标注"对谁的什么工作有用"。</li>
-        <li>· <strong class="text-ink">有方法、能上手</strong>：提炼可立刻套用的框架、清单、话术，并链回对应赛道（阅读视角）。</li>
-        <li>· <strong class="text-ink">读用闭环</strong>：每篇读书笔记与研报都挂"关联赛道"，每个赛道都配"配套书单"。</li>
+        <li>· <strong class="text-ink">有方法、能上手</strong>：提炼可立刻套用的框架、清单、话术，并链回对应分类（阅读视角）。</li>
+        <li>· <strong class="text-ink">读用闭环</strong>：每篇读书笔记与研报都挂"关联分类"，每个分类都配"配套书单"。</li>
         <li>· <strong class="text-ink">留白给你</strong>：每篇都能写"我的个人观点"，自动存浏览器本地。</li>
       </ul>
 

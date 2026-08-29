@@ -55,7 +55,7 @@ const total = computed(() => bookHits.value.length + trackHits.value.length + to
       <input
         v-model="q"
         type="text"
-        placeholder="搜书籍、赛道…（如：SPIN、大客户、定位、团队）"
+        placeholder="搜书籍、分类…（如：SPIN、大客户、定位、团队）"
         class="flex-1 rounded-lg border border-line bg-white px-4 py-3 text-sm outline-none focus:border-gold"
       />
       <button class="btn-gold shrink-0" type="submit">搜索</button>
@@ -63,7 +63,7 @@ const total = computed(() => bookHits.value.length + trackHits.value.length + to
 
     <!-- 空状态 -->
     <div v-if="!query" class="mt-10 rounded-xl border border-line bg-white p-10 text-center text-sm leading-relaxed text-muted">
-      输入关键词，跨「读书研报 + 赛道」聚合检索。<br/>试试：<button class="text-brand hover:text-gold" @click="q='SPIN';doSearch()">SPIN</button>、
+      输入关键词，跨「读书研报 + 分类」聚合检索。<br/>试试：<button class="text-brand hover:text-gold" @click="q='SPIN';doSearch()">SPIN</button>、
       <button class="text-brand hover:text-gold" @click="q='大客户';doSearch()">大客户</button>、
       <button class="text-brand hover:text-gold" @click="q='定位';doSearch()">定位</button>、
       <button class="text-brand hover:text-gold" @click="q='团队';doSearch()">团队</button>
@@ -93,9 +93,9 @@ const total = computed(() => bookHits.value.length + trackHits.value.length + to
         </div>
       </section>
 
-      <!-- 学习赛道 -->
+      <!-- 按分类浏览 -->
       <section v-if="trackHits.length" class="mt-8">
-        <h2 class="eyebrow">学习赛道</h2>
+        <h2 class="eyebrow">按分类浏览</h2>
         <div class="mt-3 grid gap-4 md:grid-cols-3">
           <router-link
             v-for="t in trackHits"

@@ -10,7 +10,7 @@ export const metaArray = [
     subtitle: '营销·销售管理视角导读',
     category: '营销销售',
     track: 'marketing',
-    relatedTracks: ['marketing'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['产品营销', 'GTM', '定位', 'Message House', '价值销售', 'SaaS'],
     rating: 5.0,
     cover: '#1A2B45',
@@ -34,8 +34,8 @@ export const metaArray = [
     author: '汪波',
     subtitle: '营销·销售管理视角导读',
     category: '芯片技术产业史',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'marketing'],
     tags: ['芯片', '产业史', '创新', '摩尔定律', '技术趋势', '生态营销'],
     rating: 4.9,
     cover: '#7A2E2E',
@@ -58,8 +58,8 @@ export const metaArray = [
     author: '埃文·吉尔曼 / 道格·巴斯',
     subtitle: '营销·销售管理视角导读',
     category: '网络安全零信任',
-    track: 'sales',
-    relatedTracks: ['sales', 'marketing'],
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'marketing'],
     tags: ['网络安全', '零信任', '等保', '合规营销', 'CISO销售', '价值销售'],
     rating: 4.8,
     cover: '#1F4D3A',
@@ -82,8 +82,8 @@ export const metaArray = [
     author: '雷·库兹韦尔',
     subtitle: '营销·销售管理视角导读',
     category: 'AI未来技术战略',
-    track: 'marketing',
-    relatedTracks: ['marketing', 'sales'],
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'marketing'],
     tags: ['AI', '指数思维', '未来', 'AI赋能销售', '价值销售', '技术管理'],
     rating: 4.9,
     cover: '#3A2C5E',
@@ -106,8 +106,8 @@ export const metaArray = [
     author: '肖璟',
     subtitle: '营销·销售管理视角导读',
     category: '方法论思维',
-    track: 'sales',
-    relatedTracks: ['sales', 'marketing', 'team'],
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'marketing'],
     tags: ['行业研究', '麦肯锡', '生命周期营销', '顾问式销售', '售前', '内容营销'],
     rating: 4.8,
     cover: '#B5651D',
@@ -130,8 +130,8 @@ export const metaArray = [
     author: '马克·贝尼奥夫',
     subtitle: '营销·销售管理视角导读',
     category: 'SaaS商业方法论',
-    track: 'sales',
-    relatedTracks: ['sales', 'marketing', 'team'],
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
     tags: ['SaaS', '订阅营销', '客户成功', 'NRR', '价值销售', '平台化'],
     rating: 5.0,
     cover: '#0E6BA8',
@@ -154,8 +154,8 @@ export const metaArray = [
     author: '王良明',
     subtitle: '营销·销售管理视角导读',
     category: '云计算入门经典',
-    track: 'sales',
-    relatedTracks: ['sales', 'marketing'],
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'marketing'],
     tags: ['云计算', '类比营销', '分层方案', '责任共担', 'OPEX', '售前'],
     rating: 4.8,
     cover: '#2C7A7B',
@@ -179,8 +179,8 @@ export const metaArray = [
     author: '周岭',
     subtitle: '管理自我升级视角导读',
     category: '认知与自我管理',
-    track: 'team',
-    relatedTracks: ['team', 'sales'],
+    track: 'mindset',
+    relatedTracks: ['mindset', 'leadership', 'sales-craft'],
     tags: ['认知', '元认知', '自我管理', '专注力', '习惯', '复利', '团队觉醒'],
     rating: 4.9,
     cover: '#2E5A7A',
@@ -204,8 +204,8 @@ export const metaArray = [
     author: '丹纳赫公开资料 + 管理学界研究综编',
     subtitle: '经营系统视角导读',
     category: '经营系统与持续增长',
-    track: 'team',
-    relatedTracks: ['team', 'sales', 'marketing'],
+    track: 'strategy',
+    relatedTracks: ['strategy', 'leadership', 'marketing'],
     tags: ['DBS', '精益', '并购整合', '运营系统', '领导力', '持续增长', '管理操作系统'],
     rating: 4.9,
     cover: '#8C3B3B',
@@ -237,9 +237,11 @@ export const metaArray = [
     "author": "马修·狄克逊 / 布伦特·亚当森",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -273,9 +275,11 @@ export const metaArray = [
     "author": "雅各·范德库伊 / 费尔南多·皮萨罗",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -309,9 +313,11 @@ export const metaArray = [
     "author": "[美]汤姆·麦克马金 / 雅各布·帕克斯 著 / 欧阳小珍等 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -345,9 +351,11 @@ export const metaArray = [
     "author": "大卫·桑德拉 等",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -382,9 +390,11 @@ export const metaArray = [
     "author": "代爱军",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -418,9 +428,11 @@ export const metaArray = [
     "author": "[美]博恩·崔西 著 / 赵倩 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -454,9 +466,11 @@ export const metaArray = [
     "author": "付遥",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -490,9 +504,11 @@ export const metaArray = [
     "author": "[美]马克·罗伯格 著 / 高成资本 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -526,9 +542,11 @@ export const metaArray = [
     "author": "[美]邓·皮泊斯 / 马沙·容格斯 著 / 郑志凌等 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "account",
     "relatedTracks": [
-      "sales"
+      "account",
+      "sales-craft",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -562,9 +580,11 @@ export const metaArray = [
     "author": "张烈生",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -598,9 +618,11 @@ export const metaArray = [
     "author": "[美]基思·罗森 著 / 张瀚文 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -634,9 +656,11 @@ export const metaArray = [
     "author": "孙宏伟",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -670,9 +694,11 @@ export const metaArray = [
     "author": "迈克·温伯格（Mike Weinberg）",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -706,9 +732,11 @@ export const metaArray = [
     "author": "贾斯汀·迈克尔（Justin Michael）、托尼·J·休斯（Tony J. Hughes）",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -742,9 +770,11 @@ export const metaArray = [
     "author": "Jobber & Lancaster《Selling and Sales Management》第10版 / 李先国 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -778,9 +808,11 @@ export const metaArray = [
     "author": "沈阿强 / 陈洁 / 秦娟",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "account",
     "relatedTracks": [
-      "sales"
+      "account",
+      "sales-craft",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -814,9 +846,11 @@ export const metaArray = [
     "author": "[美]赫伯·戈瑞伯格 等 著 / 曹淮扬等 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "leadership",
     "relatedTracks": [
-      "sales"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -850,9 +884,11 @@ export const metaArray = [
     "author": "夏凯",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -886,9 +922,11 @@ export const metaArray = [
     "author": "戴维·梅斯特 / 查尔斯·格林 / 罗伯特·加夫",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -922,9 +960,11 @@ export const metaArray = [
     "author": "尼尔·雷克汉姆",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -958,9 +998,11 @@ export const metaArray = [
     "author": "[美]杰森·乔丹 / 米歇尔·法森那 著 / 毛雪梅 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "sales-craft",
     "relatedTracks": [
-      "sales"
+      "sales-craft",
+      "account",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -994,9 +1036,11 @@ export const metaArray = [
     "author": "[英]彼得·菲斯克 著 / 杨瑛 译",
     "subtitle": "销售实战荐读",
     "category": "销售",
-    "track": "sales",
+    "track": "account",
     "relatedTracks": [
-      "sales"
+      "account",
+      "sales-craft",
+      "mindset"
     ],
     "tags": [
       "销售",
@@ -1032,7 +1076,9 @@ export const metaArray = [
     "category": "营销",
     "track": "marketing",
     "relatedTracks": [
-      "marketing"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "营销",
@@ -1068,7 +1114,9 @@ export const metaArray = [
     "category": "营销",
     "track": "marketing",
     "relatedTracks": [
-      "marketing"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "营销",
@@ -1105,7 +1153,9 @@ export const metaArray = [
     "category": "营销",
     "track": "marketing",
     "relatedTracks": [
-      "marketing"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "营销",
@@ -1141,7 +1191,9 @@ export const metaArray = [
     "category": "营销",
     "track": "marketing",
     "relatedTracks": [
-      "marketing"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "营销",
@@ -1177,7 +1229,9 @@ export const metaArray = [
     "category": "营销",
     "track": "marketing",
     "relatedTracks": [
-      "marketing"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "营销",
@@ -1213,7 +1267,9 @@ export const metaArray = [
     "category": "营销",
     "track": "marketing",
     "relatedTracks": [
-      "marketing"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "营销",
@@ -1247,9 +1303,11 @@ export const metaArray = [
     "author": "代莹莹",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1283,9 +1341,11 @@ export const metaArray = [
     "author": "丹尼尔·卡尼曼",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1319,9 +1379,11 @@ export const metaArray = [
     "author": "埃里克·乔根森 编 / 纳瓦尔·拉维坎特",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1355,9 +1417,11 @@ export const metaArray = [
     "author": "尼尔·布朗 / 斯图尔特·基利",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1391,9 +1455,11 @@ export const metaArray = [
     "author": "杨鸣",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1427,9 +1493,11 @@ export const metaArray = [
     "author": "詹姆斯·克利尔",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1463,9 +1531,11 @@ export const metaArray = [
     "author": "埃米尼亚·伊巴拉",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1499,9 +1569,11 @@ export const metaArray = [
     "author": "罗伯特·西奥迪尼",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1535,9 +1607,11 @@ export const metaArray = [
     "author": "阿维纳什·迪克西特 / 巴里·奈尔伯夫",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1571,9 +1645,11 @@ export const metaArray = [
     "author": "[美]辛迪·戴尔 著 / 镜如 译",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "account",
     "relatedTracks": [
-      "team"
+      "account",
+      "sales-craft",
+      "mindset"
     ],
     "tags": [
       "个人成长",
@@ -1607,9 +1683,11 @@ export const metaArray = [
     "author": "威尔·鲍温",
     "subtitle": "个人成长荐读",
     "category": "个人成长",
-    "track": "team",
+    "track": "mindset",
     "relatedTracks": [
-      "team"
+      "mindset",
+      "leadership",
+      "sales-craft"
     ],
     "tags": [
       "个人成长",
@@ -1643,9 +1721,11 @@ export const metaArray = [
     "author": "[以]尤里·莱文 著 / 桂曙光等 译",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1680,9 +1760,11 @@ export const metaArray = [
     "author": "杨勇",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1717,9 +1799,11 @@ export const metaArray = [
     "author": "况阳",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1753,9 +1837,11 @@ export const metaArray = [
     "author": "毛万金",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1790,9 +1876,11 @@ export const metaArray = [
     "author": "张烈生",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1826,9 +1914,11 @@ export const metaArray = [
     "author": "王育琨",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1863,9 +1953,11 @@ export const metaArray = [
     "author": "戴维・E. 佩里（David E. Perry）、马克・J. 哈鲁斯卡（Mark J. Haluska）",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -1899,9 +1991,11 @@ export const metaArray = [
     "author": "李践",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "strategy",
     "relatedTracks": [
-      "team"
+      "strategy",
+      "leadership",
+      "marketing"
     ],
     "tags": [
       "经营管理",
@@ -1935,9 +2029,11 @@ export const metaArray = [
     "author": "董小英 / 周佳利 / 余艳",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "strategy",
     "relatedTracks": [
-      "team"
+      "strategy",
+      "leadership",
+      "marketing"
     ],
     "tags": [
       "经营管理",
@@ -1971,9 +2067,11 @@ export const metaArray = [
     "author": "陶鑫亚 / 高燕",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "marketing",
     "relatedTracks": [
-      "team"
+      "marketing",
+      "strategy",
+      "sales-craft"
     ],
     "tags": [
       "经营管理",
@@ -2007,9 +2105,11 @@ export const metaArray = [
     "author": "汉密尔顿·赫尔默",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "strategy",
     "relatedTracks": [
-      "team"
+      "strategy",
+      "leadership",
+      "marketing"
     ],
     "tags": [
       "经营管理",
@@ -2043,9 +2143,11 @@ export const metaArray = [
     "author": "彼得·圣吉",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -2079,9 +2181,11 @@ export const metaArray = [
     "author": "[日]山田英夫 著 / 范婷婷 译",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "strategy",
     "relatedTracks": [
-      "team"
+      "strategy",
+      "leadership",
+      "marketing"
     ],
     "tags": [
       "经营管理",
@@ -2115,9 +2219,11 @@ export const metaArray = [
     "author": "[美]帕特里克·兰西奥尼 著 / 林屾 译",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -2151,9 +2257,11 @@ export const metaArray = [
     "author": "托马斯·舒尔茨",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "strategy",
     "relatedTracks": [
-      "team"
+      "strategy",
+      "leadership",
+      "marketing"
     ],
     "tags": [
       "经营管理",
@@ -2187,9 +2295,11 @@ export const metaArray = [
     "author": "[美]丹·沙利文 / 本杰明·哈迪 著 / 白瑞霞 译",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "strategy",
     "relatedTracks": [
-      "team"
+      "strategy",
+      "leadership",
+      "marketing"
     ],
     "tags": [
       "经营管理",
@@ -2223,9 +2333,11 @@ export const metaArray = [
     "author": "赵国军",
     "subtitle": "经营管理荐读",
     "category": "管理·经营",
-    "track": "team",
+    "track": "leadership",
     "relatedTracks": [
-      "team"
+      "leadership",
+      "strategy",
+      "mindset"
     ],
     "tags": [
       "经营管理",
@@ -2261,8 +2373,8 @@ export const metaArray = [
     author: '克里斯·阿吉里斯（Chris Argyris）/ 唐纳德·舍恩（Donald A. Schön）',
     subtitle: '组织学习·行动科学视角导读',
     category: '组织学习',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     series: 'tip',
     tags: ['宣称理论', '使用理论', '双环学习', 'Model I/II', '行动科学', '组织学习', '知行合一'],
     rating: 5.0,
@@ -2287,8 +2399,8 @@ export const metaArray = [
     author: '克里斯·阿吉里斯 / 唐纳德·A.舍恩',
     subtitle: '2008 中文译本 · 译本导读',
     category: '组织学习',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     series: 'tip',
     editionOf: 'tip',
     tags: ['宣称理论', '使用理论', '行动科学经典译丛', '译本', '专业效能'],
@@ -2313,8 +2425,8 @@ export const metaArray = [
     author: '克里斯·阿吉里斯 / 唐纳德·舍恩',
     subtitle: '2024 中文新译 · 译本导读',
     category: '组织学习',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     series: 'tip',
     editionOf: 'tip',
     tags: ['宣称理论', '使用理论', '学习型组织', '译本', '双环学习'],
@@ -2340,8 +2452,8 @@ export const metaArray = [
     author: '诺埃尔·凯普（Noel Capon）/ 郑毓煌 / 张坚 著，郭武文 译',
     subtitle: '营销·销售管理视角导读',
     category: '大客户销售 · 关键客户管理',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
     tags: ['关键客户', '大客户', 'KAM', '相合性模型', '关键客户经理', '客户组合', '价值销售'],
     rating: 4.9,
     cover: '#2E4A7A',
@@ -2364,8 +2476,8 @@ export const metaArray = [
     author: '史蒂夫·赫曼（Stephen E. Heiman）/ 黛安·桑切兹（Diane Sanchez）/ 泰德·图勒（Tad Tuleja） 著',
     subtitle: '复杂大单控单方法论导读',
     category: '大客户销售 · 复杂机会管控',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'account', 'mindset'],
     tags: ['战略销售', '蓝表', '绿表', '四种买家角色', '经济买家', '教练', '复杂销售', '米勒黑曼'],
     rating: 4.8,
     cover: '#1F6F54',
@@ -2389,8 +2501,8 @@ export const metaArray = [
     author: '罗杰·道森（Roger Dawson） 著',
     subtitle: '开局 · 中局 · 终局战术导读',
     category: '谈判 · 价格与条款',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
     tags: ['优势谈判', '开局策略', '钳子策略', '谈判让步', '道森', '价格谈判', '条款博弈', '定价书组'],
     rating: 4.6,
     cover: '#B5462E',
@@ -2414,8 +2526,8 @@ export const metaArray = [
     author: '罗杰·费希尔（Roger Fisher）/ 威廉·尤里（William Ury）/ 布鲁斯·巴顿（Bruce Patton） 著',
     subtitle: '原则式谈判四要素导读',
     category: '谈判 · 原则与底层',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
     tags: ['原则谈判', '哈佛', '利益而非立场', 'BATNA', '客观标准', '双赢', 'Getting to Yes'],
     rating: 4.7,
     cover: '#2E5B84',
@@ -2439,8 +2551,8 @@ export const metaArray = [
     author: '综合实操（基于政企销售一线经验与公开采购制度整理）',
     subtitle: '政企 ToG 大客户打法导读',
     category: '政企销售 · ToG 垂直',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
     tags: ['政企销售', '政府采购', '招投标', '信创', '预算制', '决策链', '关系经营', '合规'],
     rating: 4.5,
     cover: '#6B4F8A',
@@ -2464,7 +2576,7 @@ export const metaArray = [
     subtitle: '高科技产品规模化营销导读',
     category: '科技产品营销 · 鸿沟理论',
     track: 'marketing',
-    relatedTracks: ['marketing'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['鸿沟理论', '技术采纳生命周期', '整体产品', '利基滩头', 'GTM', '规模化', '定位进攻'],
     rating: 4.8,
     cover: '#2E5A4B',
@@ -2489,7 +2601,7 @@ export const metaArray = [
     subtitle: '争夺用户心智的战争导读',
     category: '品牌营销 · 定位理论',
     track: 'marketing',
-    relatedTracks: ['marketing'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['定位', '心智阶梯', '数一数二', '空位战略', '品牌延伸陷阱', '视觉锤'],
     rating: 4.8,
     cover: '#9A3B3B',
@@ -2514,7 +2626,7 @@ export const metaArray = [
     subtitle: '政企精准营销导读',
     category: 'B2B 营销 · 账号化增长',
     track: 'marketing',
-    relatedTracks: ['marketing'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['ABM', 'ICP', 'TAL', '营销销售协同', '1对1个性化', '按账号度量', '政企精准'],
     rating: 4.6,
     cover: '#2F6B5E',
@@ -2538,8 +2650,8 @@ export const metaArray = [
     author: '约翰·惠特默（John Whitmore）',
     subtitle: '用提问释放团队潜能导读',
     category: '团队管理 · 教练式领导',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     tags: ['教练', 'GROW模型', '提问', '潜能', '绩效', '倾听'],
     rating: 4.7,
     cover: '#3B5B9A',
@@ -2562,8 +2674,8 @@ export const metaArray = [
     author: '拉姆·查兰（Ram Charan）、斯蒂芬·德罗特、詹姆斯·诺埃尔',
     subtitle: '六层领导力转型导读',
     category: '组织领导 · 梯队建设',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     tags: ['领导梯队', '六层转型', '角色转型', '能力时间价值', '人才盘点', '管理层级'],
     rating: 4.8,
     cover: '#5A4B8A',
@@ -2586,8 +2698,8 @@ export const metaArray = [
     author: '科里·帕特森（Kerry Patterson）等（VitalSmarts）',
     subtitle: '高风险沟通实战导读',
     category: '团队沟通 · 冲突管理',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
     tags: ['关键对话', 'CPR', '安全感', 'STATE法', '冲突', '沟通'],
     rating: 4.7,
     cover: '#8A6B3B',
@@ -2610,8 +2722,8 @@ export const metaArray = [
     author: '迈克尔·波特（Michael E. Porter）',
     subtitle: '结构化行业分析导读',
     category: '战略 · 行业分析',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'strategy',
+    relatedTracks: ['strategy', 'leadership', 'marketing'],
     tags: ['五力模型', '三大通用战略', '价值链', '战略取舍', '差异化', '集中化'],
     rating: 4.9,
     cover: '#7A3B5A',
@@ -2634,8 +2746,8 @@ export const metaArray = [
     author: '综合（基于 AI 销售一线实践与公开研究整理）',
     subtitle: '销售智能化落地导读',
     category: '销售科技 · AI 赋能',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'marketing'],
     tags: ['AI销售', '预测性线索评分', '对话智能', 'CRM智能化', '销售预测', '赋能', '人机协同'],
     rating: 4.5,
     cover: '#3B7A6B',
@@ -2658,8 +2770,8 @@ export const metaArray = [
     author: '基斯·伊迪斯（Keith Eades）',
     subtitle: '用痛点逻辑树卖解决方案',
     category: '销售方法 · 解决方案销售',
-    track: 'sales',
-    relatedTracks: ['sales'],
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'account', 'mindset'],
     tags: ['解决方案销售', '痛点逻辑树', '买方流程', '量化影响', '控单', 'PIC/S'],
     rating: 4.5,
     cover: '#2E6E8E',
@@ -2683,7 +2795,7 @@ export const metaArray = [
     subtitle: '用视觉占据顾客心智',
     category: '营销 · 品牌定位',
     track: 'marketing',
-    relatedTracks: ['marketing'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['视觉锤', '语言钉', '品牌心智', '视觉营销', '定位', 'B2B品牌'],
     rating: 4.3,
     cover: '#C8553D',
@@ -2707,7 +2819,7 @@ export const metaArray = [
     subtitle: '不可动摇的品牌定律',
     category: '营销 · 品牌定位',
     track: 'marketing',
-    relatedTracks: ['marketing'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['品牌', '品类定律', '品牌延伸', '公关', '命名', '定位系列'],
     rating: 4.2,
     cover: '#7A4F91',
@@ -2730,8 +2842,8 @@ export const metaArray = [
     author: 'W. 钱·金（W. Chan Kim） & 勒妮·莫博涅（Renée Mauborgne）',
     subtitle: '开创无争市场的战略逻辑',
     category: '团队 · 战略思维',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'strategy',
+    relatedTracks: ['strategy', 'leadership', 'marketing'],
     tags: ['蓝海战略', '价值创新', '四步动作', '战略布局图', '差异化', '去价格战', '定价书组'],
     rating: 4.6,
     cover: '#1F7A8C',
@@ -2754,8 +2866,8 @@ export const metaArray = [
     author: '安迪·格鲁夫（Andy Grove）',
     subtitle: '一线经理的日常动作手册',
     category: '团队 · 管理实务',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     tags: ['管理', '一对一会议', '目标KPI', '授权', '反馈', '时间杠杆'],
     rating: 4.7,
     cover: '#B5651D',
@@ -2778,8 +2890,8 @@ export const metaArray = [
     author: '克莱顿·克里斯坦森（Clayton M. Christensen）',
     subtitle: '大公司为何在颠覆中失败',
     category: '团队 · 战略思维',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'strategy',
+    relatedTracks: ['strategy', 'leadership', 'marketing'],
     tags: ['颠覆式创新', '延续性创新', 'RPV框架', '价值网络', '破坏性创新', '创新管理'],
     rating: 4.6,
     cover: '#2D6A4F',
@@ -2802,8 +2914,8 @@ export const metaArray = [
     author: '瑞·达里奥（Ray Dalio）',
     subtitle: '用可执行的准则把决策交给系统',
     category: '团队 · 决策准则',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     tags: ['原则', '可信度加权', '极度求真', '五步流程', '决策系统', '反思'],
     rating: 4.4,
     cover: '#9A2D2D',
@@ -2827,8 +2939,8 @@ export const metaArray = [
     author: '刘春雷 / 易虹 / 王琳',
     subtitle: '绩效改进·技控思维导读',
     category: '团队 · 绩效改进',
-    track: 'team',
-    relatedTracks: ['team'],
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy', 'mindset'],
     tags: ['技控', '人控', '绩效改进', '行为工程模型', 'CODE模型', '4E原则', '简化事赋能人', '可复制扩张'],
     rating: 4.7,
     cover: '#2D7A6B',
@@ -2854,7 +2966,7 @@ export const metaArray = [
     subtitle: '世界最盈利公司的创新定价策略',
     category: '营销 · 定价策略',
     track: 'marketing',
-    relatedTracks: ['marketing', 'sales'],
+    relatedTracks: ['marketing', 'strategy', 'sales-craft'],
     tags: ['定价', '支付意愿', '价值定价', '动态定价', '零定价', '绩效定价', '差异化定价', '订购式定价', '价格战', '微定价'],
     rating: 4.6,
     cover: '#B5651D',
@@ -2877,8 +2989,8 @@ export const metaArray = [
     author: '杰弗里·摩尔（Geoffrey A. Moore）',
     subtitle: '持续增长的新五力分析',
     category: '企业战略 · 组织转型',
-    track: 'team',
-    relatedTracks: ['team', 'marketing'],
+    track: 'strategy',
+    relatedTracks: ['strategy', 'leadership', 'marketing'],
     tags: ['品类力', '新五力模型', '组织惯性', '投资组合', '品类成熟生命周期', '第二曲线', '战略转型', '增长突围'],
     rating: 4.7,
     cover: '#3A6EA5',

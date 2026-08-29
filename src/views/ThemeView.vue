@@ -72,7 +72,7 @@ function count(id) {
         <p class="eyebrow text-gold-light">主题导览 · Theme Guide</p>
         <h1 class="mt-2 text-3xl font-bold sm:text-4xl">按业务问题找书</h1>
         <p class="mt-4 max-w-2xl leading-relaxed text-white/70">
-          不按赛道，而按你正在面对的真实业务问题聚合：政企 ToG 打单、一线销售、营销获客、谈判沟通、带团队、定战略、组织学习、看懂技术。挑一个主题，直接开读。
+          不按分类，而按你正在面对的真实业务问题聚合：政企 ToG 打单、一线销售、营销获客、谈判沟通、带团队、定战略、组织学习、看懂技术。挑一个主题，直接开读。
         </p>
       </div>
     </section>

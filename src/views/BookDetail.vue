@@ -61,13 +61,13 @@ const html = computed(() => {
   return marked.parse(primary || fallback || '')
 })
 
-// 关联赛道：把读到的书，链回对应阅读视角
+// 关联分类：把读到的书，链回对应阅读视角
 const relatedLinks = computed(() => {
   const ids = book.value.relatedTracks || []
   return ids
     .map((id) => {
       const t = tracks[id]
-      return t ? { to: `/track/${id}`, label: `${t.name} 赛道` } : null
+      return t ? { to: `/track/${id}`, label: `${t.name} 分类` } : null
     })
     .filter(Boolean)
 })
@@ -300,7 +300,7 @@ async function onCopy() {
 
     <!-- 关联课程 -->
     <section v-if="relatedLinks.length" class="mt-6 rounded-xl border border-gold/40 bg-gold/5 p-5 no-print">
-      <p class="eyebrow text-gold-dark">关联赛道 · 同视角延伸阅读</p>
+      <p class="eyebrow text-gold-dark">关联分类 · 同视角延伸阅读</p>
       <div class="mt-3 flex flex-wrap gap-3">
         <router-link
           v-for="l in relatedLinks"

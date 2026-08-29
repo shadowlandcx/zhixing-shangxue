@@ -1,10 +1,11 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { books, categories } from '../data/books'
+import { books } from '../data/books'
+import { trackList } from '../data/tracks'
 import { allTools } from '../data/tools/index'
 
 const kw = ref('')
-const activeCat = ref('全部')
+const activeCat = ref('all')
 const activeTag = ref('')
 const activeArchive = ref('') // 如 '2026-7'
 const sortMode = ref('default') // default | hot | new
@@ -41,13 +42,13 @@ const topHot = computed(() =>
 )
 
 const hasFilter = computed(
-  () => activeCat.value !== '全部' || !!activeTag.value || !!activeArchive.value || !!kw.value.trim()
+  () => activeCat.value !== 'all' || !!activeTag.value || !!activeArchive.value || !!kw.value.trim()
 )
 
 const base = computed(() => {
   const q = kw.value.trim().toLowerCase()
   return books.filter((b) => {
-    const catOk = activeCat.value === '全部' || b.category === activeCat.value
+    const catOk = activeCat.value === 'all' || b.track === activeCat.value
     const tagOk = !activeTag.value || (b.tags || []).includes(activeTag.value)
     const arcOk = !activeArchive.value || (() => {
       const m = /(\d{4})年(\d{1,2})月/.exec(b.meta?.date || '')
@@ -78,7 +79,7 @@ function toggleArchive(key) {
   activeArchive.value = activeArchive.value === key ? '' : key
 }
 function resetAll() {
-  activeCat.value = '全部'
+  activeCat.value = 'all'
   activeTag.value = ''
   activeArchive.value = ''
   kw.value = ''
@@ -116,8 +117,8 @@ function stars(r) {
         <span class="btn-gold shrink-0">前往工具箱 →</span>
       </router-link>
 
-      <!-- 工具栏：搜索 + 分类 + 排序 -->
-      <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+      <!-- 工具栏：搜索 + 排序 -->
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div class="relative w-full sm:max-w-sm">
           <input
             v-model="kw"
@@ -126,25 +127,35 @@ function stars(r) {
             class="w-full rounded-lg border border-line bg-white px-4 py-2.5 text-sm outline-none focus:border-gold"
           />
         </div>
-        <div class="flex flex-wrap items-center gap-2">
-          <button
-            v-for="c in ['全部', ...categories]"
-            :key="c"
-            @click="activeCat = c"
-            class="rounded-full border px-3 py-1.5 text-sm transition"
-            :class="activeCat === c ? 'border-gold bg-gold/10 text-brand font-semibold' : 'border-line text-muted hover:border-gold'"
-          >
-            {{ c }}
-          </button>
-          <select
-            v-model="sortMode"
-            class="ml-auto rounded-lg border border-line bg-white px-3 py-1.5 text-sm text-ink outline-none focus:border-gold"
-          >
-            <option value="default">默认顺序</option>
-            <option value="hot">热门排行（评分高→低）</option>
-            <option value="new">最新归档（时间新→旧）</option>
-          </select>
-        </div>
+        <select
+          v-model="sortMode"
+          class="rounded-lg border border-line bg-white px-3 py-1.5 text-sm text-ink outline-none focus:border-gold"
+        >
+          <option value="default">默认顺序</option>
+          <option value="hot">热门排行（评分高→低）</option>
+          <option value="new">最新归档（时间新→旧）</option>
+        </select>
+      </div>
+
+      <!-- 分类筛选：7 大能力域（替换原先 35 个粒度混乱的 category） -->
+      <div class="mt-3 flex flex-wrap items-center gap-2">
+        <button
+          @click="activeCat = 'all'"
+          class="rounded-full border px-3 py-1.5 text-sm transition"
+          :class="activeCat === 'all' ? 'border-gold bg-gold/10 font-semibold text-brand' : 'border-line text-muted hover:border-gold'"
+        >
+          全部 <span class="text-xs opacity-60">{{ books.length }}</span>
+        </button>
+        <button
+          v-for="t in trackList"
+          :key="t.id"
+          :title="t.desc"
+          @click="activeCat = t.id"
+          class="rounded-full border px-3 py-1.5 text-sm transition"
+          :class="activeCat === t.id ? 'border-gold bg-gold/10 font-semibold text-brand' : 'border-line text-muted hover:border-gold'"
+        >
+          {{ t.icon }} {{ t.name }} <span class="text-xs opacity-60">{{ t.relatedBooks.length }}</span>
+        </button>
       </div>
 
       <!-- 主体 + 侧栏 -->

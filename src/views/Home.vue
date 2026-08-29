@@ -84,7 +84,7 @@ function onSearch() {
       <input
         v-model="searchQ"
         type="text"
-        placeholder="搜索书籍、赛道…（如：SPIN、大客户、定位、团队）"
+        placeholder="搜索书籍、分类…（如：SPIN、大客户、定位、团队）"
         class="flex-1 rounded-lg px-4 py-2.5 text-sm outline-none"
       />
       <button class="btn-gold shrink-0" type="submit">搜索</button>
@@ -116,7 +116,7 @@ function onSearch() {
         <div>
           <p class="text-xs font-semibold uppercase tracking-widest text-gold-dark">主题导览</p>
           <h3 class="mt-0.5 text-lg font-bold text-brand">按业务问题找书</h3>
-          <p class="mt-1 text-sm text-muted">8 大主题，跨赛道聚合 · 探索 →</p>
+          <p class="mt-1 text-sm text-muted">8 大主题，跨分类聚合 · 探索 →</p>
         </div>
       </router-link>
       <router-link to="/paths" class="flex items-center gap-4 rounded-xl border border-line bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold hover:shadow-lg">
@@ -141,16 +141,38 @@ function onSearch() {
   <!-- Tracks -->
   <section id="tracks" class="container-px py-16">
     <div class="text-center">
-      <p class="eyebrow">三大核心赛道</p>
+      <p class="eyebrow">{{ trackList.length }} 大能力域 · 覆盖 {{ books.length }} 本</p>
       <h2 class="mt-3 text-2xl font-bold text-brand sm:text-3xl">选你的战场，学你的打法</h2>
+      <p class="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+        按「能力域」而非按岗位分类——同一个打单难题，往往需要跨域组合阅读。
+      </p>
     </div>
-    <div class="mt-10 grid gap-6 md:grid-cols-3">
-      <router-link v-for="t in trackList" :key="t.id" :to="`/track/${t.id}`" class="card group p-6 transition hover:-translate-y-1 hover:shadow-lg">
-        <div class="text-4xl">{{ t.icon }}</div>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <router-link
+        v-for="t in trackList"
+        :key="t.id"
+        :to="`/track/${t.id}`"
+        class="card group p-6 transition hover:-translate-y-1 hover:shadow-lg"
+      >
+        <div class="flex items-start justify-between gap-2">
+          <div class="text-4xl">{{ t.icon }}</div>
+          <span class="shrink-0 rounded-full bg-paper px-2 py-0.5 text-xs font-medium text-muted">{{ t.relatedBooks.length }} 本</span>
+        </div>
         <h3 class="mt-4 text-xl font-semibold text-brand group-hover:text-gold-dark">{{ t.name }}</h3>
         <p class="mt-1 text-sm font-medium text-gold-dark">{{ t.tagline }}</p>
         <p class="mt-3 text-sm leading-relaxed text-muted">{{ t.desc }}</p>
-        <span class="mt-5 inline-flex items-center text-sm font-medium text-brand">进入赛道 →</span>
+        <span class="mt-5 inline-flex items-center text-sm font-medium text-brand">进入分类 →</span>
+      </router-link>
+
+      <!-- 末位 CTA：填满 4 列网格末行，同时给一个明确的兜底入口 -->
+      <router-link
+        to="/books"
+        class="group flex flex-col items-center justify-center rounded-xl border-2 border-dashed border-line p-6 text-center transition hover:border-gold hover:bg-paper"
+      >
+        <div class="text-3xl">📖</div>
+        <p class="mt-3 text-base font-semibold text-brand">浏览全部 {{ books.length }} 本</p>
+        <p class="mt-1 text-sm text-muted">按分类筛选 · 按评分排序</p>
+        <span class="mt-4 inline-flex items-center text-sm font-medium text-gold-dark">进入书架 →</span>
       </router-link>
     </div>
   </section>

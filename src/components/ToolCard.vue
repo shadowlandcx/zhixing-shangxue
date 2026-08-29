@@ -12,6 +12,18 @@ async function onExcel(t) {
   downloadingId.value = t.id
   try { await downloadExcel(t) } finally { downloadingId.value = '' }
 }
+
+// 7 大分类配色（与 toolCategories / tracks 保持一致）
+const CAT_STYLE = {
+  'sales-craft': 'bg-blue-50 text-blue-600',
+  'account': 'bg-amber-50 text-amber-700',
+  'marketing': 'bg-rose-50 text-rose-600',
+  'leadership': 'bg-emerald-50 text-emerald-600',
+  'strategy': 'bg-indigo-50 text-indigo-600',
+  'mindset': 'bg-violet-50 text-violet-600',
+  'industry': 'bg-cyan-50 text-cyan-700'
+}
+const catStyle = (t) => CAT_STYLE[t.track] || 'bg-gray-50 text-gray-600'
 </script>
 
 <template>
@@ -25,11 +37,7 @@ async function onExcel(t) {
       <span
         v-if="tool.cat"
         class="w-fit shrink-0 rounded-full px-2.5 py-0.5 text-xs"
-        :class="{
-          'bg-rose-50 text-rose-600': tool.category === 'marketing',
-          'bg-blue-50 text-blue-600': tool.category === 'sales',
-          'bg-emerald-50 text-emerald-600': tool.category === 'team'
-        }"
+        :class="catStyle(tool)"
       >{{ tool.cat.icon }} {{ tool.cat.label }}</span>
       <h3 class="text-base font-bold leading-snug text-ink">📑 {{ tool.title }}</h3>
     </div>

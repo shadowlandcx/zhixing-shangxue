@@ -17,7 +17,16 @@
 //   stage: diagnose(诊断) | plan(规划) | execute(执行) | review(复盘)
 //   difficulty: 1|2|3（★ 数）  duration: 建议用时  pitfalls: 常见坑  successMetric: 怎么算用对
 
+import { metaArray } from '../books-meta'
 import { marketingTools } from './marketing'
+
+// 书籍 id → 新分类（7 大类）。工具自身的 category 仍是旧三分类（历史字段），
+// 这里统一派生 track 字段，供分组与徽标使用，避免两处分类口径不一致。
+const BOOK_TRACK = Object.fromEntries(metaArray.map((b) => [b.id, b.track]))
+const FALLBACK_TRACK = { sales: 'sales-craft', marketing: 'marketing', team: 'leadership' }
+function trackOf(t) {
+  return BOOK_TRACK[t.bookId] || FALLBACK_TRACK[t.category] || 'sales-craft'
+}
 import { salesTools } from './sales'
 import { teamTools } from './team'
 import { pilotTools } from './pilot'
@@ -168,36 +177,30 @@ export const allTools = [
   ...principlesTools,
   ...smartPricingTools,
   ...escapeVelocityTools
-]
+].map((t) => ({ ...t, track: trackOf(t) }))
 
-// 赛道元信息（用于筛选 Tab 与徽标）
+// 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致
 export const toolCategories = {
-  marketing: { key: 'marketing', label: '营销', icon: '📣', desc: '定位 · 渠道 · 场景 · 内容获客' },
-  sales: { key: 'sales', label: '销售', icon: '🤝', desc: '大客户 · SaaS 漏斗 · 拜访 · 谈判' },
-  team: { key: 'team', label: '团队', icon: '👥', desc: '管理 · 组织 · 决策 · 人才' }
+  'sales-craft': { key: 'sales-craft', label: '销售打法', icon: '🎯', desc: '提问 · 方案 · 信任 · 拜访 · 谈判' },
+  'account': { key: 'account', label: '客户经营', icon: '🏛️', desc: '大客户 · 政企 · 客户成功' },
+  'marketing': { key: 'marketing', label: '营销增长', icon: '📣', desc: '定位 · 品牌 · 产品营销 · 定价' },
+  'leadership': { key: 'leadership', label: '团队管理', icon: '🤝', desc: '教练 · 组织 · 人才 · 绩效' },
+  'strategy': { key: 'strategy', label: '战略经营', icon: '🧭', desc: '竞争 · 创新 · 商业模式' },
+  'mindset': { key: 'mindset', label: '认知进化', icon: '🧠', desc: '思维 · 习惯 · 影响力' },
+  'industry': { key: 'industry', label: '行业科技', icon: '⚡', desc: '芯片 · 云 · AI · 行业研究' }
 }
 
-// 按赛道分组（旧工具 + 对应赛道的 Phase 1/2 工具包）
-export const toolsByCategory = {
-  marketing: [...marketingTools2, ...pilotTools.filter((t) => t.category === 'marketing'), ...marketingBatch1Tools, ...crossingTheChasmTools, ...positioningTools, ...abmTools, ...visualHammerTools, ...twentyTwoLawsTools, ...smartPricingTools],
-  sales: [
-    ...salesTools2,
-    ...pilotTools.filter((t) => t.category === 'sales'),
-    ...salesBatch1Tools,
-    ...salesBatch2Tools,
-    ...salesBatch3Tools,
-    ...salesBatch4Tools,
-    ...strategicSellingTools,
-    ...powerNegotiationTools,
-    ...principledNegotiationTools,
-    ...govEnterpriseSalesTools,
-    ...aiForSalesTools,
-    ...newSolutionSellingTools
-  ],
-  team: [...teamTools2, ...pilotTools.filter((t) => t.category === 'team'), ...teamBatch1Tools, ...teamBatch2Tools, ...teamBatch3Tools, ...teamBatch4Tools, ...teamBatch5Tools, ...coachingForPerformanceTools, ...leadershipPipelineTools, ...crucialConversationsTools, ...competitiveStrategyTools, ...blueOceanStrategyTools, ...highOutputManagementTools, ...innovatorsDilemmaTools, ...principlesTools,
-  ...escapeVelocityTools
-  ]
-}
+// 按「书籍所属分类」动态归集工具（7 大类）
+// 说明：工具自身的 category 字段保留旧三分类（历史字段），
+// 但分组按 track（书籍所属新分类），保证「某本书的工具」与其分类始终一致。
+export const toolsByCategory = (() => {
+  const m = {}
+  Object.keys(toolCategories).forEach((k) => { m[k] = [] })
+  allTools.forEach((t) => {
+    ;(m[t.track] = m[t.track] || []).push(t)
+  })
+  return m
+})()
 
 export function getTool(id) {
   return allTools.find((t) => t.id === id) || null

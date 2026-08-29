@@ -41,12 +41,12 @@ const dimOrder = ['K', 'S', 'A']
         <div class="flex items-center gap-3">
           <span class="flex h-11 w-11 items-center justify-center rounded-lg bg-brand text-xl">🗺️</span>
           <div>
-            <h1 class="text-2xl font-bold text-brand">三赛道能力地图</h1>
+            <h1 class="text-2xl font-bold text-brand">能力地图 · 销售 / 营销 / 管理三条线</h1>
             <p class="mt-1 text-sm text-muted">按「职级分层 × 能力维度」画出成长路径，每个能力点可点进对应书目——把一本好书读成能上手的武器。</p>
           </div>
         </div>
 
-        <!-- 赛道切换 -->
+        <!-- 方向切换 -->
         <div class="mt-6 flex flex-wrap gap-3">
           <button
             v-for="t in capabilityTracks"
@@ -58,7 +58,7 @@ const dimOrder = ['K', 'S', 'A']
               : 'border-line bg-paper text-ink hover:border-gold'"
             :style="activeTrack === t.id ? { backgroundColor: t.color } : {}"
           >
-            {{ t.name }}赛道
+            {{ t.name }}方向
           </button>
         </div>
         <p v-if="trackMeta" class="mt-3 text-sm text-muted">{{ trackMeta.desc }}</p>
@@ -138,7 +138,7 @@ const dimOrder = ['K', 'S', 'A']
       </div>
 
       <p class="mt-8 text-center text-xs text-muted">
-        能力地图由知行商学培训设计师基于三赛道书目设计，点书名即可跳转到对应「深度导读」，点 🔧 配套工具可直接打开该书的实战模板（支持 Excel / PDF 下载）。建议结合读书会共读，按层级逐格点亮。
+        能力地图由知行商学培训设计师基于三条线书目设计，点书名即可跳转到对应「深度导读」，点 🔧 配套工具可直接打开该书的实战模板（支持 Excel / PDF 下载）。建议结合读书会共读，按层级逐格点亮。
       </p>
     </section>
   </div>

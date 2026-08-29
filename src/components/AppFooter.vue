@@ -14,7 +14,7 @@ const year = new Date().getFullYear()
         <p class="mt-4 text-sm leading-relaxed text-white/60">面向企业经营者的读书研报站，带着岗位视角读透商业经典。</p>
       </div>
       <div>
-        <h4 class="text-sm font-semibold text-white">学习赛道</h4>
+        <h4 class="text-sm font-semibold text-white">分类浏览</h4>
         <ul class="mt-4 space-y-2 text-sm">
           <li v-for="t in trackList" :key="t.id"><router-link :to="`/track/${t.id}`" class="text-white/60 transition hover:text-gold">{{ t.name }}</router-link></li>
         </ul>
