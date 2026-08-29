@@ -1,4 +1,4 @@
-// 主题导览 · 8 大业务主题（人工策展，覆盖全部 88 本）
+// 主题导览 · 8 大业务主题（人工策展，覆盖全部 91 本）
 // 与赛道(track)不同：主题是跨赛道、按「业务问题」聚合的阅读入口。
 import { books } from './books'
 
@@ -23,7 +23,7 @@ export const themes = [
     desc: '销售一线的方法论合集：挑战式、SPIN、价值竞争、信任五环、数字化销售……把经典著作变成可复用的签单动作。',
     bookIds: [
       'rc01', 'rc02', 'rc03', 'rc07', 'rc10', 'rc13', 'rc14', 'rc20', 'rc21', 'rc22',
-      'ai-for-sales', 'rc05', 'rc08', 'rc15', 'rc11', 'rc12', 'rc17'
+      'ai-for-sales', 'rc05', 'rc08', 'rc15', 'rc11', 'rc12', 'rc17', 'rc06'
     ]
   },
   {
@@ -35,7 +35,7 @@ export const themes = [
     bookIds: [
       'tech-product-marketing', 'crossing-the-chasm', 'positioning', 'abm',
       'visual-hammer', '22-immutable-laws',
-      'rc23', 'rc24', 'rc25', 'rc26', 'rc27', 'rc28'
+      'rc23', 'rc24', 'rc25', 'rc26', 'rc27', 'rc28', 'smart-pricing'
     ]
   },
   {
@@ -58,7 +58,7 @@ export const themes = [
     bookIds: [
       'coaching-for-performance', 'leadership-pipeline', 'high-output-management',
       'danaher-model', 'principles', 'rc44', 'rc53', 'rc56', 'rc40', 'rc41',
-      'rc46', 'rc43', 'rc45'
+      'rc46', 'rc43', 'rc45', 'ji-kong'
     ]
   },
   {
@@ -69,7 +69,7 @@ export const themes = [
     desc: '看方向与打法盘的合集：竞争战略、蓝海战略、创新者的窘境、赢利、价值驱动增长、战略 7 力等。',
     bookIds: [
       'competitive-strategy', 'blue-ocean-strategy', 'innovators-dilemma',
-      'rc47', 'rc49', 'rc50', 'rc52', 'rc55', 'rc42', 'rc48', 'rc54'
+      'rc47', 'rc49', 'rc50', 'rc52', 'rc55', 'rc42', 'rc48', 'rc54', 'escape-velocity'
     ]
   },
   {
