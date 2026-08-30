@@ -225,7 +225,7 @@ function stars(r) {
                     :class="i < 3 ? 'bg-gold text-brand' : 'bg-paper text-muted'"
                   >{{ i + 1 }}</span>
                   <span class="flex-1 truncate text-sm text-ink transition group-hover:text-gold">{{ b.title }}</span>
-                  <span class="text-xs text-gold">{{ b.rating.toFixed(1) }}</span>
+                  <span v-if="b.rating" class="text-xs text-gold">{{ b.rating.toFixed(1) }}</span>
                 </router-link>
               </li>
             </ol>

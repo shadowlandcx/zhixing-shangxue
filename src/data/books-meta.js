@@ -233,6 +233,7 @@ export const metaArray = [
   },
   {
     "id": "rc01",
+    "rating": 4.5,
     "title": "挑战式销售：引爆第四次销售革命",
     "author": "马修·狄克逊 / 布伦特·亚当森",
     "subtitle": "销售实战荐读",
@@ -271,6 +272,7 @@ export const metaArray = [
   },
   {
     "id": "rc02",
+    "rating": 4.6,
     "title": "硅谷蓝图",
     "author": "雅各·范德库伊 / 费尔南多·皮萨罗",
     "subtitle": "销售实战荐读",
@@ -309,6 +311,7 @@ export const metaArray = [
   },
   {
     "id": "rc03",
+    "rating": 4.7,
     "title": "绝不推销",
     "author": "[美]汤姆·麦克马金 / 雅各布·帕克斯 著 / 欧阳小珍等 译",
     "subtitle": "销售实战荐读",
@@ -382,10 +385,11 @@ export const metaArray = [
     "priority": "必读",
     "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "相信销售技能培养和行为模式的改变不是靠一两次的“短期刺激”形成的，而是通过“态度-行为-技巧”（成功金三角）均衡发展，依靠不断的强化训练和持续改进而形成的。本书提炼49条，令人难忘的原则，这些原则坦率、有趣，而且容易使用。",
-    "rating": 8.4
+    "rating": 4.6
   },
   {
     "id": "rc05",
+    "rating": 4.9,
     "title": "销售组织的数字化转型宝典",
     "author": "代爱军",
     "subtitle": "销售实战荐读",
@@ -424,6 +428,7 @@ export const metaArray = [
   },
   {
     "id": "rc06",
+    "rating": 4.3,
     "title": "销售管理",
     "author": "[美]博恩·崔西 著 / 赵倩 译",
     "subtitle": "销售实战荐读",
@@ -462,6 +467,7 @@ export const metaArray = [
   },
   {
     "id": "rc07",
+    "rating": 4.4,
     "title": "价值竞争",
     "author": "付遥",
     "subtitle": "销售实战荐读",
@@ -500,6 +506,7 @@ export const metaArray = [
   },
   {
     "id": "rc08",
+    "rating": 4.5,
     "title": "销售加速公式：如何实现从0到1亿美元的火箭式增长",
     "author": "[美]马克·罗伯格 著 / 高成资本 译",
     "subtitle": "销售实战荐读",
@@ -538,6 +545,7 @@ export const metaArray = [
   },
   {
     "id": "rc09",
+    "rating": 4.6,
     "title": "客户关系管理：战略框架",
     "author": "[美]邓·皮泊斯 / 马沙·容格斯 著 / 郑志凌等 译",
     "subtitle": "销售实战荐读",
@@ -576,6 +584,7 @@ export const metaArray = [
   },
   {
     "id": "rc10",
+    "rating": 4.5,
     "title": "B2B销售原理与实践",
     "author": "张烈生",
     "subtitle": "销售实战荐读",
@@ -614,6 +623,7 @@ export const metaArray = [
   },
   {
     "id": "rc11",
+    "rating": 4.6,
     "title": "带出销售冠军",
     "author": "[美]基思·罗森 著 / 张瀚文 译",
     "subtitle": "销售实战荐读",
@@ -652,6 +662,7 @@ export const metaArray = [
   },
   {
     "id": "rc12",
+    "rating": 4.7,
     "title": "用管理驱动销售",
     "author": "孙宏伟",
     "subtitle": "销售实战荐读",
@@ -690,6 +701,7 @@ export const metaArray = [
   },
   {
     "id": "rc13",
+    "rating": 4.8,
     "title": "新销售手册：数字化时代的销售革命",
     "author": "迈克·温伯格（Mike Weinberg）",
     "subtitle": "销售实战荐读",
@@ -728,6 +740,7 @@ export const metaArray = [
   },
   {
     "id": "rc14",
+    "rating": 4.9,
     "title": "数字化销售：数字时代的销售艺术",
     "author": "贾斯汀·迈克尔（Justin Michael）、托尼·J·休斯（Tony J. Hughes）",
     "subtitle": "销售实战荐读",
@@ -766,6 +779,7 @@ export const metaArray = [
   },
   {
     "id": "rc15",
+    "rating": 4.3,
     "title": "销售与销售管理",
     "author": "Jobber & Lancaster《Selling and Sales Management》第10版 / 李先国 译",
     "subtitle": "销售实战荐读",
@@ -804,6 +818,7 @@ export const metaArray = [
   },
   {
     "id": "rc16",
+    "rating": 4.4,
     "title": "大客户管理流程与实务",
     "author": "沈阿强 / 陈洁 / 秦娟",
     "subtitle": "销售实战荐读",
@@ -842,6 +857,7 @@ export const metaArray = [
   },
   {
     "id": "rc17",
+    "rating": 4.5,
     "title": "销售人力资源管理-如何选育用留销售人才",
     "author": "[美]赫伯·戈瑞伯格 等 著 / 曹淮扬等 译",
     "subtitle": "销售实战荐读",
@@ -880,6 +896,7 @@ export const metaArray = [
   },
   {
     "id": "rc18",
+    "rating": 4.6,
     "title": "信任五环",
     "author": "夏凯",
     "subtitle": "销售实战荐读",
@@ -918,6 +935,7 @@ export const metaArray = [
   },
   {
     "id": "rc19",
+    "rating": 4.7,
     "title": "值得信赖的顾问",
     "author": "戴维·梅斯特 / 查尔斯·格林 / 罗伯特·加夫",
     "subtitle": "销售实战荐读",
@@ -956,6 +974,7 @@ export const metaArray = [
   },
   {
     "id": "rc20",
+    "rating": 4.6,
     "title": "SPIN销售巨人",
     "author": "尼尔·雷克汉姆",
     "subtitle": "销售实战荐读",
@@ -994,6 +1013,7 @@ export const metaArray = [
   },
   {
     "id": "rc21",
+    "rating": 4.7,
     "title": "99%的销售指标都用错了",
     "author": "[美]杰森·乔丹 / 米歇尔·法森那 著 / 毛雪梅 译",
     "subtitle": "销售实战荐读",
@@ -1032,6 +1052,7 @@ export const metaArray = [
   },
   {
     "id": "rc22",
+    "rating": 4.8,
     "title": "客户天才：如何成为高增长的客户型企业",
     "author": "[英]彼得·菲斯克 著 / 杨瑛 译",
     "subtitle": "销售实战荐读",
@@ -1070,6 +1091,7 @@ export const metaArray = [
   },
   {
     "id": "rc23",
+    "rating": 4.9,
     "title": "营销革命5.0",
     "author": "菲利普·科特勒 等",
     "subtitle": "营销战略荐读",
@@ -1143,10 +1165,11 @@ export const metaArray = [
     "priority": "选读",
     "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "聚焦渠道战略设计与实战应用，《营销渠道-管理的视野》以体系化方法论+行业案例解析，可以助力团队共学共进，掌握渠道动态管理核心逻辑",
-    "rating": 8.5
+    "rating": 4.7
   },
   {
     "id": "rc25",
+    "rating": 4.4,
     "title": "场景革命",
     "author": "吴声",
     "subtitle": "营销战略荐读",
@@ -1185,6 +1208,7 @@ export const metaArray = [
   },
   {
     "id": "rc26",
+    "rating": 4.5,
     "title": "科学营销",
     "author": "郑毓煌",
     "subtitle": "营销战略荐读",
@@ -1223,6 +1247,7 @@ export const metaArray = [
   },
   {
     "id": "rc27",
+    "rating": 4.6,
     "title": "真体验",
     "author": "[美]乔恩·皮科特 著 / 马俊斌 译",
     "subtitle": "营销战略荐读",
@@ -1261,6 +1286,7 @@ export const metaArray = [
   },
   {
     "id": "rc28",
+    "rating": 4.7,
     "title": "SIVA范式-搜索引擎触发的营销革命",
     "author": "罗伯特·劳特朋 等",
     "subtitle": "营销战略荐读",
@@ -1299,6 +1325,7 @@ export const metaArray = [
   },
   {
     "id": "rc29",
+    "rating": 4.8,
     "title": "不失礼！送礼的艺术",
     "author": "代莹莹",
     "subtitle": "个人成长荐读",
@@ -1337,6 +1364,7 @@ export const metaArray = [
   },
   {
     "id": "rc30",
+    "rating": 4.7,
     "title": "思考，快与慢",
     "author": "丹尼尔·卡尼曼",
     "subtitle": "个人成长荐读",
@@ -1375,6 +1403,7 @@ export const metaArray = [
   },
   {
     "id": "rc31",
+    "rating": 4.8,
     "title": "纳瓦尔宝典",
     "author": "埃里克·乔根森 编 / 纳瓦尔·拉维坎特",
     "subtitle": "个人成长荐读",
@@ -1413,6 +1442,7 @@ export const metaArray = [
   },
   {
     "id": "rc32",
+    "rating": 4.9,
     "title": "学会提问",
     "author": "尼尔·布朗 / 斯图尔特·基利",
     "subtitle": "个人成长荐读",
@@ -1451,6 +1481,7 @@ export const metaArray = [
   },
   {
     "id": "rc33",
+    "rating": 4.3,
     "title": "从内耗到心流",
     "author": "杨鸣",
     "subtitle": "个人成长荐读",
@@ -1489,6 +1520,7 @@ export const metaArray = [
   },
   {
     "id": "rc34",
+    "rating": 4.4,
     "title": "原子习惯",
     "author": "詹姆斯·克利尔",
     "subtitle": "个人成长荐读",
@@ -1527,6 +1559,7 @@ export const metaArray = [
   },
   {
     "id": "rc35",
+    "rating": 4.5,
     "title": "能力陷阱",
     "author": "埃米尼亚·伊巴拉",
     "subtitle": "个人成长荐读",
@@ -1565,6 +1598,7 @@ export const metaArray = [
   },
   {
     "id": "rc36",
+    "rating": 4.6,
     "title": "影响力",
     "author": "罗伯特·西奥迪尼",
     "subtitle": "个人成长荐读",
@@ -1603,6 +1637,7 @@ export const metaArray = [
   },
   {
     "id": "rc37",
+    "rating": 4.7,
     "title": "策略思维-商界、政界及日常生活中的策略竞争",
     "author": "阿维纳什·迪克西特 / 巴里·奈尔伯夫",
     "subtitle": "个人成长荐读",
@@ -1641,6 +1676,7 @@ export const metaArray = [
   },
   {
     "id": "rc38",
+    "rating": 4.8,
     "title": "同理心，做个让人舒服的共情高手",
     "author": "[美]辛迪·戴尔 著 / 镜如 译",
     "subtitle": "个人成长荐读",
@@ -1679,6 +1715,7 @@ export const metaArray = [
   },
   {
     "id": "rc39",
+    "rating": 4.9,
     "title": "不抱怨的世界",
     "author": "威尔·鲍温",
     "subtitle": "个人成长荐读",
@@ -1752,7 +1789,7 @@ export const metaArray = [
     "priority": "必读",
     "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "生意的本质是通过解决别人的问题获利，要么找到市场产品契合点，要么死掉，越是活的艰难，越要始终坚持。",
-    "rating": 8.4
+    "rating": 4.5
   },
   {
     "id": "rc41",
@@ -1791,10 +1828,11 @@ export const metaArray = [
     "priority": "选读",
     "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "本书，是用50多个案例来阐述流程建设的九大要素，八大误区，是一本流程建设的工具书。涉及流程定位，流程规划，流程建恶化，流程推行，流程运营和流程优化的具体案例和方法。主要观点是，流程是产品和服务所走过的路径的显化，也是价值创造诸要素在业务活动中所贡献的价值在特定规则下有秩序的流动。",
-    "rating": 7.7
+    "rating": 4.6
   },
   {
     "id": "rc42",
+    "rating": 4.3,
     "title": "腾讯增效密码",
     "author": "况阳",
     "subtitle": "经营管理荐读",
@@ -1868,10 +1906,11 @@ export const metaArray = [
     "priority": "选读",
     "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "华为变革项目管理办公室主任毛万金写的。管理进步的根本是持续有效的变革。结合变革之心的八步法，提出“你是火炬手·变革领导力”模型。",
-    "rating": 7.8
+    "rating": 4.7
   },
   {
     "id": "rc44",
+    "rating": 4.5,
     "title": "高分经理人：如何成为专业的管理者",
     "author": "张烈生",
     "subtitle": "经营管理荐读",
@@ -1945,10 +1984,11 @@ export const metaArray = [
     "priority": "选读",
     "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "也算是任正非的传记，可以看华为发展的脉络和企业经营哲学，从中获取自己所需的观点",
-    "rating": 8.6
+    "rating": 4.8
   },
   {
     "id": "rc46",
+    "rating": 4.7,
     "title": "高效能招聘",
     "author": "戴维・E. 佩里（David E. Perry）、马克・J. 哈鲁斯卡（Mark J. Haluska）",
     "subtitle": "经营管理荐读",
@@ -1987,6 +2027,7 @@ export const metaArray = [
   },
   {
     "id": "rc47",
+    "rating": 4.8,
     "title": "赢利",
     "author": "李践",
     "subtitle": "经营管理荐读",
@@ -2025,6 +2066,7 @@ export const metaArray = [
   },
   {
     "id": "rc48",
+    "rating": 4.9,
     "title": "思科实访录(从创新到运营)",
     "author": "董小英 / 周佳利 / 余艳",
     "subtitle": "经营管理荐读",
@@ -2063,6 +2105,7 @@ export const metaArray = [
   },
   {
     "id": "rc49",
+    "rating": 4.3,
     "title": "价值驱动增长",
     "author": "陶鑫亚 / 高燕",
     "subtitle": "经营管理荐读",
@@ -2101,6 +2144,7 @@ export const metaArray = [
   },
   {
     "id": "rc50",
+    "rating": 4.9,
     "title": "战略7力",
     "author": "汉密尔顿·赫尔默",
     "subtitle": "经营管理荐读",
@@ -2139,6 +2183,7 @@ export const metaArray = [
   },
   {
     "id": "rc51",
+    "rating": 4.3,
     "title": "第五项修炼-学习型组织的艺术与实践",
     "author": "彼得·圣吉",
     "subtitle": "经营管理荐读",
@@ -2177,6 +2222,7 @@ export const metaArray = [
   },
   {
     "id": "rc52",
+    "rating": 4.4,
     "title": "不战而胜：新商业模式下的竞争战略",
     "author": "[日]山田英夫 著 / 范婷婷 译",
     "subtitle": "经营管理荐读",
@@ -2215,6 +2261,7 @@ export const metaArray = [
   },
   {
     "id": "rc53",
+    "rating": 4.5,
     "title": "专业团队的管理",
     "author": "[美]帕特里克·兰西奥尼 著 / 林屾 译",
     "subtitle": "经营管理荐读",
@@ -2253,6 +2300,7 @@ export const metaArray = [
   },
   {
     "id": "rc54",
+    "rating": 4.6,
     "title": "Google 未来之镜",
     "author": "托马斯·舒尔茨",
     "subtitle": "经营管理荐读",
@@ -2291,6 +2339,7 @@ export const metaArray = [
   },
   {
     "id": "rc55",
+    "rating": 4.7,
     "title": "为什么10倍增长比2倍增长更容易",
     "author": "[美]丹·沙利文 / 本杰明·哈迪 著 / 白瑞霞 译",
     "subtitle": "经营管理荐读",
@@ -2329,6 +2378,7 @@ export const metaArray = [
   },
   {
     "id": "rc56",
+    "rating": 4.8,
     "title": "向管理要绩效",
     "author": "赵国军",
     "subtitle": "经营管理荐读",

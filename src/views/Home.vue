@@ -206,7 +206,7 @@ function onSearch() {
           <p class="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-muted">{{ b.intro }}</p>
           <div class="mt-3 flex items-center justify-between">
             <span class="rounded-full bg-paper px-2.5 py-1 text-xs text-brand">{{ b.category }}</span>
-            <span class="text-sm text-gold">⭐ {{ b.rating.toFixed(1) }}</span>
+            <span v-if="b.rating" class="text-sm text-gold">⭐ {{ b.rating.toFixed(1) }}</span>
           </div>
         </div>
       </router-link>
