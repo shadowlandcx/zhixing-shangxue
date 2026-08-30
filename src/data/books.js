@@ -123,6 +123,9 @@ const reportModules = {
   'procurement-40': () => import('./reports/procurement-40'),
   'insight-principle': () => import('./reports/insight-principle'),
   'cognitive-drive': () => import('./reports/cognitive-drive'),
+  'smart-thinking': () => import('./reports/smart-thinking'),
+  'tomorrowmind': () => import('./reports/tomorrowmind'),
+  'success-mindsets': () => import('./reports/success-mindsets'),
 }
 
 export async function getBookReport(id) {
