@@ -79,7 +79,7 @@ function onSearch() {
   </section>
 
   <!-- 首页搜索聚合：跨工具 + 读书研报 -->
-  <section class="container-px -mt-2 relative z-10">
+  <section class="container-px -mt-8 relative z-20">
     <form class="mx-auto flex max-w-2xl gap-3 rounded-xl border border-line bg-white p-2 shadow-card" @submit.prevent="onSearch">
       <input
         v-model="searchQ"
@@ -92,7 +92,7 @@ function onSearch() {
   </section>
 
   <!-- 工具箱 entry -->
-  <section class="container-px -mt-6 relative z-10">
+  <section class="container-px mt-4 relative z-10">
     <router-link to="/toolbox" class="block rounded-xl border border-line bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold hover:shadow-lg sm:p-6">
       <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div class="flex items-center gap-4">
@@ -109,7 +109,7 @@ function onSearch() {
   </section>
 
   <!-- 三大新入口引导卡 -->
-  <section class="container-px -mt-6 relative z-10">
+  <section class="container-px mt-6 relative z-10">
     <div class="grid gap-4 sm:grid-cols-3">
       <router-link to="/themes" class="flex items-center gap-4 rounded-xl border border-line bg-white p-5 shadow-card transition hover:-translate-y-0.5 hover:border-gold hover:shadow-lg">
         <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-2xl">🧭</span>
