@@ -56,9 +56,14 @@ const activeTab = ref('note')
 const hasNote = computed(() => (content.value || '').trim().length > 0)
 const hasReport = computed(() => (reportFb.value || '').trim().length > 0)
 const html = computed(() => {
-  const primary = activeTab.value === 'report' ? reportFb.value : content.value
-  const fallback = activeTab.value === 'report' ? content.value : reportFb.value
-  return marked.parse(primary || fallback || '')
+  if (activeTab.value === 'report') {
+    const primary = reportFb.value || content.value
+    return marked.parse(primary || '')
+  }
+  // 笔记视图：剔除「可落地工具清单」小节，工具统一在《读书研报》呈现
+  let md = content.value || ''
+  md = md.replace(/\n##\s*可落地工具(清单)?[\s\S]*?(?=\n##\s|$)/, '')
+  return marked.parse(md || '')
 })
 
 // 关联分类：把读到的书，链回对应阅读视角
@@ -396,8 +401,18 @@ async function onCopy() {
       <div v-else class="prose-note" v-html="html"></div>
     </div>
 
+    <!-- 笔记视图：工具统一在《读书研报》呈现，给一个直达入口 -->
+    <section v-if="activeTab === 'note' && bookTools.length" class="mt-6 rounded-xl border border-gold/40 bg-gold/5 p-5 no-print">
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <p class="text-sm leading-relaxed text-brand">
+          🛠️ 本书配套 <strong class="text-gold-dark">{{ bookTools.length }}</strong> 个实战工具（框架画布 / 清单 / 评分卡 / 话术 / 测算 / 工作表），工具详见《读书研报》。
+        </p>
+        <button class="btn-gold shrink-0" @click="activeTab = 'report'">📊 前往读书研报 →</button>
+      </div>
+    </section>
+
     <!-- 本书实战工具包（按「类型」归类：框架画布 / 清单 / 评分卡 / 话术 / 测算 / 工作表） -->
-    <section v-if="bookTools.length" class="mt-6 space-y-6 no-print">
+    <section v-if="activeTab === 'report' && bookTools.length" class="mt-6 space-y-6 no-print">
       <div>
         <p class="eyebrow text-brand">本书实战工具包 · 拿来就能用</p>
         <p class="mt-1 text-sm text-muted">共 {{ bookTools.length }} 个工具，按「类型」归类——框架画布、清单、评分卡、话术、测算、工作表；按你要的形态直接取用。</p>
@@ -494,7 +509,7 @@ async function onCopy() {
     </section>
 
     <!-- 相关场景推荐：本书工具命中哪些「领方案」场景 -->
-    <section v-if="relatedRecipes.length" class="mt-6 rounded-2xl border border-gold/40 bg-gold/5 p-5 no-print">
+    <section v-if="activeTab === 'report' && relatedRecipes.length" class="mt-6 rounded-2xl border border-gold/40 bg-gold/5 p-5 no-print">
       <div class="flex items-center gap-2">
         <span class="text-xl">🧭</span>
         <div>
