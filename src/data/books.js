@@ -122,6 +122,7 @@ const reportModules = {
   'escape-velocity': () => import('./reports/escape-velocity'),
   'procurement-40': () => import('./reports/procurement-40'),
   'insight-principle': () => import('./reports/insight-principle'),
+  'cognitive-drive': () => import('./reports/cognitive-drive'),
 }
 
 export async function getBookReport(id) {

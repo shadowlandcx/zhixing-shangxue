@@ -150,7 +150,7 @@ export const tracks = {
   'mindset': {
     id: 'mindset',
     relatedBooks: [
-      'cognitive-awakening', 'rc29', 'rc30', 'rc31', 'rc32', 'rc33',
+      'cognitive-awakening', 'cognitive-drive', 'rc29', 'rc30', 'rc31', 'rc32', 'rc33',
       'rc34', 'rc35', 'rc36', 'rc37', 'rc39'
     ],
     name: '认知进化',
