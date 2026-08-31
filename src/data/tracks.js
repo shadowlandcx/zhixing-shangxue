@@ -179,7 +179,7 @@ export const tracks = {
   'industry': {
     id: 'industry',
     relatedBooks: [
-      'chip-history', 'zero-trust', 'cloud-primer', 'industry-research', 'singularity-nearer', 'ai-for-sales'
+      'chip-history', 'zero-trust', 'cloud-primer', 'industry-research', 'singularity-nearer', 'ai-for-sales', 'shuzhi-enterprise'
     ],
     name: '行业科技',
     en: 'Industry & Tech',

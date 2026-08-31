@@ -126,6 +126,7 @@ const reportModules = {
   'smart-thinking': () => import('./reports/smart-thinking'),
   'tomorrowmind': () => import('./reports/tomorrowmind'),
   'success-mindsets': () => import('./reports/success-mindsets'),
+  'shuzhi-enterprise': () => import('./reports/shuzhi-enterprise'),
 }
 
 export async function getBookReport(id) {
