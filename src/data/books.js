@@ -127,6 +127,10 @@ const reportModules = {
   'tomorrowmind': () => import('./reports/tomorrowmind'),
   'success-mindsets': () => import('./reports/success-mindsets'),
   'shuzhi-enterprise': () => import('./reports/shuzhi-enterprise'),
+  'ai-agents-sales-revenue': () => import('./reports/ai-agents-sales-revenue'),
+  'deep-calculating-network': () => import('./reports/deep-calculating-network'),
+  'ai-agents-sales-revenue-en': () => import('./reports/ai-agents-sales-revenue-en'),
+  'calculating-rise': () => import('./reports/calculating-rise'),
 }
 
 export async function getBookReport(id) {

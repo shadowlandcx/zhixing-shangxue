@@ -8,7 +8,8 @@ export const tracks = {
       'rc01', 'rc02', 'rc03', 'rc04', 'rc05', 'rc06',
       'rc07', 'rc08', 'rc10', 'rc11', 'rc12', 'rc13',
       'rc14', 'rc15', 'rc18', 'rc19', 'rc20', 'rc21',
-      'new-solution-selling', 'strategic-selling'
+      'new-solution-selling', 'strategic-selling',
+      'ai-agents-sales-revenue', 'ai-agents-sales-revenue-en'
     ],
     name: '销售打法',
     en: 'Sales Craft',
@@ -179,7 +180,7 @@ export const tracks = {
   'industry': {
     id: 'industry',
     relatedBooks: [
-      'chip-history', 'zero-trust', 'cloud-primer', 'industry-research', 'singularity-nearer', 'ai-for-sales', 'shuzhi-enterprise'
+      'chip-history', 'zero-trust', 'cloud-primer', 'industry-research', 'singularity-nearer', 'ai-for-sales', 'shuzhi-enterprise', 'deep-calculating-network', 'calculating-rise'
     ],
     name: '行业科技',
     en: 'Industry & Tech',

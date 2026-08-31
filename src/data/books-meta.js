@@ -3226,6 +3226,102 @@ export const metaArray = [
       { num: '7', label: '章实战框架' }
     ],
     proposition: '国企数字化推不动，问题不在技术——而在战略上缺机制、标准上缺共同语言、规划上想一步到位；转型最重要的产出不是系统，是会用系统的人。'
+  },
+  {
+    id: 'ai-agents-sales-revenue',
+    title: 'AI 销售智能体实战',
+    author: '秋叶 / 宋博 / 江源媛',
+    subtitle: '16 类真场景 · 扣子智能体实操',
+    category: '销售打法 · AI 工具',
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'marketing', 'industry'],
+    tags: ['AI 销售', '智能体', '扣子 Coze', '话术演练', '异议处理', '销售场景', '16类场景'],
+    rating: 4.4,
+    cover: '#6B4E8A',
+    intro: '秋叶团队把销售最常见的 16 个死磕场景——需求洞察、话术演练、异议处理、报价谈判、客户跟进、复盘优化——逐一拆成 AI 智能体可执行的工作流。书的价值不在「AI 是什么」，而在于它给了你一张「哪个场景该上哪个智能体」的对照表，把销售从重复劳动里解放出来，把精力留给需要人做的部分：关系、判断和决策。',
+    meta: {
+      publisher: '中信出版社（2026.06）',
+      role: 'B2B 销售 / 销售管理者 / 想用 AI 提效的业绩负责人',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '16', label: '类真场景' },
+      { num: '4', label: '个核心智能体' },
+      { num: '3', label: '周上手周期' }
+    ],
+    proposition: 'AI 替你做完那 80% 的重复活，剩下 20% 才是你的护城河——不是更努力，是更聚焦。'
+  },
+  {
+    id: 'deep-calculating-network',
+    title: '深入浅出算力网络',
+    author: '钱岭',
+    subtitle: '算力即服务的网络技术与实践',
+    category: '行业科技 · 通信基础设施',
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy'],
+    tags: ['算力网络', '通信', '工信部', '算力即服务', 'ICT 基础架构', '政务云', '东数西算'],
+    rating: 4.3,
+    cover: '#3A7CA5',
+    intro: '从「买设备」到「买算力服务」，这是 ICT 基础架构接下来十年最大的商业重构。钱岭把算力网络的底层原理、组网方式、管控调度讲得深入浅出，给政务/cosity/运营商做ICT方案的人提供了一套能和客户对上话的技术语言——算力感知、度量、调度、网络融合四个关键词，是政企售前的新标配。',
+    meta: {
+      publisher: '人民邮电出版社（2025.06）',
+      role: '政企售前/方案经理 / 运营商渠道 / 想把技术语言翻译成业务价值的销售',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '4', label: '个技术关键词' },
+      { num: '3', label: '类组网方案' },
+      { num: '5', label: '个政务场景映射' }
+    ],
+    proposition: '争夺客户的不只是产品参数，还有「你讲不讲得清下一代基础设施长什么样」。'
+  },
+  {
+    id: 'ai-agents-sales-revenue-en',
+    title: 'AI Agents for Sales & Revenue Operations',
+    author: 'Kenneth Mangum',
+    subtitle: 'MEDDIC / BANT / Challenger 三法 AI 化改造',
+    category: '销售打法 · 国际视野',
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'marketing'],
+    tags: ['AI Agent', 'MEDDIC', 'BANT', 'Challenger Sale', '营收运营', 'Forecast', '英文'],
+    rating: 4.5,
+    cover: '#8A6B3C',
+    intro: '一本用 AI Agent 重新组织销售与营收运营全流程的英文实操书。它的独特价值在于：不是泛泛说「AI 能帮销售」，而是把 MEDDIC、BANT、Challenger Sale 三种主流销售方法论的每一个步骤，拆成 AI Agent 可以接手的环节。对已经有《区域经理项目成功率检视执行手册》在跑 MEDDPICC 的团队来说，这是一份现成的英文对照插件。',
+    meta: {
+      publisher: 'Self-Published（2026 中期）',
+      role: '想要 MEDDIC/BANT/Challenger AI 化对照的销售团队',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '3', label: '种方法论映射' },
+      { num: '6', label: '个核心 Agent' },
+      { num: '2', label: '条业务线（销售+营收运营）' }
+    ],
+    proposition: 'AI 不是替代销售，是把方法论从「靠人记」变成「系统跑」。'
+  },
+  {
+    id: 'calculating-rise',
+    title: '算力崛起：重塑未来经济与社会',
+    author: '信通院 王骏成 / 黄伟 / 黄璜',
+    subtitle: '算力即国力的论证与ToG场景落点',
+    category: '行业科技 · 政策与产业',
+    track: 'industry',
+    relatedTracks: ['industry', 'strategy', 'sales-craft'],
+    tags: ['算力', '信通院', '新质生产力', '东数西算', '政务 ToG', '国力竞争', '基础设施'],
+    rating: 4.4,
+    cover: '#5A7A3A',
+    intro: '信通院出品的算力产业蓝皮书式专著，核心论证只有一句：算力已经像电力一样成为基础生产力，而且正在成为国家间竞争的基础维度。对做政企的销售和市场人，这本书是现成的「一句话素材库」——面对政务客户、央国企，你不用再自己组织逻辑，直接把书里的论证框架拿过来就能用。',
+    meta: {
+      publisher: '人民邮电出版社（2025.08）',
+      role: '政企销售 / ToG 内容策划 / 想要一句话素材的商务人士',
+      date: '2026年8月'
+    },
+    stats: [
+      { num: '5', label: '章论证主线' },
+      { num: '4', label: '类政务场景映射' },
+      { num: '1', label: '句电梯说法' }
+    ],
+    proposition: '下一轮客户问「为什么要现在建算力」——你手里已经有了答案。'
   }
 
 ]
