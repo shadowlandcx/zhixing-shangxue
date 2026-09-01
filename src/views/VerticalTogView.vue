@@ -57,6 +57,68 @@ function book(id) {
     </div>
   </section>
 
+  <!-- 主题导览：政企六大能力域 -->
+  <section class="container-px py-14">
+    <h2 class="text-2xl font-bold text-brand">主题导览 · 政企六大能力域</h2>
+    <p class="mt-2 text-sm text-muted">从全局认知到收口控单，按政企打单的完整链路分为六个能力域。点击跳转对应书单。</p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="card p-5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">🏛️</div>
+        <h3 class="mt-3 font-semibold text-ink">全局认知</h3>
+        <p class="mt-1 text-sm text-muted">政府采购、信创、招投标、预算制与合规边界——建立政企 ToG 的底层认知框架。</p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">政企销售</span>
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">采购4.0</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">🎯</div>
+        <h3 class="mt-3 font-semibold text-ink">行业洞察</h3>
+        <p class="mt-1 text-sm text-muted">七维度行业体检、变化信号与推断——把「懂行业」落成可复用的拜访前资产。</p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">洞察力原则</span>
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">行业研究</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">⚔️</div>
+        <h3 class="mt-3 font-semibold text-ink">竞争定位</h3>
+        <p class="mt-1 text-sm text-muted">五力结构、差异化设计与蓝海——在政企红海中避开价格战、找出价值空位。</p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">竞争战略</span>
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">蓝海战略</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">🔗</div>
+        <h3 class="mt-3 font-semibold text-ink">账号经营</h3>
+        <p class="mt-1 text-sm text-muted">ICP 画像、TAL 分层与 ABM——把政企客户当组合而非线索，1对1 围猎战略账号。</p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">ABM</span>
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">关键客户</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">💬</div>
+        <h3 class="mt-3 font-semibold text-ink">高风险沟通</h3>
+        <p class="mt-1 text-sm text-muted">关键对话、信任五环与原则谈判——在政企场景里守住关系、谈成条件。</p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">关键对话</span>
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">优势谈判</span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/10 text-brand">🚀</div>
+        <h3 class="mt-3 font-semibold text-ink">换轨控单</h3>
+        <p class="mt-1 text-sm text-muted">复杂机会的蓝表/绿表、解决方案对话与谈判收口——从线索到签单的全流程控单。</p>
+        <div class="mt-3 flex flex-wrap gap-1">
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">战略销售</span>
+          <span class="rounded-full bg-paper px-2 py-0.5 text-xs text-brand">换轨策略</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- 政企打单路径 -->
   <section v-if="togPath" class="container-px py-14">
     <h2 class="text-2xl font-bold text-brand">{{ togPath.icon }} {{ togPath.title }}</h2>

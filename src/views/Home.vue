@@ -11,12 +11,19 @@ import { readingPaths, getPath } from '../data/reading-paths'
 const featuredPath = computed(() => getPath('tog-deal'))
 
 const router = useRouter()
-// 首页精选书单：新书 + 高评分经典，轮播展示
+// 首页精选书单：新书 + 高评分经典 + 政企 ToG 核心书，轮播展示
 const featuredIds = [
   'ai-agents-sales-revenue',
   'shuzhi-enterprise',
   'deep-calculating-network',
   'calculating-rise',
+  'procurement-40',
+  'crucial-conversations',
+  'competitive-strategy',
+  'blue-ocean-strategy',
+  'escape-velocity',
+  'insight-principle',
+  'abm',
   'cognitive-awakening',
   'danaher-model',
   'tech-product-marketing',
