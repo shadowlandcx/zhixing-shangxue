@@ -3,7 +3,7 @@
 export const readingPaths = [
   {
     id: 'tog-deal',
-    title: '政企打单进阶 · 锐捷北区适用',
+    title: '政企打单进阶 · 政企场景适用',
     icon: '🏛️',
     audience: '政企销售 / 大客户经理 / 销售管理者',
     desc: '从建立政企 ToG 全局认知，到大客户经营、复杂机会管控、解决方案对话，再到谈判收口——一条可落地的打单进阶链。',

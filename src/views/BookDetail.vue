@@ -242,7 +242,7 @@ async function onCopy() {
             <span v-if="book.priority" class="rounded-full px-3 py-1 text-sm" :class="book.priority === '必读' ? 'bg-brand text-white' : 'bg-paper text-muted'">{{ book.priority }}</span>
             <span v-if="book.rating" class="rounded-full bg-gold/10 px-3 py-1 text-sm text-gold">⭐ {{ book.rating.toFixed(1) }}</span>
           </div>
-          <p v-if="book.feishuUrl" class="mt-2 text-xs text-muted">来源：<a :href="book.feishuUrl" target="_blank" rel="noopener" class="text-gold hover:underline">锐捷读书会飞书书单 ↗</a></p>
+          <p v-if="book.feishuUrl" class="mt-2 text-xs text-muted">来源：<a :href="book.feishuUrl" target="_blank" rel="noopener" class="text-gold hover:underline">读书会飞书书单 ↗</a></p>
         </div>
       </div>
 

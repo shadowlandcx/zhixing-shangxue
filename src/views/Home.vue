@@ -131,7 +131,7 @@ function onSearch() {
         <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-2xl">🏛️</span>
         <div>
           <p class="text-xs font-semibold uppercase tracking-widest text-gold-dark">政企 ToG 垂直</p>
-          <h3 class="mt-0.5 text-lg font-bold text-brand">北区政企打单</h3>
+          <h3 class="mt-0.5 text-lg font-bold text-brand">政企 ToG 打单</h3>
           <p class="mt-1 text-sm text-muted">书单+路径+工具 · 探索 →</p>
         </div>
       </router-link>

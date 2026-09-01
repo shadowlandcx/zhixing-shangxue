@@ -43,10 +43,10 @@ function book(id) {
         <span class="mx-2">/</span>
         <span class="text-gold-light">政企 ToG 垂直</span>
       </nav>
-      <p class="eyebrow mt-4 text-gold-light">锐捷政企事业群 · 北区专用</p>
+      <p class="eyebrow mt-4 text-gold-light">政企 ToG 专属</p>
       <h1 class="mt-2 text-3xl font-bold sm:text-4xl">政企 ToG 大客户打法</h1>
       <p class="mt-4 max-w-2xl leading-relaxed text-white/70">
-        政府采购、信创、招投标、预算制、长决策链、关系经营与合规——一套为北区政企打单量身策展的读书 + 工具 + 路径。从认知到控单，循序渐进。
+        政府采购、信创、招投标、预算制、长决策链、关系经营与合规——一套为政企打单量身策展的读书 + 工具 + 路径。从认知到控单，循序渐进。
       </p>
       <div class="mt-6 flex flex-wrap gap-3">
         <span class="rounded-full bg-white/10 px-3 py-1 text-sm text-white/80">{{ togBooks.length }} 本精选书</span>
