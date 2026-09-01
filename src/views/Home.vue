@@ -11,18 +11,22 @@ import { readingPaths, getPath } from '../data/reading-paths'
 const featuredPath = computed(() => getPath('tog-deal'))
 
 const router = useRouter()
-// 首页精选书单：固定把两本新书放到轮播前列，再补足高评分书目
+// 首页精选书单：新书 + 高评分经典，轮播展示
 const featuredIds = [
+  'ai-agents-sales-revenue',
+  'shuzhi-enterprise',
+  'deep-calculating-network',
+  'calculating-rise',
   'cognitive-awakening',
   'danaher-model',
   'tech-product-marketing',
-  'salesforce-legend',
-  'singularity-nearer',
-  'zero-trust'
+  'salesforce-legend'
 ]
 const featuredBooks = computed(() =>
   featuredIds.map((id) => books.find((b) => b.id === id)).filter(Boolean)
 )
+// Hero 本周精选：取 featuredBooks 第一本作为主推
+const heroBook = computed(() => featuredBooks.value[0] || null)
 const bookScroller = ref(null)
 function scrollBooks(dir) {
   const el = bookScroller.value
@@ -66,15 +70,70 @@ function onSearch() {
       </div>
       <div class="relative hidden lg:block">
         <div class="card p-6">
-          <p class="eyebrow">本周精选</p>
-          <h3 class="mt-2 text-lg font-semibold text-brand">销售管理 · 大客户突破</h3>
-          <p class="mt-2 text-sm text-muted">用决策人地图拆关键关系，把单子从 30% 推到 80%。</p>
+          <p class="eyebrow">本周开读</p>
+          <h3 class="mt-2 text-lg font-semibold text-brand">{{ heroBook?.title || '销售管理 · 大客户突破' }}</h3>
+          <p class="mt-1 text-xs text-muted">{{ heroBook?.author || '—' }}</p>
+          <p class="mt-2 text-sm text-muted">{{ heroBook?.intro?.slice(0, 60) || '用决策人地图拆关键关系，把单子从 30% 推到 80%' }}…</p>
           <div class="mt-4 flex items-center gap-3">
             <span class="flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 text-brand">▶</span>
-            <div><div class="text-sm font-medium text-ink">读书笔记 + 研报</div><div class="text-xs text-muted">含可下载作战模板</div></div>
+            <div>
+              <div class="text-sm font-medium text-ink">读书笔记 + 实战研报</div>
+              <div class="text-xs text-muted">含 {{ heroBook?.stats?.length || 0 }} 个核心维度</div>
+            </div>
           </div>
+          <router-link :to="`/book/${heroBook?.id}`" class="mt-4 inline-flex items-center text-sm font-medium text-gold-dark hover:text-brand">
+            立即开读 →
+          </router-link>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- 本周开读推荐位 -->
+  <section class="container-px mt-10 relative z-10">
+    <div class="flex items-end justify-between">
+      <div>
+        <p class="eyebrow">本周开读 · Featured</p>
+        <h2 class="mt-2 text-xl font-bold text-brand sm:text-2xl">这周读这本，把方法论变成自己的</h2>
+      </div>
+      <router-link to="/books" class="hidden text-sm font-medium text-gold-dark hover:text-brand sm:inline-flex">
+        浏览全部 →
+      </router-link>
+    </div>
+    <div class="mt-6 relative">
+      <div
+        ref="bookScroller"
+        class="flex gap-4 overflow-x-auto pb-4 scrollbar-none"
+      >
+        <router-link
+          v-for="b in featuredBooks"
+          :key="b.id"
+          :to="`/book/${b.id}`"
+          class="group w-64 shrink-0 overflow-hidden rounded-xl border border-line bg-white shadow-card transition hover:-translate-y-1 hover:shadow-lg"
+        >
+          <div class="h-32" :style="{ background: b.cover || '#1A2B45' }"></div>
+          <div class="p-4">
+            <p class="text-xs font-medium text-gold-dark">{{ b.track }}</p>
+            <h3 class="mt-1 text-base font-semibold text-brand group-hover:text-gold-dark">{{ b.title }}</h3>
+            <p class="mt-1 text-xs text-muted">{{ b.author }}</p>
+            <div class="mt-2 flex items-center gap-2">
+              <span class="rounded-full bg-brand/10 px-2 py-0.5 text-xs font-medium text-brand">★ {{ b.rating }}</span>
+              <span v-if="b.stats" class="text-xs text-muted">{{ b.stats.length }} 维度</span>
+            </div>
+            <p class="mt-2 line-clamp-2 text-xs leading-relaxed text-muted">{{ b.intro?.slice(0, 80) }}…</p>
+          </div>
+        </router-link>
+      </div>
+      <button
+        type="button"
+        class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-card hover:bg-paper disabled:opacity-0"
+        @click="scrollBooks(-1)"
+      >‹</button>
+      <button
+        type="button"
+        class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-card hover:bg-paper disabled:opacity-0"
+        @click="scrollBooks(1)"
+      >›</button>
     </div>
   </section>
 
