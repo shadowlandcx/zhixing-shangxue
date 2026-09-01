@@ -6,14 +6,26 @@ export const readingPaths = [
     title: '政企打单进阶 · 政企场景适用',
     icon: '🏛️',
     audience: '政企销售 / 大客户经理 / 销售管理者',
-    desc: '从建立政企 ToG 全局认知，到大客户经营、复杂机会管控、解决方案对话，再到谈判收口——一条可落地的打单进阶链。',
+    desc: '从建立政企 ToG 全局认知，到大客户经营、复杂机会管控、解决方案对话，再到谈判收口——一条可落地的打单进阶链。扩展段覆盖政企采购流程、行业洞察、竞争定位、差异化设计、账号化经营与高风险沟通。',
     steps: [
       { bookId: 'gov-enterprise-sales', note: '建立政企 ToG 全局认知：政府采购、信创、招投标、预算制、决策链、关系经营与合规边界。' },
       { bookId: 'key-account-management', note: '把客户当组合经营：关键客户经理角色、客户分级与相合性模型。' },
       { bookId: 'strategic-selling', note: '复杂机会的标准打法：蓝表/绿表、四类买家角色、胜负信号。' },
       { bookId: 'new-solution-selling', note: '从卖产品转向卖解决方案：痛点到共识的对话框架。' },
+      { bookId: 'insight-principle', note: '行业洞察：七维度框架读懂客户行业，建立「比客户还懂他」的专业信任。' },
+      { bookId: 'competitive-strategy', note: '竞争定位：五力模型与三大通用战略，避开政企赛道的价格战陷阱。' },
+      { bookId: 'blue-ocean-strategy', note: '差异化方案设计：ERRC 四步动作，在政企红海中开创无争价值。' },
+      { bookId: 'procurement-40', note: '政企采购流程：从预算编制到招投标评分，理解客户采购全链路。' },
+      { bookId: 'abm', note: '账号化经营：以政企客户为单位的围猎战役，营销与销售共用一本作战手册。' },
+      { bookId: 'crucial-conversations', note: '高风险沟通：政企场景下的冲突处理、谈判僵局与向上汇报。' },
       { bookId: 'power-negotiation', note: '价格与条款谈判的战术、让步节奏与锚定。' },
-      { bookId: 'principled-negotiation', note: '原则谈判：守住底线、保全长期关系。' }
+      { bookId: 'principled-negotiation', note: '原则谈判：守住底线、保全长期关系。' },
+      { bookId: 'escape-velocity', note: '新业务换轨：政企新业务如何设置隔离区，不被成熟业务的引力吞掉。' },
+      { bookId: 'rc16', note: '大客户管理流程：客户价值细分、决策链覆盖与联合业务规划。' },
+      { bookId: 'rc18', note: '信任五环：建立信任的五个关键动作。' },
+      { bookId: 'rc19', note: '值得信赖的顾问：从卖产品到经营客户。' },
+      { bookId: 'rc04', note: '桑德拉：反向提问与平等对话。' },
+      { bookId: 'rc09', note: '挑战式销售：商业洞察三要素，重构客户认知。' }
     ]
   },
   {

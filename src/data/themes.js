@@ -8,11 +8,13 @@ export const themes = [
     title: '政企 · ToG 大客户打法',
     icon: '🏛️',
     tagline: '政府采购 · 信创 · 招投标 · 复杂大客户',
-    desc: '面向政企 ToG 场景的打法合集：从政企客户全局认知，到大客户经营、复杂机会管控、解决方案对话，再到谈判收口。一套可直接用于打单的阅读链。',
+    desc: '面向政企 ToG 场景的打法合集：从政企客户全局认知，到大客户经营、复杂机会管控、解决方案对话，再到谈判收口。覆盖政企采购流程、行业洞察、竞争定位、差异化设计、账号化经营与高风险沟通——一套可直接用于打单的阅读链。',
     bookIds: [
       'gov-enterprise-sales', 'key-account-management', 'strategic-selling',
       'power-negotiation', 'principled-negotiation', 'new-solution-selling',
-      'rc16', 'rc18', 'rc19', 'rc04', 'rc09'
+      'rc16', 'rc18', 'rc19', 'rc04', 'rc09',
+      'procurement-40', 'crucial-conversations', 'competitive-strategy',
+      'blue-ocean-strategy', 'escape-velocity', 'insight-principle', 'abm'
     ]
   },
   {
