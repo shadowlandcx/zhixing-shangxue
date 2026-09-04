@@ -131,6 +131,8 @@ const reportModules = {
   'deep-calculating-network': () => import('./reports/deep-calculating-network'),
   'ai-agents-sales-revenue-en': () => import('./reports/ai-agents-sales-revenue-en'),
   'calculating-rise': () => import('./reports/calculating-rise'),
+  'sales-brainwashing': () => import('./reports/sales-brainwashing'),
+  'customer-acquisition-sales': () => import('./reports/customer-acquisition-sales'),
 }
 
 export async function getBookReport(id) {

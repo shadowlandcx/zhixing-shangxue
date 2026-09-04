@@ -9,7 +9,8 @@ export const tracks = {
       'rc07', 'rc08', 'rc10', 'rc11', 'rc12', 'rc13',
       'rc14', 'rc15', 'rc18', 'rc19', 'rc20', 'rc21',
       'new-solution-selling', 'strategic-selling',
-      'ai-agents-sales-revenue', 'ai-agents-sales-revenue-en'
+      'ai-agents-sales-revenue', 'ai-agents-sales-revenue-en',
+      'sales-brainwashing', 'customer-acquisition-sales'
     ],
     name: '销售打法',
     en: 'Sales Craft',

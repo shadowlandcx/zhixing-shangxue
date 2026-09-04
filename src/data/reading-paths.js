@@ -40,7 +40,9 @@ export const readingPaths = [
       { bookId: 'rc20', note: 'SPIN：用提问重构客户痛点。' },
       { bookId: 'rc04', note: '桑德拉：反向提问与平等对话。' },
       { bookId: 'rc18', note: '信任五环：建立信任的五个关键动作。' },
-      { bookId: 'rc19', note: '值得信赖的顾问：从卖产品到经营客户。' }
+      { bookId: 'rc19', note: '值得信赖的顾问：从卖产品到经营客户。' },
+      { bookId: 'sales-brainwashing', note: '销售基本功：客户嘴上说的 vs 心里想的，问答赞处理异议，七步成交法。' },
+      { bookId: 'customer-acquisition-sales', note: '拓客系统：SDR 与 AE 分工、线索五阶段流水线、播种撒网狙击。' }
     ]
   },
   {
