@@ -51,6 +51,16 @@ function onSearch() {
   const kw = searchQ.value.trim()
   router.push(kw ? { path: '/search', query: { q: kw } } : { path: '/search' })
 }
+
+// 本地浏览计数：仅统计本浏览器累计浏览次数，不伪造全站数据
+const PAGE_VIEW_KEY = 'zhixing_page_views'
+const pageViews = ref(0)
+try {
+  const raw = localStorage.getItem(PAGE_VIEW_KEY)
+  const count = raw ? parseInt(raw, 10) || 0 : 0
+  localStorage.setItem(PAGE_VIEW_KEY, String(count + 1))
+  pageViews.value = count + 1
+} catch { /* localStorage 不可用时静默降级 */ }
 </script>
 
 <template>
@@ -69,10 +79,13 @@ function onSearch() {
           <button type="button" class="btn-gold" @click="scrollToTracks">开始学习</button>
           <router-link to="/books" class="btn-outline border-white/30 text-white hover:border-gold hover:text-gold">读书研报 →</router-link>
         </div>
-        <div class="mt-10 flex gap-8">
-          <div><div class="text-2xl font-bold text-gold-light">{{ books.length }} 本</div><div class="text-sm text-white/60">读书研报</div></div>
-          <div><div class="text-2xl font-bold text-gold-light">3 大</div><div class="text-sm text-white/60">阅读视角</div></div>
-          <div><div class="text-2xl font-bold text-gold-light">本地</div><div class="text-sm text-white/60">个人笔记</div></div>
+        <div class="mt-10 flex flex-wrap gap-8">
+          <div><div class="text-2xl font-bold text-gold-light">{{ books.length }} 本</div><div class="text-sm text-white/60">精选读物</div></div>
+          <div><div class="text-2xl font-bold text-gold-light">{{ allTools.length }} 个</div><div class="text-sm text-white/60">可落地工具</div></div>
+          <div><div class="text-2xl font-bold text-gold-light">{{ trackList.length }} 大</div><div class="text-sm text-white/60">能力域</div></div>
+          <div><div class="text-2xl font-bold text-gold-light">{{ themes.length }} 大</div><div class="text-sm text-white/60">主题导览</div></div>
+          <div><div class="text-2xl font-bold text-gold-light">{{ readingPaths.length }} 条</div><div class="text-sm text-white/60">阅读路径</div></div>
+          <div v-if="pageViews > 1"><div class="text-2xl font-bold text-gold-light">{{ pageViews }} 次</div><div class="text-sm text-white/60">本浏览器浏览</div></div>
         </div>
       </div>
       <div class="relative hidden lg:block">
