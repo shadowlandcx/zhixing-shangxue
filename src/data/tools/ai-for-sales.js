@@ -1,7 +1,7 @@
 // 第一波补强书《AI for Sales：销售智能化实战》工具包。
 // 字段扩展：type / stage / difficulty / duration / pitfalls / successMetric（同 pilot schema）。
 // 内容均为中文全角引号「」，不使用反引号，避免破坏 JS 模板字符串。
-// 贴近锐捷销售易 NeoCRM 智能化场景（自动补录、智能评分、对话洞察、pipeline 健康度巡检）。
+// 贴近所在企业销售易 NeoCRM 智能化场景（自动补录、智能评分、对话洞察、pipeline 健康度巡检）。
 
 export const aiForSalesTools = [
   {

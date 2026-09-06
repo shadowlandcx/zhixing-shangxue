@@ -267,7 +267,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -306,7 +306,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -345,7 +345,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -383,7 +383,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "相信销售技能培养和行为模式的改变不是靠一两次的“短期刺激”形成的，而是通过“态度-行为-技巧”（成功金三角）均衡发展，依靠不断的强化训练和持续改进而形成的。本书提炼49条，令人难忘的原则，这些原则坦率、有趣，而且容易使用。",
     "rating": 4.6
   },
@@ -423,7 +423,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "传统销售组织存在客户拓展困难（新客户拓展乏力，老客户无人看护），只看生意，看不清抓不住客户，销售过程看不清楚（一线销售和管理者每天都很忙，但不知道在忙啥，销售每天都在见客户，但不知道见了谁，效果怎么样，管理者经常开会，但流于形式，问题得不到解决，管理者只看结果不关注过程，管理者凭直觉做事，管理方式高度个性化）。"
   },
   {
@@ -462,7 +462,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "清楚销售主管角色，提高销售工作效率。"
   },
   {
@@ -501,7 +501,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "这本书提出了价值竞争——以客户为中心的销售方法论，并分别针对客户管理和孵化、建立信任、激发需求、促成立项、建立购买标准、屏蔽对手、成交、管理期望、收款、销售指挥体系、赋能等12个方面提出了一揽子的解决方案。"
   },
   {
@@ -540,7 +540,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -579,7 +579,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -618,7 +618,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -657,7 +657,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -696,7 +696,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -735,7 +735,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -774,7 +774,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -813,7 +813,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -852,7 +852,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -891,7 +891,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -930,7 +930,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -969,7 +969,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1008,7 +1008,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1047,7 +1047,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1086,7 +1086,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "通过剖析 50 家世界顶级客户型企业案例，从客户愿景、战略等 10 个维度，为企业提供了从客户视角出发实现高增长的理论与实践指导的市场营销及客户管理领域的书籍。"
   },
   {
@@ -1125,7 +1125,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "数智化重新定义了顾客和企业的连接方式，以及企业为顾客创造价值的模式和空间，它成为战略优势的新来源。"
   },
   {
@@ -1163,7 +1163,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "聚焦渠道战略设计与实战应用，《营销渠道-管理的视野》以体系化方法论+行业案例解析，可以助力团队共学共进，掌握渠道动态管理核心逻辑",
     "rating": 4.7
   },
@@ -1203,7 +1203,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1242,7 +1242,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "这本书较为基础，但对营销本质进行了深刻的讲述，给我印象比较深的是对之前我们接触的较多商业分析模型的使用进行了深入浅出的讲解，比如宏观环境分析PEST模型、行业进入分析BCG矩阵、行业现状分析波特五力模型和4C模型，然后附以大量案例进行细致说明，值得我们在市场营销中加以运用。"
   },
   {
@@ -1281,7 +1281,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1320,7 +1320,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1359,7 +1359,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1398,7 +1398,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1437,7 +1437,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1476,7 +1476,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1515,7 +1515,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1554,7 +1554,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1593,7 +1593,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1632,7 +1632,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1671,7 +1671,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1710,7 +1710,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1749,7 +1749,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1787,7 +1787,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "生意的本质是通过解决别人的问题获利，要么找到市场产品契合点，要么死掉，越是活的艰难，越要始终坚持。",
     "rating": 4.5
   },
@@ -1826,7 +1826,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "本书，是用50多个案例来阐述流程建设的九大要素，八大误区，是一本流程建设的工具书。涉及流程定位，流程规划，流程建恶化，流程推行，流程运营和流程优化的具体案例和方法。主要观点是，流程是产品和服务所走过的路径的显化，也是价值创造诸要素在业务活动中所贡献的价值在特定规则下有秩序的流动。",
     "rating": 4.6
   },
@@ -1866,7 +1866,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1904,7 +1904,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "华为变革项目管理办公室主任毛万金写的。管理进步的根本是持续有效的变革。结合变革之心的八步法，提出“你是火炬手·变革领导力”模型。",
     "rating": 4.7
   },
@@ -1944,7 +1944,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -1982,7 +1982,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "也算是任正非的传记，可以看华为发展的脉络和企业经营哲学，从中获取自己所需的观点",
     "rating": 4.8
   },
@@ -2022,7 +2022,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2061,7 +2061,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2100,7 +2100,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "思科的创新是活跃的——行业内的每一次变革它好像都能提前洞悉。"
   },
   {
@@ -2139,7 +2139,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2178,7 +2178,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2217,7 +2217,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": "是一本兼具理论深度和实践价值的经典管理书籍。它不仅能够帮助管理者提升个人能力，还能够推动整个组织实现持续改进和卓越发展。无论是企业高管、中层管理者，还是希望提升领导力的职场人士，这本书都值得一读。通过学习和实践书中的理念，企业能够在复杂多变的商业环境中保持竞争力，实现长期成功。"
   },
   {
@@ -2256,7 +2256,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2295,7 +2295,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2334,7 +2334,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2373,7 +2373,7 @@ export const metaArray = [
       }
     ],
     "priority": "选读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
   {
@@ -2412,7 +2412,7 @@ export const metaArray = [
       }
     ],
     "priority": "必读",
-    "feishuUrl": "https://ruijie.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
 
@@ -3359,7 +3359,7 @@ export const metaArray = [
     tags: ['B2B 销售', '陌生推销拓客', 'SDR/AE 分工', '销售线索', '营收增长', '拓客 2.0', '销售自动化'],
     rating: 4.7,
     cover: '#2C6E8F',
-    intro: '硅谷销售圣经缔造者艾伦·罗斯与战略销售管道咨询公司创始人玛丽露·泰勒合著，专为 B2B 企业打造的实战型销售指南。核心命题只有一句：可持续的营收增长不是靠存量客户深耕，而是靠系统化的外拓客户开发。书中提出「陌生推销拓客 2.0」，把 SDR 与 AE 分工、线索流水线、销售自动化系统串成一条可度量的增长链。对锐捷政企北区的 13 个区域来说，这本书是把「等商机」变成「造商机」的操作手册。',
+    intro: '硅谷销售圣经缔造者艾伦·罗斯与战略销售管道咨询公司创始人玛丽露·泰勒合著，专为 B2B 企业打造的实战型销售指南。核心命题只有一句：可持续的营收增长不是靠存量客户深耕，而是靠系统化的外拓客户开发。书中提出「陌生推销拓客 2.0」，把 SDR 与 AE 分工、线索流水线、销售自动化系统串成一条可度量的增长链。对政企行业的 多个区域来说，这本书是把「等商机」变成「造商机」的操作手册。',
     meta: {
       publisher: '北京联合出版公司（2026.01）',
       role: 'B2B 销售管理者 / 区域负责人 / SDR 团队',
