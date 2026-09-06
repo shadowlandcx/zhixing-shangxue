@@ -7,27 +7,15 @@ import { allTools } from '../data/tools/index'
 import { themes } from '../data/themes'
 import { readingPaths, getPath } from '../data/reading-paths'
 
-// 首页「本周开读」推荐位：政企打单路径与全部 8 大主题
+// 首页「近期新书」推荐位：按 books-meta.js 追加顺序取最后 3 本
 const featuredPath = computed(() => getPath('tog-deal'))
 
 const router = useRouter()
-// 首页精选书单：新书 + 高评分经典 + 政企 ToG 核心书，轮播展示
+// 首页「近期新书」：按 books-meta.js 追加顺序取最后 3 本，轮播展示
 const featuredIds = [
-  'ai-agents-sales-revenue',
-  'shuzhi-enterprise',
-  'deep-calculating-network',
   'calculating-rise',
-  'procurement-40',
-  'crucial-conversations',
-  'competitive-strategy',
-  'blue-ocean-strategy',
-  'escape-velocity',
-  'insight-principle',
-  'abm',
-  'cognitive-awakening',
-  'danaher-model',
-  'tech-product-marketing',
-  'salesforce-legend'
+  'sales-brainwashing',
+  'customer-acquisition-sales'
 ]
 const featuredBooks = computed(() =>
   featuredIds.map((id) => books.find((b) => b.id === id)).filter(Boolean)
@@ -90,7 +78,7 @@ try {
       </div>
       <div class="relative hidden lg:block">
         <div class="card p-6">
-          <p class="eyebrow">本周开读</p>
+          <p class="eyebrow">近期新书</p>
           <h3 class="mt-2 text-lg font-semibold text-brand">{{ heroBook?.title || '销售管理 · 大客户突破' }}</h3>
           <p class="mt-1 text-xs text-muted">{{ heroBook?.author || '—' }}</p>
           <p class="mt-2 text-sm text-muted">{{ heroBook?.intro?.slice(0, 60) || '用决策人地图拆关键关系，把单子从 30% 推到 80%' }}…</p>
@@ -109,12 +97,12 @@ try {
     </div>
   </section>
 
-  <!-- 本周开读推荐位 -->
+  <!-- 近期新书 -->
   <section class="container-px mt-10 relative z-10">
     <div class="flex items-end justify-between">
       <div>
-        <p class="eyebrow">本周开读 · Featured</p>
-        <h2 class="mt-2 text-xl font-bold text-brand sm:text-2xl">这周读这本，把方法论变成自己的</h2>
+        <p class="eyebrow">近期新书 · New</p>
+        <h2 class="mt-2 text-xl font-bold text-brand sm:text-2xl">最新加入的三本，先读哪本？</h2>
       </div>
       <router-link to="/books" class="hidden text-sm font-medium text-gold-dark hover:text-brand sm:inline-flex">
         浏览全部 →
@@ -256,12 +244,12 @@ try {
     </div>
   </section>
 
-  <!-- 精选书单（轮播） -->
+  <!-- 近期新书（轮播大卡） -->
   <section class="container-px py-16">
     <div class="flex items-end justify-between">
       <div>
-        <p class="eyebrow">读书研报 · 营销+销售视角</p>
-        <h2 class="mt-3 text-2xl font-bold text-brand sm:text-3xl">精选书单，读透经营</h2>
+        <p class="eyebrow">读书研报 · 近期新书</p>
+        <h2 class="mt-3 text-2xl font-bold text-brand sm:text-3xl">最新上架，先读为快</h2>
       </div>
       <div class="flex items-center gap-2">
         <button class="flex h-9 w-9 items-center justify-center rounded-full border border-line text-brand transition hover:border-gold hover:text-gold" @click="scrollBooks(-1)" aria-label="上一组">‹</button>
