@@ -133,6 +133,7 @@ const reportModules = {
   'calculating-rise': () => import('./reports/calculating-rise'),
   'sales-brainwashing': () => import('./reports/sales-brainwashing'),
   'customer-acquisition-sales': () => import('./reports/customer-acquisition-sales'),
+  'deep-thinking': () => import('./reports/deep-thinking'),
 }
 
 export async function getBookReport(id) {

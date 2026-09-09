@@ -75,6 +75,7 @@ import { aiAgentsSalesRevenueEnTools } from './ai-agents-sales-revenue-en'
 import { calculatingRiseTools } from './calculating-rise'
 import { salesBrainwashingTools } from './sales-brainwashing'
 import { customerAcquisitionSalesTools } from './customer-acquisition-sales'
+import { deepThinkingTools } from './deep-thinking'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -204,7 +205,8 @@ export const allTools = [
   ...aiAgentsSalesRevenueEnTools,
   ...calculatingRiseTools,
   ...salesBrainwashingTools,
-  ...customerAcquisitionSalesTools
+  ...customerAcquisitionSalesTools,
+  ...deepThinkingTools
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致
