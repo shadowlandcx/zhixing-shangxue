@@ -42,7 +42,9 @@ export const readingPaths = [
       { bookId: 'rc18', note: '信任五环：建立信任的五个关键动作。' },
       { bookId: 'rc19', note: '值得信赖的顾问：从卖产品到经营客户。' },
       { bookId: 'sales-brainwashing', note: '销售基本功：客户嘴上说的 vs 心里想的，问答赞处理异议，七步成交法。' },
-      { bookId: 'customer-acquisition-sales', note: '拓客系统：SDR 与 AE 分工、线索五阶段流水线、播种撒网狙击。' }
+      { bookId: 'customer-acquisition-sales', note: '拓客系统：SDR 与 AE 分工、线索五阶段流水线、播种撒网狙击。' },
+      { bookId: 'ai-agents-sales-revenue', note: 'AI 销售智能体实战：16 类销售场景 × 智能体方案，话术演练与跟进节奏的 AI 落地。' },
+      { bookId: 'ai-agents-sales-revenue-en', note: 'AI Agents for Sales & Revenue Operations：英文版，面向营收运营的 AI 智能体全景。' }
     ]
   },
   {
@@ -70,7 +72,8 @@ export const readingPaths = [
       { bookId: 'leadership-pipeline', note: '领导梯队：各层级的角色转型。' },
       { bookId: 'high-output-management', note: '高产出管理：用指标与会议驱动产出。' },
       { bookId: 'danaher-model', note: '丹纳赫经营系统：可复制的增长引擎。' },
-      { bookId: 'principles', note: '原则：把决策变成可复用的原则。' }
+      { bookId: 'principles', note: '原则：把决策变成可复用的原则。' },
+      { bookId: 'sales-operations-management', note: '销售运营管理：4+1 管理模式（GIFTS）与年度运营计划体系——把战略落成目标、策略、人员、费用、奖金五问。' }
     ]
   },
   {
@@ -97,7 +100,8 @@ export const readingPaths = [
       { bookId: 'competitive-strategy', note: '竞争战略：五力模型与三种通用战略。' },
       { bookId: 'blue-ocean-strategy', note: '蓝海战略：跳出竞争、重构价值曲线。' },
       { bookId: 'innovators-dilemma', note: '创新者的窘境：颠覆式创新的规律。' },
-      { bookId: 'rc50', note: '战略 7 力：护城河的来源。' }
+      { bookId: 'rc50', note: '战略 7 力：护城河的来源。' },
+      { bookId: 'scene-intelligence', note: '场景智能：AI 原生的硅基管理，把场景作为竞争单位重新思考战略。' }
     ]
   },
   {
@@ -125,7 +129,10 @@ export const readingPaths = [
       { bookId: 'cloud-primer', note: '云计算通俗讲义：把最常遇到的技术概念补齐。' },
       { bookId: 'zero-trust', note: '零信任与安全：政企客户绕不开的合规语境。' },
       { bookId: 'industry-research', note: '行业研究方法：两周摸清一个陌生行业。' },
-      { bookId: 'singularity-nearer', note: 'AI 前沿：判断趋势，别被概念带节奏。' }
+      { bookId: 'singularity-nearer', note: 'AI 前沿：判断趋势，别被概念带节奏。' },
+      { bookId: 'shuzhi-enterprise', note: '数智强企：国企数智化转型的 IOMM 评估框架与五大结构性痛点诊断。' },
+      { bookId: 'deep-calculating-network', note: '深入浅出算力网络：算力作为新基础设施， IDC 四阶段与采购四阶段的结构同构。' },
+      { bookId: 'calculating-rise', note: '算力崛起：算力社会影响的四维分析框架——经济效率、就业结构、公共服务、数字鸿沟。' }
     ]
   },
   {
@@ -139,7 +146,12 @@ export const readingPaths = [
       { bookId: 'rc34', note: '原子习惯：用环境设计替代意志力，把改变变成默认选项。' },
       { bookId: 'rc32', note: '学会提问：批判性思维，别把假设当事实。' },
       { bookId: 'rc35', note: '能力陷阱：警惕「越擅长越被困住」，先行动再思考。' },
-      { bookId: 'rc31', note: '纳瓦尔宝典：把特定知识产品化，放大个人杠杆。' }
+      { bookId: 'rc31', note: '纳瓦尔宝典：把特定知识产品化，放大个人杠杆。' },
+      { bookId: 'cognitive-drive', note: '认知驱动：从「想成功」到「做成事」，用认知升级替代动机焦虑。' },
+      { bookId: 'smart-thinking', note: '如何成为更聪明的人：三层级思维框架（概念思维→创新思考→最优化决策），元认知的操作手册。' },
+      { bookId: 'deep-thinking', note: '深度思维：长链因果与系统思考，对抗碎片化思维的解药。' },
+      { bookId: 'success-mindsets', note: '心态：成长型思维与固定型思维的分野，决定你能走多远。' },
+      { bookId: 'tomorrowmind', note: '我们终将穿越风暴：五种心理力量，在不确定性中保持韧性与创造力。' }
     ]
   }
 ]

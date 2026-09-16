@@ -1,4 +1,4 @@
-// 主题导览 · 8 大业务主题（人工策展，覆盖全部 91 本）
+// 主题导览 · 8 大业务主题（人工策展，覆盖全部 106 本）
 // 与赛道(track)不同：主题是跨赛道、按「业务问题」聚合的阅读入口。
 import { books } from './books'
 
@@ -25,7 +25,10 @@ export const themes = [
     desc: '销售一线的方法论合集：挑战式、SPIN、价值竞争、信任五环、数字化销售……把经典著作变成可复用的签单动作。',
     bookIds: [
       'rc01', 'rc02', 'rc03', 'rc07', 'rc10', 'rc13', 'rc14', 'rc20', 'rc21', 'rc22',
-      'ai-for-sales', 'rc05', 'rc08', 'rc15', 'rc11', 'rc12', 'rc17', 'rc06'
+      'ai-for-sales', 'rc05', 'rc08', 'rc15', 'rc11', 'rc12', 'rc17', 'rc06',
+      'ai-agents-sales-revenue', 'ai-agents-sales-revenue-en',
+      'sales-brainwashing', 'customer-acquisition-sales',
+      'sales-operations-management'
     ]
   },
   {
@@ -71,7 +74,8 @@ export const themes = [
     desc: '看方向与打法盘的合集：竞争战略、蓝海战略、创新者的窘境、赢利、价值驱动增长、战略 7 力等。',
     bookIds: [
       'competitive-strategy', 'blue-ocean-strategy', 'innovators-dilemma',
-      'rc47', 'rc49', 'rc50', 'rc52', 'rc55', 'rc42', 'rc48', 'rc54', 'escape-velocity'
+      'rc47', 'rc49', 'rc50', 'rc52', 'rc55', 'rc42', 'rc48', 'rc54', 'escape-velocity',
+      'scene-intelligence'
     ]
   },
   {
@@ -82,7 +86,8 @@ export const themes = [
     desc: '个人与组织进化的合集：阿吉里斯行动科学（原典+两译本）、认知觉醒、思考快与慢、第五项修炼、原子习惯等。',
     bookIds: [
       'tip', 'tip-cn08', 'tip-cn24', 'cognitive-awakening', 'rc30', 'rc51',
-      'rc33', 'rc34', 'rc35', 'rc29', 'rc31'
+      'rc33', 'rc34', 'rc35', 'rc29', 'rc31',
+      'cognitive-drive', 'smart-thinking', 'tomorrowmind', 'success-mindsets', 'deep-thinking'
     ]
   },
   {
@@ -93,7 +98,8 @@ export const themes = [
     desc: '看懂技术与产品的合集：芯片简史、零信任网络、行业研究方法、Salesforce 传奇、云计算、奇点更近与 AI for Sales。',
     bookIds: [
       'chip-history', 'zero-trust', 'industry-research', 'salesforce-legend',
-      'cloud-primer', 'singularity-nearer', 'ai-for-sales'
+      'cloud-primer', 'singularity-nearer', 'ai-for-sales',
+      'shuzhi-enterprise', 'deep-calculating-network', 'calculating-rise'
     ]
   }
 ]

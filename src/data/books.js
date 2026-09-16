@@ -135,6 +135,7 @@ const reportModules = {
   'customer-acquisition-sales': () => import('./reports/customer-acquisition-sales'),
   'deep-thinking': () => import('./reports/deep-thinking'),
   'scene-intelligence': () => import('./reports/scene-intelligence'),
+  'sales-operations-management': () => import('./reports/sales-operations-management'),
 }
 
 export async function getBookReport(id) {
