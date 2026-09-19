@@ -3647,5 +3647,80 @@ export const metaArray = [
       { num: '150+', label: '个管理者研究样本' }
     ],
     proposition: '乘法领导者不是「更努力的管理者」，是「让团队在你面前变聪明的人」。'
+  },
+  {
+    id: 'team-dysfunctions',
+    title: '团队协作的五大障碍',
+    author: '帕特里克·兰西奥尼（Patrick Lencioni）',
+    publisher: '中信出版社（原版 Jossey-Bass，2002）',
+    year: 2010,
+    track: 'leadership',
+    relatedTracks: ['leadership'],
+    tags: ['团队协作', '五大障碍', '信任', '冲突', '投入', '责任', '结果'],
+    rating: 4.8,
+    cover: '#8B5CF6',
+    intro: '兰西奥尼用一个虚构的寓言故事开场——决策科技公司空降一位 57 岁的 CEO 凯瑟琳，她要面对的是一个「有最好的技术、最强的董事会、最多的资金，却连客户都留不住」的高管团队。她没有抓业绩，没有换人，没有空降流程，她只做了一件事：把团队协作的五大障碍找出来，从最底层开始拆。五大障碍像多米诺骨牌一样层层递进：缺乏信任 → 恐惧冲突 → 缺乏投入 → 逃避责任 → 无视结果。全书配套团队五大障碍评估表、个人背景分享引导卡、TKI 冲突模式工具、低风险激进决策卡、同事责任表、集体成就奖励制度、每周团队健康检查、反销售文化自查表。它解决的是「团队明明每个人都想把事做成，但就是做不成」的问题。',
+    meta: {
+      publisher: '中信出版社（原版 Jossey-Bass，2002）',
+      role: '区域总经理 / HRBP / 团队核心成员 / 想让团队从「假性和谐」变成「真协作」的人',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '5', label: '个障碍' },
+      { num: '8', label: '个实战工具' },
+      { num: '4', label: '部分结构' },
+      { num: '15', label: '题评估问卷' }
+    ],
+    proposition: '团队协作不是 complicated（复杂），是 hard（难）——因为它需要你先放下 ego，先暴露弱点，先承认「我不知道」。'
+  },
+  {
+    id: 'first-break-all-rules',
+    title: '首先，打破一切常规',
+    author: '马库斯·白金汉（Marcus Buckingham）/ 柯特·柯夫曼（Curt Coffman）',
+    publisher: 'Simon & Schuster（1999）',
+    year: 1999,
+    track: 'leadership',
+    relatedTracks: ['leadership'],
+    tags: ['盖洛普', '12问', 'talent', '优势管理', '打破常规', '管理常识革命'],
+    rating: 4.9,
+    cover: '#F59E0B',
+    intro: '白金汉和柯夫曼这本书是盖洛普花了 25 年、访谈了 8 万多名经理人之后写出来的。书的全名是《First, Break All the Rules: What the Worlds Greatest Managers Do Differently》。副标题才是重点——「全球最杰出的经理人做对了什么」。他们发现：杰出经理人并没有标准化的管理风格，他们唯一共有的是他们「打破的常规」一样多。全书配套团队敬业度 12 问、talent 识别卡、岗位 fit 评估表、优势清单、结果导向任务卡、长板管理自检表。它解决的是「管理不是让员工更努力，是让员工发挥出更多才能」的问题。',
+    meta: {
+      publisher: 'Simon & Schuster（1999）',
+      role: '区域总经理 / HRBP / 想从「管人」转向「赋能」的管理者',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '4', label: '把钥匙' },
+      { num: '6', label: '个实战工具' },
+      { num: '12', label: '个敬业度问题' },
+      { num: '80000+', label: '个经理人访谈' }
+    ],
+    proposition: '管理不是关于「让员工更努力」，是关于「让员工发挥出更多的才能」。而才能不是被「开发」出来的，是被「发现」的。'
+  },
+  {
+    id: 'now-discover-your-strengths',
+    title: '现在，发现你的优势',
+    author: '马库斯·白金汉（Marcus Buckingham）/ 唐纳德·克利夫顿（Donald O. Clifton）',
+    publisher: 'Free Press（2001）',
+    year: 2001,
+    track: 'leadership',
+    relatedTracks: ['leadership'],
+    tags: ['StrengthsFinder', '34个天赋主题', '优势签名', 'talent', '盖洛普'],
+    rating: 4.8,
+    cover: '#10B981',
+    intro: '白金汉和克利夫顿这本书的核心命题比「打破常规」更进一步——不是「不要补短板」，而是「你根本不知道自己的长板有多长」。盖洛普花了 25 年、测了 200 多万人，发现一个人的卓越不是「克服缺点」的结果，是「把天赋发挥到极致」的结果。34 个天赋主题分四大类：执行力、影响力、关系建设、战略思维。每个人最靠前的 5 个主题就是他的「优势签名」——独一无二。全书配套 StrengthsFinder 测试引导卡、天赋主题速查卡、优势签名表、岗位 fit 评估表、能量时刻记录表、优势对话卡。它解决的是「怎么让每个人在做自己最擅长的事的同时，把事做成」的问题。',
+    meta: {
+      publisher: 'Free Press（2001）',
+      role: '区域总经理 / HRBP / 想认识自己和团队优势的管理者',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '34', label: '个天赋主题' },
+      { num: '6', label: '个实战工具' },
+      { num: '2000000+', label: '个受访者' },
+      { num: '4', label: '大分类' }
+    ],
+    proposition: '你的优势不是「你比别人做得好的事」，是「你做这件事的时候，比做别的事更轻松、更持久、更享受」。'
   }
 ]

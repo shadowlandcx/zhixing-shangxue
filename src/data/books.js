@@ -143,7 +143,10 @@ const reportModules = {
   'trusted-advisor': () => import('./reports/trusted-advisor'),
   '52-sales-management-tips': () => import('./reports/52-sales-management-tips'),
   'advantage': () => import('./reports/advantage'),
-  'multipliers': () => import('./reports/multipliers')
+  'multipliers': () => import('./reports/multipliers'),
+  'team-dysfunctions': () => import('./reports/team-dysfunctions'),
+  'first-break-all-rules': () => import('./reports/first-break-all-rules'),
+  'now-discover-your-strengths': () => import('./reports/now-discover-your-strengths')
 }
 
 export async function getBookReport(id) {

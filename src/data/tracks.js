@@ -99,7 +99,8 @@ export const tracks = {
       'coaching-for-performance', 'leadership-pipeline', 'high-output-management', 'principles', 'ji-kong', 'rc17',
       'rc41', 'rc42', 'rc43', 'rc44', 'rc45', 'rc46',
       'rc51', 'rc53', 'rc56', 'rc40', 'tip', 'tip-cn08',
-      'tip-cn24', '52-sales-management-tips', 'advantage', 'multipliers'
+      'tip-cn24', '52-sales-management-tips', 'advantage', 'multipliers',
+      'team-dysfunctions', 'first-break-all-rules', 'now-discover-your-strengths'
     ],
     name: '团队管理',
     en: 'Team & Leadership',

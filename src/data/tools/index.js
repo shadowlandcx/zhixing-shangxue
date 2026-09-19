@@ -86,6 +86,9 @@ import { trustedAdvisorTools } from './trusted-advisor'
 import { fiftyTwoSalesManagementTipsTools } from './52-sales-management-tips'
 import { advantageTools } from './advantage'
 import { multipliersTools } from './multipliers'
+import { teamDysfunctionsTools } from './team-dysfunctions'
+import { firstBreakAllRulesTools } from './first-break-all-rules'
+import { nowDiscoverYourStrengthsTools } from './now-discover-your-strengths'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -226,7 +229,10 @@ export const allTools = [
   ...trustedAdvisorTools,
   ...fiftyTwoSalesManagementTipsTools,
   ...advantageTools,
-  ...multipliersTools
+  ...multipliersTools,
+  ...teamDysfunctionsTools,
+  ...firstBreakAllRulesTools,
+  ...nowDiscoverYourStrengthsTools
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致
