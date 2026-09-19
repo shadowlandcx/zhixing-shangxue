@@ -175,33 +175,33 @@ function stars(r) {
             >清除筛选</button>
           </div>
 
-          <div v-if="filtered.length" class="grid gap-5 sm:grid-cols-2">
+          <div v-if="filtered.length" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <router-link
               v-for="b in filtered"
               :key="b.id"
               :to="`/book/${b.id}`"
-              class="card flex flex-col overflow-hidden"
+              class="card flex flex-col overflow-hidden transition hover:-translate-y-0.5 hover:shadow-md"
             >
-              <div class="flex h-32 items-end p-4" :style="{ background: b.cover }">
-                <span class="text-lg font-bold text-white/95">{{ b.title }}</span>
+              <div class="flex h-24 items-end p-3" :style="{ background: b.cover }">
+                <span class="text-sm font-bold text-white/95 leading-tight">{{ b.title }}</span>
               </div>
-              <div class="flex flex-1 flex-col p-4">
-                <p class="text-sm text-muted">{{ b.author }}</p>
-                <h3 class="mt-1 font-semibold text-ink">{{ b.title }}</h3>
-                <p class="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-muted">{{ b.intro }}</p>
-                <div class="mt-3 flex flex-wrap gap-1">
+              <div class="flex flex-1 flex-col p-3">
+                <p class="text-xs text-muted">{{ b.author }}</p>
+                <h3 class="mt-0.5 text-sm font-semibold text-ink leading-tight">{{ b.title }}</h3>
+                <p class="mt-1 line-clamp-2 flex-1 text-xs leading-relaxed text-muted">{{ b.intro }}</p>
+                <div class="mt-2 flex flex-wrap gap-1">
                   <span
-                    v-for="t in (b.tags || []).slice(0, 3)"
+                    v-for="t in (b.tags || []).slice(0, 2)"
                     :key="t"
-                    class="rounded bg-paper px-2 py-0.5 text-xs text-brand/80"
+                    class="rounded bg-paper px-1.5 py-0.5 text-[10px] text-brand/80"
                   >#{{ t }}</span>
                 </div>
-                <div class="mt-3 flex items-center justify-between">
+                <div class="mt-2 flex items-center justify-between">
                   <div class="flex flex-wrap gap-1">
-                    <span class="rounded-full bg-paper px-2.5 py-1 text-xs text-brand">{{ b.category }}</span>
-                    <span v-if="b.priority" class="rounded-full px-2.5 py-1 text-xs" :class="b.priority === '必读' ? 'bg-brand text-white' : 'bg-paper text-muted'">{{ b.priority }}</span>
+                    <span class="rounded-full bg-paper px-2 py-0.5 text-[10px] text-brand">{{ b.category }}</span>
+                    <span v-if="b.priority" class="rounded-full px-2 py-0.5 text-[10px]" :class="b.priority === '必读' ? 'bg-brand text-white' : 'bg-paper text-muted'">{{ b.priority }}</span>
                   </div>
-                  <span v-if="b.rating" class="text-sm text-gold">{{ stars(b.rating) }} <span class="text-muted">{{ b.rating.toFixed(1) }}</span></span>
+                  <span v-if="b.rating" class="text-xs text-gold">{{ stars(b.rating) }} <span class="text-muted">{{ b.rating.toFixed(1) }}</span></span>
                 </div>
               </div>
             </router-link>
