@@ -11,15 +11,9 @@ import { readingPaths, getPath } from '../data/reading-paths'
 const featuredPath = computed(() => getPath('tog-deal'))
 
 const router = useRouter()
-// 首页「近期新书」：按 books-meta.js 追加顺序取最后 3 本，轮播展示
-const featuredIds = [
-  'calculating-rise',
-  'sales-brainwashing',
-  'customer-acquisition-sales'
-]
-const featuredBooks = computed(() =>
-  featuredIds.map((id) => books.find((b) => b.id === id)).filter(Boolean)
-)
+// 首页「近期新书」：动态取 books-meta.js 追加顺序的最后 3 本，轮播展示
+// 不再硬编码 ID，每次加书后自动更新首页推荐
+const featuredBooks = computed(() => books.slice(-3))
 // Hero 本周精选：取 featuredBooks 第一本作为主推
 const heroBook = computed(() => featuredBooks.value[0] || null)
 const bookScroller = ref(null)
