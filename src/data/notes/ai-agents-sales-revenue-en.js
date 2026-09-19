@@ -83,15 +83,6 @@ Mangum 拍的板：线索打分不该由销售主管月底凭感觉排一次，�
 
 他讲了一个关键点：forecast 不准几乎永远不是 "销售不老实"，是 **偏差有结构**。把偏差拆成 lead 池衰减、opp 流失、流程卡点、经济采购人未识别这几类，才能找到真正的杠杆点。
 
-## 可落地工具清单
-
-1. **AI 线索评分卡**：agent 按公司规模、行业、触点密度、互动历史给出评分与依据，不是硬规则加减，而是从转化数据上学出的权重。
-2. **MEDDIC 逐维核验器**：六大维度逐一标出缺失/弱项/需补证据，直接对着 qualification 报告跑，不给总分，给的是清单。
-3. **BANT 自动判定表**：每一维列出可验证的信号源，agent 抽取信号给出置信度，低置信度的维度推送销售补证据。
-4. **客户洞察重构素材包**：agent 按行业与客户画像整理同行案例与成本数据，供销售在 Challenger 对话中直接引用。
-5. **提案联动自查清单**：每份 proposal 与 MEDDIC 上下文强绑定，逐页检查是否与 qualification 状态对齐。
-6. **Forecast 偏差归因仪表盘**：把 forecast 偏差拆成 lead 池衰减、opp 流失、流程卡点、EDM 未识别这几个可定位的来源，而不是一个总数。
-
 ## 一句话带走
 
 > "The places where salespeople still spend the most time are almost never the places where the most revenue is made." 下季度复盘时，先把销售的时间分布图和 revenue 趋势图叠在一起看，哪一片时间花在哪片收入上，往往比任何 KPI 都准确。
