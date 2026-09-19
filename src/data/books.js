@@ -136,6 +136,14 @@ const reportModules = {
   'deep-thinking': () => import('./reports/deep-thinking'),
   'scene-intelligence': () => import('./reports/scene-intelligence'),
   'sales-operations-management': () => import('./reports/sales-operations-management'),
+  'sales-team-leadership': () => import('./reports/sales-team-leadership'),
+  'sales-eq': () => import('./reports/sales-eq'),
+  'insanely-simple': () => import('./reports/insanely-simple'),
+  'sales-channel': () => import('./reports/sales-channel'),
+  'trusted-advisor': () => import('./reports/trusted-advisor'),
+  '52-sales-management-tips': () => import('./reports/52-sales-management-tips'),
+  'advantage': () => import('./reports/advantage'),
+  'multipliers': () => import('./reports/multipliers')
 }
 
 export async function getBookReport(id) {

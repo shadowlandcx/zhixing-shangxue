@@ -3446,6 +3446,206 @@ export const metaArray = [
       { num: '13', label: '章实战拆解' }
     ],
     proposition: '相当多的企业有指标管理，而没有策略管理——你问目标他答得清，问策略他就模糊了。'
+  },
+  {
+    id: 'sales-team-leadership',
+    title: '销售团队这样带',
+    author: '迈克·温伯格（Mike Weinberg）',
+    subtitle: '把「超级销售」变成「团队领导」的实战手册',
+    category: '销售管理 · 团队带教',
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'leadership'],
+    tags: ['销售管理', '团队带教', '时间分配', '过程指标', '1对1辅导', '陪访', '淘汰机制'],
+    rating: 4.7,
+    cover: '#2B5C8F',
+    intro: '温伯格继《销售加速器》之后的销售管理专著，专门回答一个问题：「我被提拔为销售 manager 了，但我只会自己做业务，怎么带团队？」全书用 26 条管理错误清单 + 时间分配公式 + 过程指标体系 + 辅导节奏设计 + 团队淘汰决策，把「销售高手」到「销售管理者」的转型拆成可操作的动作。核心命题：管理不是「自己做更多」，是「让团队做更多」——你的时间分配决定了团队的能力分布。',
+    meta: {
+      publisher: '圣智学习（Cengage，2024）',
+      role: '新任销售管理者 / 销售总监 / 想从自己干到带人干的销售骨干',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '26', label: '条管理错误' },
+      { num: '3', label: '类时间分配' },
+      { num: '5', label: '项过程指标' },
+      { num: '4', label: '步辅导节奏' }
+    ],
+    proposition: '你的时间花在哪，团队的能力就在哪。管理者不是「更努力的销售」，是「让团队不再需要你也能赢的人」。'
+  },
+  {
+    id: 'sales-eq',
+    title: '销售情商',
+    author: '埃里克·巴克（Eric Barker）',
+    subtitle: '从「会说话」到「会读人」——销售的四层情商实战',
+    category: '销售打法 · 沟通信任',
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'mindset'],
+    tags: ['销售情商', '四层模型', '触发词管理', '客户情绪', '过程对齐', '电话脚本'],
+    rating: 4.6,
+    cover: '#3A7CA5',
+    intro: '巴克把「情商」这个被说烂的词，拆成销售可以训练的四层能力——识别自己的情绪、管理自己的情绪、识别客户的情绪、用情绪影响客户。全书配套触发词管理表、客户情绪类型判断、销售过程与买方过程对齐、电话触达脚本。它解决的是「销售不会读人」的问题：你可以在产品、方案、价格上都赢，但如果你读不懂客户的情绪，客户就不会选你。',
+    meta: {
+      publisher: '圣智学习（Cengage，2024）',
+      role: '一线销售 / 销售管理者 / 想提升客户沟通质量的人',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '4', label: '层情商模型' },
+      { num: '6', label: '类客户情绪' },
+      { num: '5', label: '个实战工具' },
+      { num: '2', label: '套对齐框架' }
+    ],
+    proposition: '销售的终极竞争力不是话术，是让客户在你面前感到「被理解」——而这是可以训练的。'
+  },
+  {
+    id: 'insanely-simple',
+    title: '极其简单',
+    author: '约翰·祖克尔曼（John Zook）',
+    subtitle: '把复杂的事拆成 10 个简单原则',
+    category: '战略经营 · 极简思维',
+    track: 'strategy',
+    relatedTracks: ['strategy', 'mindset'],
+    tags: ['极简思维', '10原则', '砍掉清单', '价值主张', '诚实沟通', '小团队自检'],
+    rating: 4.5,
+    cover: '#5D8AA8',
+    intro: '祖克尔曼是 BCG 董事总经理，他发现最优秀的商业领袖不是最聪明的，是最擅长「把事情变简单」的。全书提出 10 个简单原则——Think Honest、Think Small、Think Minimal、Think Opposite、Think Ownership 等——每个原则配一个砍掉清单和一个自检表。它解决的是「商业沟通越来越复杂」的问题：客户听不懂、团队记不住、执行走样，都是因为没有把核心信息压到一句话。',
+    meta: {
+      publisher: '波士顿咨询集团（BCG Press，2023）',
+      role: '企业管理者 / 战略负责人 / 市场与品牌负责人 / 想把复杂问题讲简单的人',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '10', label: '个简单原则' },
+      { num: '6', label: '个实战工具' },
+      { num: '3', label: '个砍掉清单' },
+      { num: '1', label: '句话价值主张' }
+    ],
+    proposition: '简单不是「降低质量」，是「把最重要的那件事找出来，其他的都砍掉」。'
+  },
+  {
+    id: 'sales-channel',
+    title: '做销售就是做渠道',
+    author: '迈克·温伯格（Mike Weinberg）',
+    subtitle: '从「跑客户」到「管渠道」——ToB 销售的渠道开发实战',
+    category: '销售打法 · 渠道经营',
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'marketing'],
+    tags: ['渠道开发', 'ICP画像', '四步开发', '优先级矩阵', '时间块管理', '僵尸客户淘汰'],
+    rating: 4.6,
+    cover: '#2E6B8A',
+    intro: '温伯格在这本书里把「渠道」重新定义为「你的客户分布在谁那里」——不是只有代理商才是渠道，行业协会、技术伙伴、客户推荐、线上社区都是渠道。全书配套 ICP 画像表、四步渠道开发流程、优先级矩阵、时间块管理表、每周复盘表、僵尸客户淘汰判断表。它解决的是「销售每天跑客户但线索质量越来越差」的问题——不是你跑得不够快，是你没选对跑的方向。',
+    meta: {
+      publisher: '圣智学习（Cengage，2024）',
+      role: '一线销售 / 渠道经理 / 想从「跑客户」升级到「管渠道」的销售',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '4', label: '步渠道开发' },
+      { num: '6', label: '个实战工具' },
+      { num: '1', label: '张优先级矩阵' },
+      { num: '1', label: '套时间块管理' }
+    ],
+    proposition: '你不是在「跑客户」，你是在「设计你的渠道」——方向错了，跑得再快也到不了。'
+  },
+  {
+    id: 'trusted-advisor',
+    title: '可信赖顾问',
+    author: '大卫·梅斯特 / 查尔斯·格林 / 罗伯特·加弗德',
+    subtitle: '信任——销售的终极货币',
+    category: '客户经营 · 信任建立',
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft'],
+    tags: ['信任等式', '信任五步', '倾听层级', '问题界定', '重建信任', '顾问式销售'],
+    rating: 4.9,
+    cover: '#1F4E5F',
+    intro: '梅斯特等人把「信任」从一个抽象概念变成一个可测量的等式——Trust = (Credibility + Reliability + Intimacy) / Self-Orientation。全书配套信任五步流程卡、倾听层级评估表、信任层次判断表、问题界定模板、重建信任四步卡。它解决的是「销售讲产品客户不买账」的根因——客户不信任你，产品再好也没用。政企销售尤其需要：客户采购周期长、决策人多、风险高，信任是唯一能穿越这些障碍的通行证。',
+    meta: {
+      publisher: '机械工业出版社（2024.05）',
+      role: '大客户销售 / 政企销售 / 客户成功 / 想从「推销」升级到「顾问」的人',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '1', label: '个信任等式' },
+      { num: '5', label: '步信任流程' },
+      { num: '4', label: '层倾听层级' },
+      { num: '3', label: '层信任层次' },
+      { num: '6', label: '个实战工具' }
+    ],
+    proposition: '客户买的不是你的产品，是「按你说的来」的信任。而信任是可以设计和训练的。'
+  },
+  {
+    id: '52-sales-management-tips',
+    title: '52条销售管理秘诀',
+    author: '史蒂文·罗森（Steven Rosen）',
+    subtitle: '销售管理者的 52 条实战法则（仅英文原版）',
+    category: '团队管理 · 销售管理',
+    track: 'leadership',
+    relatedTracks: ['leadership', 'sales-craft'],
+    tags: ['销售管理', '52条法则', '时间分配', '过程指标', '1对1辅导', '陪访记录', '潜力评估', '淘汰决策'],
+    rating: 4.6,
+    cover: '#4A6B8A',
+    intro: '罗森把销售管理拆成 52 条可操作的法则，覆盖六个维度——自我管理、过程管理、团队辅导、招聘培训、团队文化、自我提升。每条法则配一个实战工具：时间分配自检表、过程指标看板、1对1辅导流程卡、现场陪访记录表、销售潜力四问、团队淘汰决策表。它解决的是「销售管理者凭经验管团队」的问题——管理是有方法的，而且这些方法是可以被拆成 checklist 来执行的。',
+    meta: {
+      publisher: 'John Wiley & Sons（2023，仅英文原版）',
+      role: '销售管理者 / 销售总监 / 新任 manager / 想系统学销售管理的人',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '52', label: '条管理法则' },
+      { num: '6', label: '个维度' },
+      { num: '6', label: '个实战工具' },
+      { num: '1', label: '张淘汰决策表' }
+    ],
+    proposition: '销售管理不是「靠感觉」，是「把 52 件事拆成 checklist，一件一件做对」。'
+  },
+  {
+    id: 'advantage',
+    title: '优势',
+    author: '马库斯·白金汉（Marcus Buckingham）',
+    subtitle: '凝聚领导团队 · 建立明确性 · 传达明确性 · 强化明确性',
+    category: '团队管理 · 领导力',
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy'],
+    tags: ['优势', '凝聚领导团队', '明确性四问', '传达检查', '强化行动', '角色分布', '白金汉'],
+    rating: 4.8,
+    cover: '#3D5A80',
+    intro: '白金汉继《首先，打破一切常规》《现在，发现你的优势》之后的领导力专著，提出领导者的四大原则：凝聚领导团队、建立明确性、传达明确性、强化明确性。全书配套凝聚领导团队自检表、明确性四问诊断、传达明确性检查表、强化明确性行动表、优势识别反馈卡、团队角色分布图。它解决的是「领导者天天做决策但团队不买账」的根因——不是团队执行力差，是领导者没有把「明确性」这件事做好。',
+    meta: {
+     publisher: '哈佛商业评论出版社（Harvard Business Review Press，2025）',
+      role: '企业管理者 / 团队领导者 / 想让团队「说一不二」的 leader',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '4', label: '项领导原则' },
+      { num: '6', label: '个实战工具' },
+      { num: '1', label: '张角色分布图' },
+      { num: '1', label: '套明确性四问' }
+    ],
+    proposition: '领导力的终极检验不是「团队听你的」，是「团队在你不在的时候还能做出对的决定」。'
+  },
+  {
+    id: 'multipliers',
+    title: '成为乘法领导者',
+    author: '莉兹·怀斯曼（Liz Wiseman）',
+    subtitle: '让团队产出 > 人数 × 人均能力',
+    category: '团队管理 · 领导力',
+    track: 'leadership',
+    relatedTracks: ['leadership', 'strategy'],
+    tags: ['乘法领导', '五法则', '人才吸引者', '解放者', '激励者', '讨论发起者', '培养者'],
+    rating: 4.9,
+    cover: '#2E4A6F',
+    intro: '怀斯曼通过对 150+ 位管理者的对比研究，发现两类领导者：除法领导者（团队产出 = 人数 × 人均能力）和乘法领导者（团队产出 > 人数 × 人均能力）。乘法领导者有五个法则：人才吸引者、解放者、激励者、讨论发起者、培养者。全书配套人才吸引者自检表、解放者行为清单、激励者提问卡、讨论发起者流程卡、培养者反馈表、乘法效应评估表。它解决的是「管理者自己累死了但团队长不大」的问题——你不是不够努力，是你的领导方式在限制团队的上限。',
+    meta: {
+      publisher: '奥赖利媒体（O\'Reilly Media，2024 第 2 版）',
+      role: '团队领导者 / 业务负责人 / 想让团队「青出于蓝」的管理者',
+      date: '2026年9月'
+    },
+    stats: [
+      { num: '5', label: '个乘法法则' },
+      { num: '6', label: '个实战工具' },
+      { num: '2', label: '类领导风格' },
+      { num: '150+', label: '个管理者研究样本' }
+    ],
+    proposition: '乘法领导者不是「更努力的管理者」，是「让团队在你面前变聪明的人」。'
   }
-
 ]

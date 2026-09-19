@@ -10,7 +10,8 @@ export const tracks = {
       'rc14', 'rc15', 'rc18', 'rc19', 'rc20', 'rc21',
       'new-solution-selling', 'strategic-selling',
       'ai-agents-sales-revenue', 'ai-agents-sales-revenue-en',
-      'sales-brainwashing', 'customer-acquisition-sales'
+      'sales-brainwashing', 'customer-acquisition-sales',
+      'sales-team-leadership', 'sales-eq', 'sales-channel'
     ],
     name: '销售打法',
     en: 'Sales Craft',
@@ -38,7 +39,8 @@ export const tracks = {
     id: 'account',
     relatedBooks: [
       'key-account-management', 'gov-enterprise-sales', 'rc09', 'rc16', 'rc22', 'salesforce-legend',
-      'power-negotiation', 'principled-negotiation', 'crucial-conversations', 'rc38', 'procurement-40'
+      'power-negotiation', 'principled-negotiation', 'crucial-conversations', 'rc38', 'procurement-40',
+      'trusted-advisor'
     ],
     name: '客户经营',
     en: 'Account Management',
@@ -97,7 +99,7 @@ export const tracks = {
       'coaching-for-performance', 'leadership-pipeline', 'high-output-management', 'principles', 'ji-kong', 'rc17',
       'rc41', 'rc42', 'rc43', 'rc44', 'rc45', 'rc46',
       'rc51', 'rc53', 'rc56', 'rc40', 'tip', 'tip-cn08',
-      'tip-cn24'
+      'tip-cn24', '52-sales-management-tips', 'advantage', 'multipliers'
     ],
     name: '团队管理',
     en: 'Team & Leadership',
@@ -125,7 +127,8 @@ export const tracks = {
     id: 'strategy',
     relatedBooks: [
       'competitive-strategy', 'blue-ocean-strategy', 'innovators-dilemma', 'escape-velocity', 'danaher-model', 'rc47',
-      'rc48', 'rc50', 'rc52', 'rc54', 'rc55', 'insight-principle', 'scene-intelligence', 'sales-operations-management'
+      'rc48', 'rc50', 'rc52', 'rc54', 'rc55', 'insight-principle', 'scene-intelligence', 'sales-operations-management',
+      'insanely-simple'
     ],
     name: '战略经营',
     en: 'Strategy & Business',

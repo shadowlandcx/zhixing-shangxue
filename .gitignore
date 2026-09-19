@@ -17,3 +17,6 @@ Thumbs.db
 # 本地环境变量
 .env
 .env.local
+
+# 旧的本地构建备份目录
+dist_backup_*/

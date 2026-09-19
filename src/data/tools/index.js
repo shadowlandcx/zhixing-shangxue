@@ -78,6 +78,14 @@ import { customerAcquisitionSalesTools } from './customer-acquisition-sales'
 import { deepThinkingTools } from './deep-thinking'
 import { sceneIntelligenceTools } from './scene-intelligence'
 import { salesOperationsManagementTools } from './sales-operations-management'
+import { salesTeamLeadershipTools } from './sales-team-leadership'
+import { salesEqTools } from './sales-eq'
+import { insanelySimpleTools } from './insanely-simple'
+import { salesChannelTools } from './sales-channel'
+import { trustedAdvisorTools } from './trusted-advisor'
+import { fiftyTwoSalesManagementTipsTools } from './52-sales-management-tips'
+import { advantageTools } from './advantage'
+import { multipliersTools } from './multipliers'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -210,7 +218,15 @@ export const allTools = [
   ...customerAcquisitionSalesTools,
   ...deepThinkingTools,
   ...sceneIntelligenceTools,
-  ...salesOperationsManagementTools
+  ...salesOperationsManagementTools,
+  ...salesTeamLeadershipTools,
+  ...salesEqTools,
+  ...insanelySimpleTools,
+  ...salesChannelTools,
+  ...trustedAdvisorTools,
+  ...fiftyTwoSalesManagementTipsTools,
+  ...advantageTools,
+  ...multipliersTools
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致
