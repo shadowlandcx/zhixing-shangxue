@@ -147,7 +147,9 @@ const reportModules = {
   'team-dysfunctions': () => import('./reports/team-dysfunctions'),
   'first-break-all-rules': () => import('./reports/first-break-all-rules'),
   'now-discover-your-strengths': () => import('./reports/now-discover-your-strengths'),
-  'ask-right-questions': () => import('./reports/ask-right-questions')
+  'ask-right-questions': () => import('./reports/ask-right-questions'),
+  'mindset-dweck': () => import('./reports/mindset-dweck'),
+  'the-book-of-elon': () => import('./reports/the-book-of-elon')
 }
 
 export async function getBookReport(id) {

@@ -90,6 +90,8 @@ import { teamDysfunctionsTools } from './team-dysfunctions'
 import { firstBreakAllRulesTools } from './first-break-all-rules'
 import { nowDiscoverYourStrengthsTools } from './now-discover-your-strengths'
 import { askRightQuestionsTools } from './ask-right-questions'
+import { mindsetDweckTools } from './mindset-dweck'
+import { theBookOfElonTools } from './the-book-of-elon'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -169,7 +171,7 @@ const marketingTools2 = marketingTools.filter((t) => !REPLACED_IDS.has(t.id))
 const salesTools2 = salesTools.filter((t) => !REPLACED_IDS.has(t.id))
 const teamTools2 = teamTools.filter((t) => !REPLACED_IDS.has(t.id))
 
-// 全量工具 1221 个（esbuild 实测 2026-08-07）：旧 69 移除 58 个重复单工具(Phase1 的 3 + 销售 4 批 23 + 团队 5 批 32)，保留 15 旧工具；+ Phase1 标杆 22 + 各赛道批挖矿。按赛道：marketing 15 / sales 374 / team 832。
+// 全量工具 1233 个（esbuild 实测 2026-09-20）：旧 69 移除 58 个重复单工具(Phase1 的 3 + 销售 4 批 23 + 团队 5 批 32)，保留 15 旧工具；+ Phase1 标杆 22 + 各赛道批挖矿。按赛道：marketing 15 / sales 374 / team 832 + 6 新工具(mindset-dweck 6 + the-book-of-elon 6)。
 export const allTools = [
   ...marketingTools2,
   ...salesTools2,
@@ -234,7 +236,9 @@ export const allTools = [
   ...teamDysfunctionsTools,
   ...firstBreakAllRulesTools,
   ...nowDiscoverYourStrengthsTools,
-  ...askRightQuestionsTools
+  ...askRightQuestionsTools,
+  ...mindsetDweckTools,
+  ...theBookOfElonTools
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致

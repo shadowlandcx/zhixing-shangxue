@@ -1,6 +1,6 @@
 // 分类体系（7 大类）· 2026-08-29 重构
 // 说明：原 销售管理 / 市场营销 / 团队管理 三类存在「分类过粗、归属不准、
-// 技术与成长类无处安放」的问题，现按「能力域」重划为 7 类，覆盖全部 91 本。
+// 技术与成长类无处安放」的问题，现按「能力域」重划为 7 类，覆盖全部 121 本。
 export const tracks = {
   'sales-craft': {
     id: 'sales-craft',
@@ -130,7 +130,7 @@ export const tracks = {
     relatedBooks: [
       'competitive-strategy', 'blue-ocean-strategy', 'innovators-dilemma', 'escape-velocity', 'danaher-model', 'rc47',
       'rc48', 'rc50', 'rc52', 'rc54', 'rc55', 'insight-principle', 'scene-intelligence', 'sales-operations-management',
-      'insanely-simple'
+      'insanely-simple', 'the-book-of-elon'
     ],
     name: '战略经营',
     en: 'Strategy & Business',
@@ -160,7 +160,7 @@ export const tracks = {
       'cognitive-awakening', 'cognitive-drive', 'rc29', 'rc30', 'rc31', 'rc32', 'rc33',
       'rc34', 'rc35', 'rc36', 'rc37', 'rc39',
       'smart-thinking', 'tomorrowmind', 'success-mindsets', 'deep-thinking',
-      'ask-right-questions'
+      'ask-right-questions', 'mindset-dweck'
     ],
     name: '认知进化',
     en: 'Mindset & Thinking',
