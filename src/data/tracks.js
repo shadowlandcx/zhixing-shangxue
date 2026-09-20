@@ -100,7 +100,8 @@ export const tracks = {
       'rc41', 'rc42', 'rc43', 'rc44', 'rc45', 'rc46',
       'rc51', 'rc53', 'rc56', 'rc40', 'tip', 'tip-cn08',
       'tip-cn24', '52-sales-management-tips', 'advantage', 'multipliers',
-      'team-dysfunctions', 'first-break-all-rules', 'now-discover-your-strengths'
+      'team-dysfunctions', 'first-break-all-rules', 'now-discover-your-strengths',
+      'ask-right-questions'
     ],
     name: '团队管理',
     en: 'Team & Leadership',
@@ -158,7 +159,8 @@ export const tracks = {
     relatedBooks: [
       'cognitive-awakening', 'cognitive-drive', 'rc29', 'rc30', 'rc31', 'rc32', 'rc33',
       'rc34', 'rc35', 'rc36', 'rc37', 'rc39',
-      'smart-thinking', 'tomorrowmind', 'success-mindsets', 'deep-thinking'
+      'smart-thinking', 'tomorrowmind', 'success-mindsets', 'deep-thinking',
+      'ask-right-questions'
     ],
     name: '认知进化',
     en: 'Mindset & Thinking',

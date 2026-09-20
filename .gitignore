@@ -20,3 +20,6 @@ Thumbs.db
 
 # 旧的本地构建备份目录
 dist_backup_*/
+
+# 旧的笔记备份目录（工具包提取中间产物，不进仓库）
+src/data/notes_backup_tools*/
