@@ -149,7 +149,9 @@ const reportModules = {
   'now-discover-your-strengths': () => import('./reports/now-discover-your-strengths'),
   'ask-right-questions': () => import('./reports/ask-right-questions'),
   'mindset-dweck': () => import('./reports/mindset-dweck'),
-  'the-book-of-elon': () => import('./reports/the-book-of-elon')
+  'the-book-of-elon': () => import('./reports/the-book-of-elon'),
+  'value-selling-theory': () => import('./reports/value-selling-theory'),
+  'value-selling-strategy': () => import('./reports/value-selling-strategy')
 }
 
 export async function getBookReport(id) {

@@ -92,6 +92,8 @@ import { nowDiscoverYourStrengthsTools } from './now-discover-your-strengths'
 import { askRightQuestionsTools } from './ask-right-questions'
 import { mindsetDweckTools } from './mindset-dweck'
 import { theBookOfElonTools } from './the-book-of-elon'
+import { valueSellingTheoryTools } from './value-selling-theory'
+import { valueSellingStrategyTools } from './value-selling-strategy'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -238,7 +240,9 @@ export const allTools = [
   ...nowDiscoverYourStrengthsTools,
   ...askRightQuestionsTools,
   ...mindsetDweckTools,
-  ...theBookOfElonTools
+  ...theBookOfElonTools,
+  ...valueSellingTheoryTools,
+  ...valueSellingStrategyTools
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致

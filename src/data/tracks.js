@@ -11,7 +11,8 @@ export const tracks = {
       'new-solution-selling', 'strategic-selling',
       'ai-agents-sales-revenue', 'ai-agents-sales-revenue-en',
       'sales-brainwashing', 'customer-acquisition-sales',
-      'sales-team-leadership', 'sales-eq', 'sales-channel'
+      'sales-team-leadership', 'sales-eq', 'sales-channel',
+      'value-selling-theory', 'value-selling-strategy'
     ],
     name: '销售打法',
     en: 'Sales Craft',
