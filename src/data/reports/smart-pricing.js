@@ -1,6 +1,6 @@
 export const report = `# 《让顾客自己来定价》营销·销售实战研报
 
-## 研导读语
+## 研读导语
 我自己的体会是，工具不在多，在真用。这份研报我尽量写成你周一晨会就能拿去讲、拿去派活的样子；里面每一条动作都是我或者我带的人真做过的，不是书摘，是我把我们自己的事往书里套了一遍留下的东西。
 
 《让顾客自己来定价》（原书 Smart Pricing: How Google, Priceline, and Leading Businesses Use Pricing Innovation for Profitability，沃顿商学院教授 Jagmohan Raju 与 Z. John Zhang 合著，人大社 2012 年中文版）是一本把「定价」从财务后台拎到战略前台的实战书。它的核心贡献不是教你怎么报一个数，而是给出一套「收费机制设计」的武器库，9 大创新定价策略 + 价格杠杆原理 + 三大误区。

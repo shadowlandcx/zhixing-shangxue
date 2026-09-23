@@ -11,7 +11,7 @@
 //   产业链 快懂百科 https://www.baike.com/wikiid/5285072992813619344
 //   创新扩散 MBA智库 https://wiki.mbalib.com/wiki/%E5%88%9B%E6%96%B0%E6%89%A9%E6%95%A3%E7%90%86%E8%AE%BA/0
 
-export const report = `## 研导读语
+export const report = `## 研读导语
 
 我做销售那几年，最怕客户笑着问一句：你们真懂我们这行吗。这句话能把前面半小时的铺垫全清零。后来我做市场，又发现同一件事的另一面：我们写出去的内容客户根本不看，因为通篇都在讲自己。
 

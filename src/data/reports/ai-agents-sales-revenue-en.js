@@ -3,7 +3,7 @@
 // AI 基于公开方法论资料综合生成，具体判断以原书为准。
 export const report = `# 《AI Agents for Sales & Revenue Operations》实战研报
 
-## 研导读语
+## 研读导语
 
 Kenneth Mangum 的《AI Agents for Sales & Revenue Operations》这本书，是一个销售从业者在 AI 浪潮里期待已久的东西：它不空谈技术，不吹概念，而是把销售与营收运营全流程拆开，一环一环地问「这个地方 AI Agent 能不能做，做到什么程度」。更难得的是，它没有把 AI 描绘成销售的救世主或替代者，而是把它摆回我们已经用了十几年的方法论场景里，逐一对照。
 

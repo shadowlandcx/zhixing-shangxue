@@ -3,7 +3,7 @@
 
 export const report = `# 《首先，打破一切常规》实战研报
 
-## 研导读语
+## 研读导语
 
 白金汉和柯夫曼这本书是盖洛普花了 25 年、访谈了 8 万多名经理人之后写出来的。书的全名是《First, Break All the Rules: What the World's Greatest Managers Do Differently》。副标题才是重点——「全球最杰出的经理人做对了什么」。这篇研报从销售、营销、团队三个视角拆解这本书在政企行业的实战用法。
 
