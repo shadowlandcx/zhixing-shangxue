@@ -1,5 +1,5 @@
 // 元数据数组（不含 content / report）。加一本书只需在此加一个对象，
-// 并在 books-content.js / books-report.js 补上对应 id 的内容即可。
+// 并在 src/data/notes/<id>.js（读书笔记）与 src/data/reports/<id>.js（营销·销售研报）补上对应分片即可。
 // books.js 负责把三者合并导出，视图层无需改动。
 
 export const metaArray = [
@@ -3651,6 +3651,7 @@ export const metaArray = [
   {
     id: 'team-dysfunctions',
     title: '团队协作的五大障碍',
+    category: '团队管理 · 协作障碍',
     author: '帕特里克·兰西奥尼（Patrick Lencioni）',
     publisher: '中信出版社（原版 Jossey-Bass，2002）',
     year: 2010,
@@ -3676,6 +3677,7 @@ export const metaArray = [
   {
     id: 'first-break-all-rules',
     title: '首先，打破一切常规',
+    category: '团队管理 · 优势管理',
     author: '马库斯·白金汉（Marcus Buckingham）/ 柯特·柯夫曼（Curt Coffman）',
     publisher: 'Simon & Schuster（1999）',
     year: 1999,
@@ -3701,6 +3703,7 @@ export const metaArray = [
   {
     id: 'now-discover-your-strengths',
     title: '现在，发现你的优势',
+    category: '个人成长 · 优势识别',
     author: '马库斯·白金汉（Marcus Buckingham）/ 唐纳德·克利夫顿（Donald O. Clifton）',
     publisher: 'Free Press（2001）',
     year: 2001,
@@ -3726,6 +3729,7 @@ export const metaArray = [
   {
     id: 'ask-right-questions',
     title: '问对问题，做对事',
+    category: '领导 · 提问式领导力',
     author: '迈克尔·马奎特（Michael Marquardt）',
     publisher: '中信出版社（原版 Jossely-Bass，2008）',
     year: 2010,
