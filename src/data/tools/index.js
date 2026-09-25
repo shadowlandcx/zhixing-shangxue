@@ -86,6 +86,23 @@ import { trustedAdvisorTools } from './trusted-advisor'
 import { fiftyTwoSalesManagementTipsTools } from './52-sales-management-tips'
 import { advantageTools } from './advantage'
 import { multipliersTools } from './multipliers'
+import { marketingWarTools } from './marketing-war'
+import { simplicityTools } from './simplicity'
+import { whatIsStrategyTools } from './what-is-strategy'
+import { obviousTools } from './obvious'
+import { repositioningTools } from './repositioning'
+import { differentTools } from './different'
+import { tenTroutTipsTools } from './ten-trout-tips'
+import { bigBrandBigProblemTools } from './big-brand-big-problem'
+import { lifePositioningTools } from './life-positioning'
+import { twoHourBrandTools } from './two-hour-brand'
+import { boardroomWarTools } from './boardroom-war'
+import { focusTools } from './focus'
+import { originBrandTools } from './origin-brand'
+import { internetRulesTools } from './internet-rules'
+import { advertisingDeclineTools } from './advertising-decline'
+import { categoryStrategyTools } from './category-strategy'
+import { categoryInnovationTools } from './category-innovation'
 import { teamDysfunctionsTools } from './team-dysfunctions'
 import { firstBreakAllRulesTools } from './first-break-all-rules'
 import { nowDiscoverYourStrengthsTools } from './now-discover-your-strengths'
@@ -242,7 +259,24 @@ export const allTools = [
   ...mindsetDweckTools,
   ...theBookOfElonTools,
   ...valueSellingTheoryTools,
-  ...valueSellingStrategyTools
+  ...valueSellingStrategyTools,
+  ...marketingWarTools,
+  ...simplicityTools,
+  ...whatIsStrategyTools,
+  ...obviousTools,
+  ...repositioningTools,
+  ...differentTools,
+  ...tenTroutTipsTools,
+  ...bigBrandBigProblemTools,
+  ...lifePositioningTools,
+  ...twoHourBrandTools,
+  ...boardroomWarTools,
+  ...focusTools,
+  ...originBrandTools,
+  ...internetRulesTools,
+  ...advertisingDeclineTools,
+  ...categoryStrategyTools,
+  ...categoryInnovationTools,
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致

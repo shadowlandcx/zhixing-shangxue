@@ -45,7 +45,7 @@ const NOTE_TAKEAWAY = /一句话带走/
 const NOTE_LOGICAL = /全书逻辑脉络/
 
 const REPORT_SECTIONS = [
-  { re: /##\s*研导读语/, label: '研导读语' },
+  { re: /##\s*研读导语/, label: '研读导语' },
   { re: /##\s*一[、.．]/, label: '一、解决什么问题' },
   { re: /##\s*二[、.．]/, label: '二、核心框架/命题' },
   { re: /三视角|##\s*三[、.．]/, label: '三、三视角拆解' },

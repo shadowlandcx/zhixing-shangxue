@@ -151,7 +151,24 @@ const reportModules = {
   'mindset-dweck': () => import('./reports/mindset-dweck'),
   'the-book-of-elon': () => import('./reports/the-book-of-elon'),
   'value-selling-theory': () => import('./reports/value-selling-theory'),
-  'value-selling-strategy': () => import('./reports/value-selling-strategy')
+  'value-selling-strategy': () => import('./reports/value-selling-strategy'),
+  'marketing-war': () => import('./reports/marketing-war'),
+  'simplicity': () => import('./reports/simplicity'),
+  'what-is-strategy': () => import('./reports/what-is-strategy'),
+  'obvious': () => import('./reports/obvious'),
+  'repositioning': () => import('./reports/repositioning'),
+  'different': () => import('./reports/different'),
+  'ten-trout-tips': () => import('./reports/ten-trout-tips'),
+  'big-brand-big-problem': () => import('./reports/big-brand-big-problem'),
+  'life-positioning': () => import('./reports/life-positioning'),
+  'two-hour-brand': () => import('./reports/two-hour-brand'),
+  'boardroom-war': () => import('./reports/boardroom-war'),
+  'focus': () => import('./reports/focus'),
+  'origin-brand': () => import('./reports/origin-brand'),
+  'internet-rules': () => import('./reports/internet-rules'),
+  'advertising-decline': () => import('./reports/advertising-decline'),
+  'category-strategy': () => import('./reports/category-strategy'),
+  'category-innovation': () => import('./reports/category-innovation')
 }
 
 export async function getBookReport(id) {
