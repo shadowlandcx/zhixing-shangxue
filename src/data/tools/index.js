@@ -111,6 +111,8 @@ import { mindsetDweckTools } from './mindset-dweck'
 import { theBookOfElonTools } from './the-book-of-elon'
 import { valueSellingTheoryTools } from './value-selling-theory'
 import { valueSellingStrategyTools } from './value-selling-strategy'
+import { keyAccountManagementTools } from './key-account-management'
+import { challengerSaleTools } from './challenger-sale'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -260,6 +262,8 @@ export const allTools = [
   ...theBookOfElonTools,
   ...valueSellingTheoryTools,
   ...valueSellingStrategyTools,
+  ...keyAccountManagementTools,
+  ...challengerSaleTools,
   ...marketingWarTools,
   ...simplicityTools,
   ...whatIsStrategyTools,

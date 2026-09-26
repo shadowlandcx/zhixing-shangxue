@@ -168,7 +168,8 @@ const reportModules = {
   'internet-rules': () => import('./reports/internet-rules'),
   'advertising-decline': () => import('./reports/advertising-decline'),
   'category-strategy': () => import('./reports/category-strategy'),
-  'category-innovation': () => import('./reports/category-innovation')
+  'category-innovation': () => import('./reports/category-innovation'),
+  'challenger-sale': () => import('./reports/challenger-sale')
 }
 
 export async function getBookReport(id) {
