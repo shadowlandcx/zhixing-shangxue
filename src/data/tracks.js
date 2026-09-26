@@ -147,7 +147,9 @@ export const tracks = {
       'boardroom-war',
       'focus',
       'category-strategy',
-      'category-innovation'],
+      'category-innovation',
+      'key-innovation',
+      'symbiotic-strategy'],
     name: '战略经营',
     en: 'Strategy & Business',
     icon: '🧭',
@@ -203,7 +205,7 @@ export const tracks = {
   'industry': {
     id: 'industry',
     relatedBooks: [
-      'chip-history', 'zero-trust', 'cloud-primer', 'industry-research', 'singularity-nearer', 'ai-for-sales', 'shuzhi-enterprise', 'deep-calculating-network', 'calculating-rise'
+      'chip-history', 'zero-trust', 'cloud-primer', 'industry-research', 'singularity-nearer', 'ai-for-sales', 'shuzhi-enterprise', 'deep-calculating-network', 'calculating-rise', 'wisdom-future'
     ],
     name: '行业科技',
     en: 'Industry & Tech',

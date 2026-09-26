@@ -169,7 +169,10 @@ const reportModules = {
   'advertising-decline': () => import('./reports/advertising-decline'),
   'category-strategy': () => import('./reports/category-strategy'),
   'category-innovation': () => import('./reports/category-innovation'),
-  'challenger-sale': () => import('./reports/challenger-sale')
+  'challenger-sale': () => import('./reports/challenger-sale'),
+  'key-innovation': () => import('./reports/key-innovation'),
+  'wisdom-future': () => import('./reports/wisdom-future'),
+  'symbiotic-strategy': () => import('./reports/symbiotic-strategy')
 }
 
 export async function getBookReport(id) {

@@ -113,6 +113,9 @@ import { valueSellingTheoryTools } from './value-selling-theory'
 import { valueSellingStrategyTools } from './value-selling-strategy'
 import { keyAccountManagementTools } from './key-account-management'
 import { challengerSaleTools } from './challenger-sale'
+import { keyInnovationTools } from './key-innovation'
+import { wisdomFutureTools } from './wisdom-future'
+import { symbioticStrategyTools } from './symbiotic-strategy'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -281,6 +284,9 @@ export const allTools = [
   ...advertisingDeclineTools,
   ...categoryStrategyTools,
   ...categoryInnovationTools,
+  ...keyInnovationTools,
+  ...wisdomFutureTools,
+  ...symbioticStrategyTools,
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致
