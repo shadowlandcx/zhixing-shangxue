@@ -57,7 +57,7 @@ const REPORT_SECTIONS = [
 const VIEWS = [
   { re: /^###\s*销售视角/, label: '销售视角' },
   { re: /^###\s*营销视角/, label: '营销视角' },
-  { re: /^###\s*团队视角/, label: '团队视角' }
+  { re: /^###\s*(团队.{0,6}视角|组织视角)/, label: '团队视角' }
 ]
 // 禁用词仅限「站点自称课程/培训」话术; 书中内容提及课程不算
 const BANNED_HARD = [/行动作业/g]
