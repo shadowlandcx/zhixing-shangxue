@@ -29,7 +29,7 @@ export const note = `# 《Theory in Practice：提高专业效能》读书笔记
 
 #### 第二章 评价行动理论（Evaluating Theories of Action）
 
-- **评价标准是后果，不是动机**：一套行动理论好不好，看它带来的实际结果（信息质量、关系质量、行动有效性）。
+- **评价标准是后果，看它带来的实际结果（信息质量、关系质量、行动有效性）。
 - **有效性的三个价值**：① 有效信息（valid information）；② 自由与知情的选择（free and informed choice）；③ 内在的承诺（internal commitment）。这三条后来成为 Model II 的基石。
 - **推论阶梯（ladder of inference）**：人从「数据」一路跳到「信念/行动」，中间省略了大量假设。多数冲突源于双方站在各自阶梯顶端互怼，却没回到阶梯底部的数据。
 
@@ -40,7 +40,7 @@ export const note = `# 《Theory in Practice：提高专业效能》读书笔记
 #### 第三章 诊断使用理论（Diagnosing Theories-in-Use）
 
 - 给出一套**诊断框架**：从对话片段中识别对方的掌控变量与防御策略。典型信号：避重就轻、归罪于外、用抽象概念掩盖具体冲突。
-- 诊断的目的不是贴标签，而是让当事人「看见」自己的使用理论，才有改变的可能。
+- 诊断的目的是让当事人「看见」自己的使用理论，才有改变的可能。
 
 #### 第四章 模型 I（Model I）
 

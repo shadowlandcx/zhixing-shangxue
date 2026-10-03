@@ -172,7 +172,8 @@ const reportModules = {
   'challenger-sale': () => import('./reports/challenger-sale'),
   'key-innovation': () => import('./reports/key-innovation'),
   'wisdom-future': () => import('./reports/wisdom-future'),
-  'symbiotic-strategy': () => import('./reports/symbiotic-strategy')
+  'symbiotic-strategy': () => import('./reports/symbiotic-strategy'),
+  'zhineng-zengming': () => import('./reports/zhineng-zengming')
 }
 
 export async function getBookReport(id) {
