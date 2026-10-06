@@ -116,6 +116,9 @@ import { challengerSaleTools } from './challenger-sale'
 import { keyInnovationTools } from './key-innovation'
 import { wisdomFutureTools } from './wisdom-future'
 import { symbioticStrategyTools } from './symbiotic-strategy'
+import { masterNegotiationTools } from './master-negotiation'
+import { driveMotivationTools } from './drive-motivation'
+import { conciseExpressionTools } from './concise-expression'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -287,6 +290,9 @@ export const allTools = [
   ...keyInnovationTools,
   ...wisdomFutureTools,
   ...symbioticStrategyTools,
+  ...masterNegotiationTools,
+  ...driveMotivationTools,
+  ...conciseExpressionTools,
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致

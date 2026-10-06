@@ -4424,5 +4424,80 @@ export const metaArray = [
     ],
     proposition: 'AI 改变的不是某一个环节，而是整个企业系统的运行方式。相较于拥有一个好战略，更关键的是构建一套能不断生成好战略的机制。'
   },
+  {
+    id: 'master-negotiation',
+    title: '掌控谈话',
+    author: '克里斯·沃斯',
+    subtitle: '销售/大客户谈判视角导读',
+    category: '谈判 · 情绪与话术',
+    track: 'account',
+    relatedTracks: ['account', 'sales-craft', 'mindset'],
+    tags: ['战术同理心', '标注', '校准问题', 'No 是前进', '阿克曼议价', '情绪优先', '共同认可标准'],
+    rating: 4.9,
+    cover: '#1F2A44',
+    intro: 'FBI 前首席国际人质谈判专家克里斯·沃斯，用二十多年谈绑匪、谈劫机的实战经验，总结出一套反常识的谈判体系：人是被情绪驱动的动物，不是被理性驱动的计算机。 战术同理心、标注、校准问题、「No 是前进」、阿克曼议价——五组动作教你如何在情绪里把对话留住，从人质现场迁移到商务谈判桌。',
+    meta: {
+      publisher: '中国商业出版社（2021 年，原书 Never Split the Difference）',
+      role: '大客户经理 / 销售管理者 / 需要说服与谈判的人',
+      date: '2026年10月'
+    },
+    stats: [
+      { num: '4', label: '条核心原则' },
+      { num: '5', label: '组关键动作' },
+      { num: '17', label: '步沟通地图' },
+      { num: '1', label: '句核心认知' }
+    ],
+    proposition: '谈判桌上最值钱的不是话术，是在情绪里把对话留住的能力：把对方情绪标注出来、让对方自己叙述、用共同认可的标准收口——认知到位了，技巧自然跟上。'
+  },
+  {
+    id: 'drive-motivation',
+    title: '驱动力',
+    author: '丹尼尔·平克',
+    subtitle: '团队管理者·激励设计视角导读',
+    category: '团队管理 · 内在驱动',
+    track: 'leadership',
+    relatedTracks: ['leadership', 'mindset', 'strategy'],
+    tags: ['自主', '专精', '目的', '胡萝卜大棒', '过度理由效应', 'Type I / Type II', '心流'],
+    rating: 4.8,
+    cover: '#2D1B4E',
+    intro: '趋势专家丹尼尔·平克用四十年激励研究颠覆传统：当奖励与惩罚都已失效，胡萝卜大棒正在悄悄降低绩效、扼杀创造力。 真正驱动人的是三大要素——自主、专精、目的；关键是先分清任务性质（Type I 创造力型 vs Type II 纪律型），再对症设计激励，让胡萝卜大棒用在刀刃上。',
+    meta: {
+      publisher: '中国人民大学出版社（2012 年，原书 Drive）',
+      role: '团队管理者 / 销售主管 / 需要带团队的人',
+      date: '2026年10月'
+    },
+    stats: [
+      { num: '3', label: '大驱动要素' },
+      { num: '2', label: '类任务分型' },
+      { num: '2', label: '套思维系统' },
+      { num: '40', label: '年激励研究' }
+    ],
+    proposition: '胡萝卜大棒不是永远错，而是配错了任务：越是创造力型工作，越要靠自主、专精、目的驱动；先分清 Type I 和 Type II，再谈激励怎么设计——动机对了，绩效自然跟上。'
+  },
+  {
+    id: 'concise-expression',
+    title: '概括力：三步学会精准表达',
+    author: '山口拓朗',
+    subtitle: '向上汇报/客户表达视角导读',
+    category: '沟通表达 · 结构化',
+    track: 'mindset',
+    relatedTracks: ['mindset', 'sales-craft', 'leadership'],
+    tags: ['收集信息', '整理信息', '传达信息', '主干枝叶', '结论先行', '四类提问', '一句话表达'],
+    rating: 4.7,
+    cover: '#0F3D3E',
+    intro: '日本资深编辑、记者山口拓朗写给所有职场人的表达训练：概括力强，是能把「无论如何都要说的话」一句顶一百句地说出来。 收集—整理—传达三步法，配合主干—枝—叶结构、结论先行、四类提问，把「说不清」变成「一句话讲明白」，可读性极强、立刻能用。',
+    meta: {
+      publisher: '中信出版集团（2021 年）',
+      role: '管理者 / 汇报者 / 客户沟通 / 需要讲清楚的人',
+      date: '2026年10月'
+    },
+    stats: [
+      { num: '3', label: '个核心步骤' },
+      { num: '6', label: '个表达关键' },
+      { num: '4', label: '类提问法' },
+      { num: '3+', label: '级树形结构' }
+    ],
+    proposition: '概括力不是少说话，是先在心里走完「收集—整理—传达」三步，再把「无论如何都要说的那一句」放到最前面——重点靠结构说话，而不是靠篇幅说话。'
+  },
 
 ]

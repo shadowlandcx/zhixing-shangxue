@@ -42,7 +42,7 @@ export const tracks = {
     relatedBooks: [
       'key-account-management', 'gov-enterprise-sales', 'rc09', 'rc16', 'rc22', 'salesforce-legend',
       'power-negotiation', 'principled-negotiation', 'crucial-conversations', 'rc38', 'procurement-40',
-      'trusted-advisor'
+      'trusted-advisor', 'master-negotiation'
     ],
     name: '客户经营',
     en: 'Account Management',
@@ -113,7 +113,7 @@ export const tracks = {
       'rc51', 'rc53', 'rc56', 'rc40', 'tip', 'tip-cn08',
       'tip-cn24', '52-sales-management-tips', 'advantage', 'multipliers',
       'team-dysfunctions', 'first-break-all-rules', 'now-discover-your-strengths',
-      'ask-right-questions'
+      'ask-right-questions', 'drive-motivation'
     ],
     name: '团队管理',
     en: 'Team & Leadership',
@@ -179,7 +179,7 @@ export const tracks = {
       'rc34', 'rc35', 'rc36', 'rc37', 'rc39',
       'smart-thinking', 'tomorrowmind', 'success-mindsets', 'deep-thinking',
       'ask-right-questions', 'mindset-dweck',
-      'life-positioning'],
+      'life-positioning', 'concise-expression'],
     name: '认知进化',
     en: 'Mindset & Thinking',
     icon: '🧠',
