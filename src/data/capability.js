@@ -48,7 +48,8 @@ export const capabilityMap = {
         ],
         S: [
           { point: '价值竞争与方案销售', books: ['rc07'] },
-          { point: '数字化销售赋能', books: ['rc14', 'rc05'] }
+          { point: '数字化销售赋能', books: ['rc14', 'rc05'] },
+          { point: '结构化表达与向上汇报', books: ['concise-expression'] }
         ],
         A: [
           { point: '客户成功导向', books: ['rc22', 'rc19'] }
@@ -64,7 +65,8 @@ export const capabilityMap = {
         ],
         S: [
           { point: '管理驱动与指标设计', books: ['rc12', 'rc21'] },
-          { point: '销售组织数字化转型', books: ['rc05'] }
+          { point: '销售组织数字化转型', books: ['rc05'] },
+          { point: '谈判与对话掌控', books: ['master-negotiation'] }
         ],
         A: [
           { point: '复盘与精益迭代', books: ['rc34'] }
@@ -198,7 +200,8 @@ export const capabilityMap = {
           { point: '管理专业化', books: ['rc44', 'rc56'] }
         ],
         S: [
-          { point: '团队管理与领导力', books: ['rc53', 'rc45'] }
+          { point: '团队管理与领导力', books: ['rc53', 'rc45'] },
+          { point: '内在驱动力与团队激励', books: ['drive-motivation'] }
         ],
         A: [
           { point: '经营系统思维', books: ['danaher-model', 'rc52'] }
