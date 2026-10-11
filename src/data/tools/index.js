@@ -119,6 +119,9 @@ import { symbioticStrategyTools } from './symbiotic-strategy'
 import { masterNegotiationTools } from './master-negotiation'
 import { driveMotivationTools } from './drive-motivation'
 import { conciseExpressionTools } from './concise-expression'
+import { salesMarketingUnityTools } from './sales-marketing-unity'
+import { futureMarketingTools } from './future-marketing'
+import { marketing50CapabilitiesTools } from './marketing-5-0-capabilities'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -293,6 +296,9 @@ export const allTools = [
   ...masterNegotiationTools,
   ...driveMotivationTools,
   ...conciseExpressionTools,
+  ...salesMarketingUnityTools,
+  ...futureMarketingTools,
+  ...marketing50CapabilitiesTools,
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致

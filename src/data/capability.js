@@ -124,7 +124,8 @@ export const capabilityMap = {
       id: 'l3', name: '专家', years: '3–5年 · 体系/策略', desc: '策略、品牌、增长',
       dims: {
         K: [
-          { point: '营销战略与数智化', books: ['rc23', 'singularity-nearer'] }
+          { point: '营销战略与数智化', books: ['rc23', 'singularity-nearer'] },
+          { point: '前沿技术营销（AI·元宇宙·区块链）', books: ['future-marketing'] }
         ],
         S: [
           { point: '产品上市与定位（Message House）', books: ['tech-product-marketing'] }
@@ -138,10 +139,12 @@ export const capabilityMap = {
       id: 'l4', name: '管理者', years: '带市场团队', desc: '战略、组织、整合',
       dims: {
         K: [
-          { point: '营销战略与组织能力', books: ['rc23'] }
+          { point: '营销战略与组织能力', books: ['rc23'] },
+          { point: '数字营销能力体系（八大核心能力）', books: ['marketing-5-0-capabilities'] }
         ],
         S: [
-          { point: '全渠道整合与资源编排', books: ['rc24', 'rc28'] }
+          { point: '全渠道整合与资源编排', books: ['rc24', 'rc28'] },
+          { point: '销售—营销协同与组织整合', books: ['sales-marketing-unity'] }
         ],
         A: [
           { point: '长期主义客户经营', books: ['rc22', 'danaher-model'] }

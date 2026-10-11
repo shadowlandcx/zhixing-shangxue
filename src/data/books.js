@@ -176,7 +176,10 @@ const reportModules = {
   'zhineng-zengming': () => import('./reports/zhineng-zengming'),
   'master-negotiation': () => import('./reports/master-negotiation'),
   'drive-motivation': () => import('./reports/drive-motivation'),
-  'concise-expression': () => import('./reports/concise-expression')
+  'concise-expression': () => import('./reports/concise-expression'),
+  'sales-marketing-unity': () => import('./reports/sales-marketing-unity'),
+  'future-marketing': () => import('./reports/future-marketing'),
+  'marketing-5-0-capabilities': () => import('./reports/marketing-5-0-capabilities')
 }
 
 export async function getBookReport(id) {
