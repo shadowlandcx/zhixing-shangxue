@@ -85,7 +85,8 @@ export const tracks = {
       'advertising-decline',
       'sales-marketing-unity',
       'future-marketing',
-      'marketing-5-0-capabilities'],
+      'marketing-5-0-capabilities',
+      'always-be-qualifying'],
     name: '营销增长',
     en: 'Marketing & Growth',
     icon: '📣',
@@ -116,7 +117,8 @@ export const tracks = {
       'rc51', 'rc53', 'rc56', 'rc40', 'tip', 'tip-cn08',
       'tip-cn24', '52-sales-management-tips', 'advantage', 'multipliers',
       'team-dysfunctions', 'first-break-all-rules', 'now-discover-your-strengths',
-      'ask-right-questions', 'drive-motivation'
+      'ask-right-questions', 'drive-motivation',
+      'qualified-sales-leader'
     ],
     name: '团队管理',
     en: 'Team & Leadership',

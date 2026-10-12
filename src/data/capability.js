@@ -66,7 +66,8 @@ export const capabilityMap = {
         S: [
           { point: '管理驱动与指标设计', books: ['rc12', 'rc21'] },
           { point: '销售组织数字化转型', books: ['rc05'] },
-          { point: '谈判与对话掌控', books: ['master-negotiation'] }
+          { point: '谈判与对话掌控', books: ['master-negotiation'] },
+          { point: 'MEDDPICC 资格确认（Always Be Qualifying）', books: ['always-be-qualifying'] }
         ],
         A: [
           { point: '复盘与精益迭代', books: ['rc34'] }
@@ -82,6 +83,7 @@ export const capabilityMap = {
         ],
         S: [
           { point: '团队教练与冠军培养', books: ['rc11', 'rc44'] },
+          { point: '销售领导力与教练式管理（The Qualified Sales Leader）', books: ['qualified-sales-leader'] },
           { point: '目标与过程管理', books: ['rc06', 'rc12'] }
         ],
         A: [

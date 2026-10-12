@@ -4574,5 +4574,53 @@ export const metaArray = [
     ],
     proposition: '营销 5.0 不是「多用了几个技术工具」，而是组织长出八块能力：读得懂数据、预测得动趋势、接得住情境、整合得了渠道、跑得起敏捷、分得清代际、控得住伦理、兜得住风险。'
   },
+  {
+    id: 'always-be-qualifying',
+    title: 'Always Be Qualifying',
+    author: 'Darius Lahoutifard',
+    cover: '#1B4F72',
+    category: '销售方法 · MEDDPICC 资格确认',
+    track: 'sales-craft',
+    relatedTracks: ['sales-craft', 'account', 'mindset'],
+    tags: ['MEDDPICC', '资格确认', '大客户销售', 'Champion', 'Economic Buyer', '决策流程'],
+    rating: 4.4,
+    intro: 'Amazon 畅销书（4.4★/265 评，146 页）。把 qualification 从「销售的直觉」变成「一套可重复的动作序列」：三个为什么（为什么买/为什么现在买/为什么跟我们买）+ MEDDPICC 七要素逐格拆 + ROI Pitch 收束。核心命题：Qualifying is closing——qualification 不是销售流程的第一步，而是贯穿始终的主线。 依据：公开摘要 + MEDDIC Academy + SellingSherpa 逐章摘要整理。',
+    meta: {
+      publisher: 'Amazon 畅销书（独立出版）',
+      role: '销售 / 销售负责人 / 大客户销售',
+      date: '2026年10月'
+    },
+    stats: [
+      { num: '3', label: '个为什么' },
+      { num: '7', label: '项要素' },
+      { num: '11', label: '个章节' },
+      { num: '4.4', label: '★评分' }
+    ],
+    proposition: 'Qualifying 不是销售流程的第一步，而是贯穿始终的主线——每一次客户接触都在回答「这个机会值不值得继续」，答不上来就不要往下走。'
+  },
+  {
+    id: 'qualified-sales-leader',
+    title: 'The Qualified Sales Leader',
+    author: 'John McMahon',
+    cover: '#6C3461',
+    category: '销售领导力 · 教练式管理',
+    track: 'leadership',
+    relatedTracks: ['leadership', 'sales-craft', 'strategy'],
+    tags: ['销售领导力', 'Coaching', 'MEDDPICC', 'A-player', '招聘', '教练节奏'],
+    rating: 4.6,
+    intro: '4.6★/1,525 评，348 页。作者 John McMahon 是唯一曾任 5 家上市公司 CRO 的人（PTC/Geo-Tel/Ariba/BladeLogic/BMC）。核心命题：Managing is not coaching——管理是看数字，教练是坐对面一个机会一个机会拆 MEDDPICC。三大支柱：qualification（诊断能力）+ coaching（教练能力）+ hiring（招聘能力）。 依据：公开摘要 + Bookey 逐章摘要 + Business Floss 完整总结整理。',
+    meta: {
+      publisher: '独立出版（Amazon）',
+      role: '销售负责人 / 销售 leader / 区域总经理',
+      date: '2026年10月'
+    },
+    stats: [
+      { num: '5', label: '家上市公司 CRO' },
+      { num: '3', label: '大支柱' },
+      { num: '10', label: '个章节' },
+      { num: '4.6', label: '★评分' }
+    ],
+    proposition: 'Managing is not coaching. 管理是盯着数字、开例会、看报表；教练是进房间、坐在桌子对面、一个机会一个机会地帮销售把 MEDDPICC 的每一格填实。'
+  }
 
 ]

@@ -119,6 +119,8 @@ import { symbioticStrategyTools } from './symbiotic-strategy'
 import { masterNegotiationTools } from './master-negotiation'
 import { driveMotivationTools } from './drive-motivation'
 import { conciseExpressionTools } from './concise-expression'
+import { alwaysBeQualifyingTools } from './always-be-qualifying'
+import { qualifiedSalesLeaderTools } from './qualified-sales-leader'
 import { salesMarketingUnityTools } from './sales-marketing-unity'
 import { futureMarketingTools } from './future-marketing'
 import { marketing50CapabilitiesTools } from './marketing-5-0-capabilities'
@@ -299,6 +301,8 @@ export const allTools = [
   ...salesMarketingUnityTools,
   ...futureMarketingTools,
   ...marketing50CapabilitiesTools,
+  ...alwaysBeQualifyingTools,
+  ...qualifiedSalesLeaderTools,
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致

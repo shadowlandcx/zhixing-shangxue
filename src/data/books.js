@@ -179,7 +179,9 @@ const reportModules = {
   'concise-expression': () => import('./reports/concise-expression'),
   'sales-marketing-unity': () => import('./reports/sales-marketing-unity'),
   'future-marketing': () => import('./reports/future-marketing'),
-  'marketing-5-0-capabilities': () => import('./reports/marketing-5-0-capabilities')
+  'marketing-5-0-capabilities': () => import('./reports/marketing-5-0-capabilities'),
+  'always-be-qualifying': () => import('./reports/always-be-qualifying'),
+  'qualified-sales-leader': () => import('./reports/qualified-sales-leader')
 }
 
 export async function getBookReport(id) {
