@@ -181,7 +181,10 @@ const reportModules = {
   'future-marketing': () => import('./reports/future-marketing'),
   'marketing-5-0-capabilities': () => import('./reports/marketing-5-0-capabilities'),
   'always-be-qualifying': () => import('./reports/always-be-qualifying'),
-  'qualified-sales-leader': () => import('./reports/qualified-sales-leader')
+  'qualified-sales-leader': () => import('./reports/qualified-sales-leader'),
+  'account-based-marketing': () => import('./reports/account-based-marketing'),
+  'account-based-growth': () => import('./reports/account-based-growth'),
+  'mastering-abm': () => import('./reports/mastering-abm')
 }
 
 export async function getBookReport(id) {

@@ -127,13 +127,16 @@ export const capabilityMap = {
       dims: {
         K: [
           { point: '营销战略与数智化', books: ['rc23', 'singularity-nearer'] },
-          { point: '前沿技术营销（AI·元宇宙·区块链）', books: ['future-marketing'] }
+          { point: '前沿技术营销（AI·元宇宙·区块链）', books: ['future-marketing'] },
+          { point: 'ABM 基础方法论（ICP/TAL/协同/度量）', books: ['account-based-marketing'] }
         ],
         S: [
-          { point: '产品上市与定位（Message House）', books: ['tech-product-marketing'] }
+          { point: '产品上市与定位（Message House）', books: ['tech-product-marketing'] },
+          { point: '目标账号分层与个性化战役设计', books: ['account-based-marketing'] }
         ],
         A: [
-          { point: '创新与增长心智', books: ['rc27', 'rc22'] }
+          { point: '创新与增长心智', books: ['rc27', 'rc22'] },
+          { point: '从线索思维转向账号思维', books: ['account-based-marketing'] }
         ]
       }
     },
@@ -142,14 +145,19 @@ export const capabilityMap = {
       dims: {
         K: [
           { point: '营销战略与组织能力', books: ['rc23'] },
-          { point: '数字营销能力体系（八大核心能力）', books: ['marketing-5-0-capabilities'] }
+          { point: '数字营销能力体系（八大核心能力）', books: ['marketing-5-0-capabilities'] },
+          { point: 'ABG 增长战略（LTV 驱动的账号投资组合）', books: ['account-based-growth'] },
+          { point: 'ABM 组织能力建设（成熟度模型与防退回机制）', books: ['mastering-abm'] }
         ],
         S: [
           { point: '全渠道整合与资源编排', books: ['rc24', 'rc28'] },
-          { point: '销售—营销协同与组织整合', books: ['sales-marketing-unity'] }
+          { point: '销售—营销协同与组织整合', books: ['sales-marketing-unity'] },
+          { point: '营销·销售·客户成功三方协同与签单后接力', books: ['account-based-growth'] },
+          { point: 'ABM 岗位职责制度化与组织知识管理', books: ['mastering-abm'] }
         ],
         A: [
-          { point: '长期主义客户经营', books: ['rc22', 'danaher-model'] }
+          { point: '长期主义客户经营', books: ['rc22', 'danaher-model'] },
+          { point: '把 ABM 做成组织能力而非一次性项目', books: ['mastering-abm'] }
         ]
       }
     }

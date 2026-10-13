@@ -4621,6 +4621,78 @@ export const metaArray = [
       { num: '4.6', label: '★评分' }
     ],
     proposition: 'Managing is not coaching. 管理是盯着数字、开例会、看报表；教练是进房间、坐在桌子对面、一个机会一个机会地帮销售把 MEDDPICC 的每一格填实。'
+  },
+  {
+    id: 'account-based-marketing',
+    title: 'Account-Based Marketing',
+    subtitle: 'The Definitive Handbook for B2B Marketers',
+    author: 'Bev Burgess',
+    cover: '#2E86AB',
+    category: '营销增长 · ABM',
+    track: 'marketing',
+    relatedTracks: ['marketing', 'sales-craft', 'account'],
+    tags: ['ABM', '账号化营销', 'ICP', 'TAL', 'smarketing', '个性化战役'],
+    rating: 4.5,
+    intro: '4.5★。Bev Burgess 是 ABM 领域的 leading practitioner 与 thought leader，这本书把过去十年 ABM 实践里被反复验证的东西收成了一套可操作的体系，从 ICP 定义到 TAL 分层、从 smarketing 协同到按账号度量，全书是一条完整的经营线。 依据：原书 + 公开摘要 + 行业实践整理。',
+    meta: {
+      publisher: 'Kogan Page',
+      role: '市场负责人 / 营销总监 / B2B 增长负责人',
+      date: '2025年'
+    },
+    stats: [
+      { num: '5', label: '个构件' },
+      { num: '312', label: '页' },
+      { num: '4.5', label: '★评分' }
+    ],
+    proposition: '高价值客户的赢，不靠线索广度，靠账号深度。先把该打的账号选对，再让营销和销售围着同一本作战手册把它经营透。'
+  },
+  {
+    id: 'account-based-growth',
+    title: 'Account-Based Growth',
+    subtitle: 'From ABM to ABG',
+    author: 'Bev Burgess & Tim Shercliff',
+    cover: '#4A90A4',
+    category: '营销增长 · ABG',
+    track: 'marketing',
+    relatedTracks: ['marketing', 'sales-craft', 'account', 'leadership'],
+    tags: ['ABG', 'ABM 进阶', '客户成功', 'LTV', '三方协同', '增长战略'],
+    rating: 4.6,
+    intro: '4.6★。Bev Burgess 与 Tim Shercliff 合著，把 ABM 从「营销方法」推到了「增长战略」的高度：ABM 不是线索营销的补充，而是独立的增长引擎。全书的核心主张——当你的收入依赖有限的高价值客户时，增长的杠杆不在获客广度，在账号深度。 依据：原书 + 公开摘要 + 行业实践整理。',
+    meta: {
+      publisher: 'Kogan Page',
+      role: '市场负责人 / 销售负责人 / 客户成功负责人 / 业务负责人',
+      date: '2022年'
+    },
+    stats: [
+      { num: '5', label: '个构件' },
+      { num: '304', label: '页' },
+      { num: '4.6', label: '★评分' }
+    ],
+    proposition: '高价值客户的增长，不靠线索广度，靠账号深度。把客户成功拉进协同闭环，让签单后的扩量与续约不再靠运气。'
+  },
+  {
+    id: 'mastering-abm',
+    title: 'Mastering ABM',
+    subtitle: 'Focusing on Key Clients to Scale Business',
+    author: 'Kanta Kurihara',
+    cover: '#8B5A8E',
+    category: '营销增长 · ABM 成熟度',
+    track: 'marketing',
+    relatedTracks: ['marketing', 'sales-craft', 'account', 'leadership'],
+    tags: ['ABM 成熟度', '组织能力', 'Mastery', '账号 owner', '知识管理', '防退回'],
+    rating: 4.4,
+    intro: '4.4★。Kanta Kurihara 这本 2026 年新书不满足于讲清 ABM 的机制，而是直指一个更难的问题：当组织已经跑通了基础 ABM，下一步怎么从「做了 ABM」升级到「mastering ABM」？全书的主线是把 ABM 从一套流程变成一种组织能力，用 Level 1-5 成熟度模型帮组织判断自己在哪一层、下一步该补哪块短板。 依据：原书 + 公开摘要 + 行业实践整理。',
+    meta: {
+      publisher: 'Japan Business Publishers',
+      role: '市场负责人 / ABM 负责人 / 销售管理者 / 组织发展负责人',
+      date: '2026年'
+    },
+    stats: [
+      { num: '5', label: '个层级' },
+      { num: '4', label: '个维度' },
+      { num: '4.4', label: '★评分' }
+    ],
+    proposition: 'ABM 的终点不是跑通流程，是变成组织能力。流程可以抄，组织能力抄不来。'
   }
 
 ]

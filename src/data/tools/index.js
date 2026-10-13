@@ -73,6 +73,9 @@ import { aiAgentsSalesRevenueTools } from './ai-agents-sales-revenue'
 import { deepCalculatingNetworkTools } from './deep-calculating-network'
 import { aiAgentsSalesRevenueEnTools } from './ai-agents-sales-revenue-en'
 import { calculatingRiseTools } from './calculating-rise'
+import { accountBasedMarketingTools } from './account-based-marketing'
+import { accountBasedGrowthTools } from './account-based-growth'
+import { masteringAbmTools } from './mastering-abm'
 import { salesBrainwashingTools } from './sales-brainwashing'
 import { customerAcquisitionSalesTools } from './customer-acquisition-sales'
 import { deepThinkingTools } from './deep-thinking'
@@ -303,6 +306,9 @@ export const allTools = [
   ...marketing50CapabilitiesTools,
   ...alwaysBeQualifyingTools,
   ...qualifiedSalesLeaderTools,
+  ...accountBasedMarketingTools,
+  ...accountBasedGrowthTools,
+  ...masteringAbmTools,
 ].map((t) => ({ ...t, track: trackOf(t) }))
 
 // 分类元信息（用于筛选 Tab 与徽标）—— 与 tracks.js 的 7 大分类保持一致
