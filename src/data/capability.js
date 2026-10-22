@@ -196,7 +196,7 @@ export const capabilityMap = {
       id: 'l3', name: '专家', years: '3–5年 · 体系/高潜', desc: '经营、变革、增长',
       dims: {
         K: [
-          { point: '经营与增长逻辑', books: ['rc47', 'rc49'] }
+          { point: '经营与增长逻辑', books: ['rc47', 'rc49', 'rc57'] }
         ],
         S: [
           { point: '变革管理与组织力', books: ['rc43', 'rc48'] }

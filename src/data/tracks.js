@@ -147,7 +147,7 @@ export const tracks = {
     id: 'strategy',
     relatedBooks: [
       'competitive-strategy', 'blue-ocean-strategy', 'innovators-dilemma', 'escape-velocity', 'danaher-model', 'rc47',
-      'rc48', 'rc50', 'rc52', 'rc54', 'rc55', 'insight-principle', 'scene-intelligence', 'sales-operations-management',
+      'rc48', 'rc50', 'rc52', 'rc54', 'rc55', 'rc57', 'insight-principle', 'scene-intelligence', 'sales-operations-management',
       'insanely-simple', 'the-book-of-elon',
       'what-is-strategy',
       'boardroom-war',

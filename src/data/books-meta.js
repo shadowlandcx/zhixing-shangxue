@@ -2415,6 +2415,45 @@ export const metaArray = [
     "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
     "reason": ""
   },
+  {
+    "id": "rc57",
+    "rating": 4.8,
+    "title": "好战略，坏战略",
+    "author": "理查德·鲁梅尔特（Richard P. Rumelt）",
+    "subtitle": "经营管理荐读",
+    "category": "管理·经营",
+    "track": "strategy",
+    "relatedTracks": [
+      "strategy",
+      "leadership",
+      "marketing"
+    ],
+    "tags": [
+      "战略",
+      "必读",
+      "管理·经营"
+    ],
+    "cover": "#2C3E50",
+    "intro": "把「战略」从口号还原成手艺：好战略 = 诊断 + 指导方针 + 连贯性行动，附坏战略四特征通缉令与九种力量之源。",
+    "meta": {
+      "publisher": "读书会推荐",
+      "role": "管理者 / 自我成长者",
+      "date": "2026年7月"
+    },
+    "stats": [
+      {
+        "num": "必读",
+        "label": "优先级"
+      },
+      {
+        "num": "管理·经营",
+        "label": "主题"
+      }
+    ],
+    "priority": "必读",
+    "feishuUrl": "https://docs.feishu.cn/wiki/NXugwoogti82gtkFNzTcGCgcn9f",
+    "reason": ""
+  },
 
   // —— 阿吉里斯《Theory in Practice》原典 + 两中文译本（同一著作 series: 'tip'）——
   {

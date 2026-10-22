@@ -99,6 +99,7 @@ const reportModules = {
   'rc54': () => import('./reports/rc54'),
   'rc55': () => import('./reports/rc55'),
   'rc56': () => import('./reports/rc56'),
+  'rc57': () => import('./reports/rc57'),
   'strategic-selling': () => import('./reports/strategic-selling'),
   'power-negotiation': () => import('./reports/power-negotiation'),
   'principled-negotiation': () => import('./reports/principled-negotiation'),

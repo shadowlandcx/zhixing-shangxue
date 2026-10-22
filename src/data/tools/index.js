@@ -51,6 +51,7 @@ import { coachingForPerformanceTools } from './coaching-for-performance'
 import { leadershipPipelineTools } from './leadership-pipeline'
 import { crucialConversationsTools } from './crucial-conversations'
 import { competitiveStrategyTools } from './competitive-strategy'
+import { strategyBatch1Tools } from './strategy-batch1'
 import { aiForSalesTools } from './ai-for-sales'
 import { newSolutionSellingTools } from './new-solution-selling'
 import { visualHammerTools } from './visual-hammer'
@@ -211,6 +212,7 @@ export const allTools = [
   ...marketingTools2,
   ...salesTools2,
   ...teamTools2,
+  ...strategyBatch1Tools,
   ...pilotTools,
   ...salesBatch1Tools,
   ...salesBatch2Tools,
