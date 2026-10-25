@@ -217,7 +217,7 @@ export const capabilityMap = {
           { point: '内在驱动力与团队激励', books: ['drive-motivation'] }
         ],
         A: [
-          { point: '经营系统思维', books: ['danaher-model', 'rc52'] }
+          { point: '经营系统思维', books: ['danaher-model', 'rc52', 'system-integration'] }
         ]
       }
     }

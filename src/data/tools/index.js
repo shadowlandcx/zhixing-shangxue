@@ -62,6 +62,7 @@ import { innovatorsDilemmaTools } from './innovators-dilemma'
 import { principlesTools } from './principles'
 import { smartPricingTools } from './smart-pricing'
 import { escapeVelocityTools } from './escape-velocity'
+import { systemIntegrationTools } from './system-integration'
 import { jiKongTools } from './ji-kong'
 import { procurement40Tools } from './procurement-40'
 import { insightPrincipleTools } from './insight-principle'
@@ -245,6 +246,7 @@ export const allTools = [
   ...principlesTools,
   ...smartPricingTools,
   ...escapeVelocityTools,
+  ...systemIntegrationTools,
   ...jiKongTools,
   ...procurement40Tools,
   ...insightPrincipleTools,

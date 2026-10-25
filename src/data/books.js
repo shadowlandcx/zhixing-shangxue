@@ -121,6 +121,7 @@ const reportModules = {
   'principles': () => import('./reports/principles'),
   'ji-kong': () => import('./reports/ji-kong'),
   'escape-velocity': () => import('./reports/escape-velocity'),
+  'system-integration': () => import('./reports/system-integration'),
   'procurement-40': () => import('./reports/procurement-40'),
   'insight-principle': () => import('./reports/insight-principle'),
   'cognitive-drive': () => import('./reports/cognitive-drive'),
