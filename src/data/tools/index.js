@@ -129,6 +129,9 @@ import { qualifiedSalesLeaderTools } from './qualified-sales-leader'
 import { salesMarketingUnityTools } from './sales-marketing-unity'
 import { futureMarketingTools } from './future-marketing'
 import { marketing50CapabilitiesTools } from './marketing-5-0-capabilities'
+import { fiveStarSalesManagementTools } from './five-star-sales-management'
+import { huaweiScaleMarketingTools } from './huawei-scale-marketing'
+import { huaweiSalesMethodTools } from './huawei-sales-method'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -308,6 +311,9 @@ export const allTools = [
   ...salesMarketingUnityTools,
   ...futureMarketingTools,
   ...marketing50CapabilitiesTools,
+  ...fiveStarSalesManagementTools,
+  ...huaweiScaleMarketingTools,
+  ...huaweiSalesMethodTools,
   ...alwaysBeQualifyingTools,
   ...qualifiedSalesLeaderTools,
   ...accountBasedMarketingTools,

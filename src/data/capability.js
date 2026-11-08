@@ -43,7 +43,7 @@ export const capabilityMap = {
       id: 'l2', name: '专员', years: '1–3年 · 独立成单', desc: '独立产出、稳定贡献',
       dims: {
         K: [
-          { point: 'B2B 销售原理与流程', books: ['rc10', 'rc13'] },
+          { point: 'B2B 销售原理与流程', books: ['rc10', 'rc13', 'huawei-sales-method'] },
           { point: '大客户（KA）经营', books: ['rc16'] }
         ],
         S: [
@@ -84,7 +84,7 @@ export const capabilityMap = {
         S: [
           { point: '团队教练与冠军培养', books: ['rc11', 'rc44'] },
           { point: '销售领导力与教练式管理（The Qualified Sales Leader）', books: ['qualified-sales-leader'] },
-          { point: '目标与过程管理', books: ['rc06', 'rc12'] }
+          { point: '目标与过程管理', books: ['rc06', 'rc12', 'five-star-sales-management'] }
         ],
         A: [
           { point: '以系统而非个人英雄驱动', books: ['rc12', 'danaher-model'] }
@@ -144,7 +144,7 @@ export const capabilityMap = {
       id: 'l4', name: '管理者', years: '带市场团队', desc: '战略、组织、整合',
       dims: {
         K: [
-          { point: '营销战略与组织能力', books: ['rc23'] },
+          { point: '营销战略与组织能力', books: ['rc23', 'huawei-scale-marketing'] },
           { point: '数字营销能力体系（八大核心能力）', books: ['marketing-5-0-capabilities'] },
           { point: 'ABG 增长战略（LTV 驱动的账号投资组合）', books: ['account-based-growth'] },
           { point: 'ABM 组织能力建设（成熟度模型与防退回机制）', books: ['mastering-abm'] }
