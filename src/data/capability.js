@@ -171,7 +171,7 @@ export const capabilityMap = {
           { point: '思维与认知基础', books: ['rc30', 'rc32', 'surfaces-and-essences'] }
         ],
         S: [
-          { point: '习惯与自我管理', books: ['rc34', 'rc33'] }
+          { point: '习惯与自我管理', books: ['rc34', 'rc33', 'slight-edge'] }
         ],
         A: [
           { point: '同理心与积极心态', books: ['rc38', 'rc39', 'rc29'] }
@@ -202,7 +202,7 @@ export const capabilityMap = {
           { point: '变革管理与组织力', books: ['rc43', 'rc48'] }
         ],
         A: [
-          { point: '做难而正确的事', books: ['rc40', 'rc55'] }
+          { point: '做难而正确的事', books: ['rc40', 'rc55', 'slight-edge'] }
         ]
       }
     },

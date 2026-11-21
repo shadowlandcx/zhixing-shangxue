@@ -126,6 +126,7 @@ const reportModules = {
   'huawei-scale-marketing': () => import('./reports/huawei-scale-marketing'),
   'huawei-sales-method': () => import('./reports/huawei-sales-method'),
   'surfaces-and-essences': () => import('./reports/surfaces-and-essences'),
+  'slight-edge': () => import('./reports/slight-edge'),
   'procurement-40': () => import('./reports/procurement-40'),
   'insight-principle': () => import('./reports/insight-principle'),
   'cognitive-drive': () => import('./reports/cognitive-drive'),
