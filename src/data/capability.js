@@ -168,7 +168,7 @@ export const capabilityMap = {
       id: 'l1', name: '新人', years: '0–1年 · 自我贡献', desc: '习惯、思维、协作',
       dims: {
         K: [
-          { point: '思维与认知基础', books: ['rc30', 'rc32'] }
+          { point: '思维与认知基础', books: ['rc30', 'rc32', 'surfaces-and-essences'] }
         ],
         S: [
           { point: '习惯与自我管理', books: ['rc34', 'rc33'] }
@@ -182,7 +182,7 @@ export const capabilityMap = {
       id: 'l2', name: '专员', years: '1–3年 · 独立贡献', desc: '影响、协同、招聘',
       dims: {
         K: [
-          { point: '影响力与策略思维', books: ['rc36', 'rc37'] }
+          { point: '影响力与策略思维', books: ['rc36', 'rc37', 'surfaces-and-essences'] }
         ],
         S: [
           { point: '招聘与流程建设', books: ['rc46', 'rc41'] }

@@ -125,6 +125,7 @@ const reportModules = {
   'five-star-sales-management': () => import('./reports/five-star-sales-management'),
   'huawei-scale-marketing': () => import('./reports/huawei-scale-marketing'),
   'huawei-sales-method': () => import('./reports/huawei-sales-method'),
+  'surfaces-and-essences': () => import('./reports/surfaces-and-essences'),
   'procurement-40': () => import('./reports/procurement-40'),
   'insight-principle': () => import('./reports/insight-principle'),
   'cognitive-drive': () => import('./reports/cognitive-drive'),
