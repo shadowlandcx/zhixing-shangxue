@@ -134,6 +134,7 @@ import { huaweiScaleMarketingTools } from './huawei-scale-marketing'
 import { huaweiSalesMethodTools } from './huawei-sales-method'
 import { surfacesAndEssencesTools } from './surfaces-and-essences'
 import { slightEdgeTools } from './slight-edge'
+import { powerOfLanguageTools } from './power-of-language'
 
 // 被「完整工具包」取代的旧单工具，合并时去重，避免重复展示。
 // 注意 architect-map 属于 chip-history，不在移除之列。
@@ -318,6 +319,7 @@ export const allTools = [
   ...huaweiSalesMethodTools,
   ...surfacesAndEssencesTools,
   ...slightEdgeTools,
+  ...powerOfLanguageTools,
   ...alwaysBeQualifyingTools,
   ...qualifiedSalesLeaderTools,
   ...accountBasedMarketingTools,

@@ -49,7 +49,7 @@ export const capabilityMap = {
         S: [
           { point: '价值竞争与方案销售', books: ['rc07'] },
           { point: '数字化销售赋能', books: ['rc14', 'rc05'] },
-          { point: '结构化表达与向上汇报', books: ['concise-expression'] }
+          { point: '结构化表达与向上汇报', books: ['concise-expression', 'power-of-language'] }
         ],
         A: [
           { point: '客户成功导向', books: ['rc22', 'rc19'] }
@@ -168,7 +168,7 @@ export const capabilityMap = {
       id: 'l1', name: '新人', years: '0–1年 · 自我贡献', desc: '习惯、思维、协作',
       dims: {
         K: [
-          { point: '思维与认知基础', books: ['rc30', 'rc32', 'surfaces-and-essences'] }
+          { point: '思维与认知基础', books: ['rc30', 'rc32', 'surfaces-and-essences', 'power-of-language'] }
         ],
         S: [
           { point: '习惯与自我管理', books: ['rc34', 'rc33', 'slight-edge'] }

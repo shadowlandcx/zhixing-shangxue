@@ -190,7 +190,7 @@ export const tracks = {
       'smart-thinking', 'tomorrowmind', 'success-mindsets', 'deep-thinking',
       'ask-right-questions', 'mindset-dweck',
       'life-positioning', 'concise-expression',
-      'surfaces-and-essences', 'slight-edge'],
+      'surfaces-and-essences', 'slight-edge', 'power-of-language'],
     name: '认知进化',
     en: 'Mindset & Thinking',
     icon: '🧠',
